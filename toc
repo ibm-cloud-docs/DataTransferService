@@ -1,0 +1,25 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="Data Transfer Service" audience="services" href=“/docs/infrastructure/DataTransferService/index.html”}
+IBM Bluemix Storage - Data Transfer Service
+
+    {: .navgroup id="learn"}
+    index.md    
+            
+    {: .topicgroup}
+    Related links
+        [Control Portal](https://control.softlayer.com/)
+    {: .navgroup-end}
+    
+    {: .navgroup id="howto"}
+    access-data-transfer-service-screen.md
+    submit-data-transfer-request.md
+    access-shipments-screen.md
+    sort-or-filter-shipments-list.md
+    {: .navgroup-end}
+    
+    {: .navgroup id="help"}
+    data-transfer-service-faq.md
+    {: .navgroup-end}
+    
