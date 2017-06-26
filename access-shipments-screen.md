@@ -22,3 +22,4 @@ The Shipments screen within the [Customer Portal](https://control.softlayer.com/
 ## What Happens Next
 
 Upon access the Shipments screen, all shipping requests within the last 30 days are displayed in the shipments list along with details regarding each shipment. Shipments may be [sorted or filtered](/docs/infrastructure/DataTransferService/sort-or-filter-shipments-list.html) by status, age or specific shipment details. Additionally, the receipt of return shipments may be confirmed from this screen.
+![Shipments Screen](/images/DTSShipmentScreen1.PNG)
