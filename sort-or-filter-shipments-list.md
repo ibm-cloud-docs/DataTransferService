@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-05-01"
+lastupdated: "2017-06-26"
 
 ---
 {:new_window: target="_blank"}
@@ -20,7 +20,8 @@ The Shipments screen within the [Customer Portal](https://control.softlayer.com/
 
 <table><tbody><tr><th>If the view should be...</th><th>Then...</th></tr><tr><td>Sorted by shipment status</td><td><ul><li>Select one of the following options from the <strong>Display</strong> drop down box:<ul><li>Open Shipping Requests</li><li>Closed Shipping Requests</li><li>Canceled Shipping Requests</li><li>All Shipping Requests<br> </li></ul></li><li>No further action is required.</li></ul></td></tr><tr><td>Filtered for specific details</td><td>Proceed to the next step.</td></tr></tbody></table>
 
-3. Complete one or more of the **filter options** available on the **Filter** tab. Refer to the table below for more information.
+3. Complete one or more of the **filter options** available on the **Filter** tab.
+![DTS Shipment Screen](/images/DTSShipmentScreen.png) <br/> Refer to the table below for more information.
 
 <table><tbody><tr><th>Filter Option</th><th>Entry Information</th></tr><tr><td>Shipped Date</td><td>Select the time frame of the shipment from the drop down box.</td></tr><tr><td>Shipped From</td><td>Select the location from which the shipment originated from the drop down box.</td></tr><tr><td>Carrier</td><td>Select the courier (i.e. FedEx, UPS, USPS, etc.) transporting the shipment from the drop down box.</td></tr><tr><td>Shipment Type</td><td>Select the type of shipment from the drop down box.</td></tr><tr><td>Shipped To</td><td>Select the location to which the shipment was sent from the drop down box.</td></tr><tr><td>Tracking Number</td><td>Enter the tacking number provided by the courier in the text box.</td></tr><tr><td>Item Description</td><td>Enter the description of the item being shipped in the text box.</td></tr></tbody></table>
 
