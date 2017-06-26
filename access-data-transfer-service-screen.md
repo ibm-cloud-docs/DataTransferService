@@ -18,7 +18,7 @@ The Data Transfer Service allows users to submit USB 20 or USB 3.0 compatible de
 ## Access the Data Transfer Service Screen
 
 1. Access the [Customer Portal](https://control.softlayer.com/) using your unique credentials.
-2. Select **Storage** > **Data Transfer** from the Navigation Bar to access the Data Transfer Service screen. <br/>
+2. Select **Storage** > **Data Migration** > **Data Transfer** from the Navigation Bar to access the Data Transfer Service screen. <br/>
 ![Data Transfer Service option in Customer Portal Menu](/images/DTSinControlMenu.PNG)
 
 
