@@ -14,8 +14,6 @@ To interact with an iSCSI LUN in Windows, users must connect to the LUN using iS
 
 ## Connect to an iSCSI LUN
 
-<table><tbody><tr><th>If the view should be...</th><th>Then...</th></tr><tr><td>Sorted by shipment status</td><td><ul><li>Select one of the following options from the <strong>Display</strong> drop down box:<ul><li>Open Shipping Requests</li><li>Closed Shipping Requests</li><li>Canceled Shipping Requests</li><li>All Shipping Requests<br> </li></ul></li><li>No further action is required.</li></ul></td></tr><tr><td>Filtered for specific details</td><td>Proceed to the next step.</td></tr></tbody></table>
-
 1. Retrieve the **iSCSI User Name, Pasword and Storage Address** for the iSCSI being connected from the Customer Portal.  Refer to Access the Data Transfer Screen.
 2. Launch iSCSI Initiator.
 3. Update initiator name on the **Configuration** tab to the IQN data in the SoftLayer portal.
@@ -34,9 +32,16 @@ To interact with an iSCSI LUN in Windows, users must connect to the LUN using iS
 12. Select the **Automatically restore this connection when the system boots** check box to set the connection to persist between reboots.
 13. Click **the Advanced** button.
 14. Update the iSCSI logon information.
-   - Select the **CHAP logon information** check box to enable CHAP logon.
-   - Enter the **iSCSI Username** in the **User name** field.
-   - Enter the **iSCSI Password** in the **Target secret** field.
-   - Click the **OK** button twice.
-
+    - Select the **CHAP logon information** check box to enable CHAP logon.
+    - Enter the **iSCSI Username** in the **User name** field.
+    - Enter the **iSCSI Password** in the **Target secret** field.
+    - Click the **OK** button twice.
 15. Verify that the new iSCSI target displays as Connected on the Targets tab.
+
+<table>
+<tbody>
+<tr>
+<th>If the iSCSI target…</th><th>Then...</th></tr>
+<tr><td>Displays as Connected</td><td>Click the <strong>OK</strong> button. Your iSCSI LUN is now connected.</td></tr>
+<tr><td>Does not display as Connected</td><td>	
+Repeat the steps above to reset the connection..</td></tr></tbody></table>
