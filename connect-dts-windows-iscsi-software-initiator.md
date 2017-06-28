@@ -25,7 +25,7 @@ To interact with an iSCSI LUN in Windows, users must connect to the LUN using iS
    - Select the **CHAP logon information** check box to enable CHAP logon.
    - Enter the **iSCSI Username** in the **User name** field.
    - Enter the **iSCSI Password** in the **Target secret** field.
-   - Click the OK button twice.
+   - Click the **OK** button twice.
 9. Click the **Targets** tab.
 10. Select the newly added iSCSI from the **Targets** list.
 11. Click the **Logon** button. The **Log On to Target** pop up menu will appear.
@@ -43,5 +43,4 @@ To interact with an iSCSI LUN in Windows, users must connect to the LUN using iS
 <tr>
 <th>If the iSCSI target…</th><th>Then...</th></tr>
 <tr><td>Displays as Connected</td><td>Click the <strong>OK</strong> button. Your iSCSI LUN is now connected.</td></tr>
-<tr><td>Does not display as Connected</td><td>	
-Repeat the steps above to reset the connection.</td></tr></tbody></table>
+<tr><td>Does not display as Connected</td><td>Repeat the steps above to reset the connection.</td></tr></tbody></table>
