@@ -17,6 +17,7 @@ IBM Bluemix Storage - Data Transfer Service
     submit-data-transfer-request.md
     access-shipments-screen.md
     sort-or-filter-shipments-list.md
+    connect-dts-linux-centosrhel-7.md
     connect-dts-windows-iscsi-software-initiator.md
     {: .navgroup-end}
     
