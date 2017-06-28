@@ -44,4 +44,4 @@ To interact with an iSCSI LUN in Windows, users must connect to the LUN using iS
 <th>If the iSCSI target…</th><th>Then...</th></tr>
 <tr><td>Displays as Connected</td><td>Click the <strong>OK</strong> button. Your iSCSI LUN is now connected.</td></tr>
 <tr><td>Does not display as Connected</td><td>	
-Repeat the steps above to reset the connection..</td></tr></tbody></table>
+Repeat the steps above to reset the connection.</td></tr></tbody></table>
