@@ -15,12 +15,11 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
 ## Instructions for CentOS 7 and RHEL 7
 
 1. Install iscsi-initiator and multipath mapper for Linux
-   ``yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath``  
-2. Create the iscsid.conf configuration file
-    
-3. Backup the original configuration:
+   ``yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath`` 
+2. Create the iscsid.conf configuration file <br/>
+3. Backup the original configuration: <br/>
    ``cp /etc/iscsi/iscsid.conf{,.save}`` 
-4. Open /etc/iscsi/iscsid.conf with your favorite text editor and replace the contents with the following:
+4. Open /etc/iscsi/iscsid.conf with your favorite text editor and replace the contents with the following: <br/>
    ``
    node.startup = automatic
    node.session.auth.username = ISCSI_USER
@@ -37,12 +36,12 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
    node.session.iscsi.FirstBurstLength = 262144
    node.session.iscsi.MaxBurstLength = 16776192
    node.conn[0].iscsi.MaxRecvDataSegmentLength = 65536
-   `` 
-5. Start iscsid:
+   `` <br/>
+5. Start iscsid:<br/>
    ``/etc/init.d/iscsi start``
-6. Run a discovery against the iscsi target host:
+6. Run a discovery against the iscsi target host:<br/>
    ``iscsiadm -m discovery -t sendtargets -p [IP Address in StorageLayer]``
-7. Connect to the iscsi target host:
+7. Connect to the iscsi target host:<br/>
    ``iscsiadm -m node -T [output from above starting with iqn.] -p [IP Address in storagelayer] -l``
-8. Restart the iscsi service (Since node.startup was set to automatic in iscsid.conf it will automatically login to the target host).
+8. Restart the iscsi service (Since node.startup was set to automatic in iscsid.conf it will automatically login to the target host).<br/>
    ``/etc/init.d/iscsi restart``
