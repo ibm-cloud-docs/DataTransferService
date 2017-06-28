@@ -14,18 +14,18 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
 
 ## Instructions for CentOS 7 and RHEL 7
 
-1. Install iscsi-initiator and multipath mapper for Linux
+1. Install iscsi-initiator and multipath mapper for Linux <br/>
    ``yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath`` 
 2. Create the iscsid.conf configuration file <br/>
 3. Backup the original configuration: <br/>
    ``cp /etc/iscsi/iscsid.conf{,.save}`` 
 4. Open /etc/iscsi/iscsid.conf with your favorite text editor and replace the contents with the following: <br/>
    ``
-   node.startup = automatic
-   node.session.auth.username = ISCSI_USER
-   node.session.auth.password = ISCSI_PASS
-   discovery.sendtargets.auth.username = ISCSI_USER
-   discovery.sendtargets.auth.password = ISCSI_PASS
+   node.startup = automatic <br/>
+   node.session.auth.username = ISCSI_USER <br/>
+   node.session.auth.password = ISCSI_PASS <br/>
+   discovery.sendtargets.auth.username = ISCSI_USER <br/>
+   discovery.sendtargets.auth.password = ISCSI_PASS <br/>
    node.session.timeo.replacement_timeout = 120
    node.conn[0].timeo.login_timeout = 15
    node.conn[0].timeo.logout_timeout = 15
