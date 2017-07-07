@@ -5,7 +5,8 @@
 IBM Bluemix Storage - Data Transfer Service
 
     {: .navgroup id="learn"}
-    index.md    
+    index.md
+    what-media-data-transfer-service.md
             
     {: .topicgroup}
     Related links
