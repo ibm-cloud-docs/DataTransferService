@@ -10,6 +10,11 @@ lastupdated: "2017-05-01"
 
 # Data Transfer Service FAQ
 
+## What is Data Transfer?
+
+Data transfer allows authorized users (generally the account's administrator) to send compatible devices to one of our datacenters to be connected directly to the account's network. The device is housed is a dedicated rack in the selected datacenter and is mounted as an iSCSI target for a two (2) week period. During that period, the administrator may access the device on the network in order to use it with other devices and/or services on the account. After the two week period, an extension may be requested to keep the device connected to the network. Otherwise, the device is returned to the administrator or other party specified in the return address section when the request was created.
+
+
 ## Can I Ship a Device for Data Transfer Internationally?
 
 Hardware and disks may be shipped both domestically and internationally to any of our datacenters; however, we follow the guidelines below when returning devices:
@@ -19,8 +24,6 @@ Hardware and disks may be shipped both domestically and internationally to any o
 - Packages shipped from the European Union to our Amsterdam datacenter are returned free of charge.
 
 Due to VAT and Customs regulations, we are unable to process complimentary shipping for international shipments. If the shipment doesn't meet the guidelines above, please include a return shipping label and all appropriate export documents with your shipment and we will package the device(s) for return using the label and documents you provided.
-
-
 
 
 ## What types of devices can I send with a data transfer request?
@@ -41,7 +44,9 @@ Use the following guidelines when selecting a device or disk (CD or DVD) to subm
 
    - Each disk must be clearly and uniquely labeled (i.e. Disk A, Disk B, Disk C, etc.).
    
-   
+## Can I Get My Device Back Sooner or Have It Stay Longer Than Two Weeks during the Data Transfer Process? 
+
+Yes, your hardware or disk(s) can be returned at any time or can stay connected longer, if necessary. In order to request a return on an extension, add a comment to the original Data Transfer Request ticket with the appropriate request. If requesting a return, we will disconnect and return the hardware or disk(s) to the return shipping address provided in the original request. If requesting an extension, the extension request will be processed as quickly as possible. It is important to note that each extension request extends the time the device is connected for one week and may be subject to an extension fee. Additional details will be included when a member of our team responds to the request in the original ticket.
    
 ## What Does Each Status on My Data Transfer Ticket Mean?
 
