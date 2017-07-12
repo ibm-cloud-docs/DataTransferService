@@ -10,6 +10,19 @@ lastupdated: "2017-05-01"
 
 # Data Transfer Service FAQ
 
+## Can I Ship a Device for Data Transfer Internationally?
+
+Hardware and disks may be shipped both domestically and internationally to any of our datacenters; however, we follow the guidelines below when returning devices:
+
+- Packages shipped from the US to any datacenter within the US are returned free of charge.
+- Packages shipped from Singapore to our Singapore datacenter are returned free of charge.
+- Packages shipped from the European Union to our Amsterdam datacenter are returned free of charge.
+
+Due to VAT and Customs regulations, we are unable to process complimentary shipping for international shipments. If the shipment doesn't meet the guidelines above, please include a return shipping label and all appropriate export documents with your shipment and we will package the device(s) for return using the label and documents you provided.
+
+
+
+
 ## What types of devices can I send with a data transfer request?
 Use the following guidelines when selecting a device or disk (CD or DVD) to submit for data transfer:
 
@@ -27,3 +40,21 @@ Use the following guidelines when selecting a device or disk (CD or DVD) to subm
    - Disks must be submitted in CD books, jewel cases, or similar container. If submitting multiple disks, store disks together in a single case or CD book.
 
    - Each disk must be clearly and uniquely labeled (i.e. Disk A, Disk B, Disk C, etc.).
+   
+   
+   
+## What Does Each Status on My Data Transfer Ticket Mean?
+
+Each status on the data transfer ticket indicates the phase of the transfer process for the hardware or disk(s) submitted to the datacenter. Refer to the table below for specific details on each status:
+
+|Status 	| Definition |
+|---------| -----------|
+|Sent To SoftLayer 	|The Data Transfer Request was submitted by the user and the hardware or disks(s) is being shipped to the selected datacenter.|
+|Received by SoftLayer |	The shipment was received by the datacenter, has been assigned assigned a serial and was scanned in to our system.|
+|Connect |	The hardware or disk has been connected to the device.|
+|Connected |	An iSCSI target has been created for the device.|
+|Request for Extension |	User requested an extension on the two (2) week connection time.|
+|Request for Return | User requested the return of hardware or disk(s).|
+|Disconnect |	Disconnection of hardware or disk(s) has been initiated.|
+|Disconnected |	Target has been safely detached by Information Systems.|
+|Return by SoftLayer |	Hardware or disk(s) has been packaged and shipped to the return address provided in the original request.|
