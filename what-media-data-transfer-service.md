@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-07-07"
+lastupdated: "2017-09-28"
 
 ---
 {:new_window: target="_blank"}
@@ -10,7 +10,7 @@ lastupdated: "2017-07-07"
 
 # What is Media Data Transfer Service?
  
-The Data Transfer Service is a service that allows you to send a USB 2.0 or 3.0 compatible device and/or CD's and DVD's to a SoftLayer datacenter to be connected directly to your network. The device is housed in a dedicated rack located in the datacenter of choice and will be mounted as an iSCSI target. Advanced Format drives are now supported as well.
+The Data Transfer Service is a service that allows you to send a USB 2.0 or 3.0 compatible device and/or CD's and DVD's to a {site.data.keyword.BluSoftlayer_full}} datacenter to be connected directly to your network. The device is housed in a dedicated rack located in the datacenter of choice and will be mounted as an iSCSI target. Advanced Format drives are now supported as well.
 
 ## Hardware Requirements
 1.    Device must have a power supply that is 208v/220v compatible
@@ -46,7 +46,7 @@ Fill out this form with the devices
 Once filled out this will automatically create a support ticket to alert our technicians that the device is being shipped to us and allow them the ability to track the delivery.  Once we receive the device we will then proceed to connect it to our dedicated rack.  Once we have connected the device the ticket will be updated providing you a link to your log on credentials to the iSCSI target.
 
 ## Request Return
-At any time you can request that the device be shipped back to you at no extra charge.  You do this by selecting Storage>>Data Transfer and from the Action drop down of your device you select request return.  This will alert our technicians that you would like the device shipped back to you and disconnected.
+At any time you can request that the device be shipped back to you at no extra charge.  You do this by selecting **Storage** > **Data Transfer** and from the Action drop down of your device you select request return.  This will alert our technicians that you would like the device shipped back to you and disconnected.
 
 ## Request Extension
 After your 2 week free period if you still require use of your USB device you must request an extension which will alert our technicians that you would like to extend the time that the device is connected.  You do this in the same way that you would request your device returned to you by selecting **Storage** > **Data Transfer** and in the **Action** drop down for the device select request extension.  Each week longer than the two first weeks there will be a service fee of 25 dollars that must be paid.  Also depending on the available space in the datacenter for your device your request could be denied.  If the request is granted the ticket will be updated stating that you have been granted the extra week.
