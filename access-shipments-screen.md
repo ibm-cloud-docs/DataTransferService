@@ -8,15 +8,15 @@ lastupdated: "2017-09-28"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Access the Shipments Screen
+# Accessing the Shipments Screen
 
 ## Overview
 
-The Shipments screen within the [Customer Portal](https://control.softlayer.com/){:new_window} displays all shipments associated with [Data Transfer Service](index.html) requests. From this screen, shipments may be viewed and return shipments may be confirmed upon receipt. Follow the steps below to access the Shipments screen.
+The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays all shipments associated with [Data Transfer Service](index.html) requests. From this screen, shipments may be viewed and return shipments may be confirmed upon receipt. Follow the steps below to access the Shipments screen.
 
 ## Access the Shipments Screen
 
-1. Access the [Customer Portal](https://control.softlayer.com/){:new_window} using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Account** > **Manage** > **Shipments** from the Navigation Bar to access the Shipments screen.
 
 ## What Happens Next
