@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017
-lastupdated: "2017-05-01"
+lastupdated: "2017-11-13"
 
 ---
 {:new_window: target="_blank"}
@@ -26,7 +26,7 @@ Hardware and disks may be shipped both domestically and internationally to any o
 Due to VAT and Customs regulations, we are unable to process complimentary shipping for international shipments. If the shipment doesn't meet the guidelines above, please include a return shipping label and all appropriate export documents with your shipment and we will package the device(s) for return using the label and documents you provided.
 
 
-## What types of devices can I send with a data transfer request?
+## What Types of Devices Can I Send with a Data Transfer Request?
 Use the following guidelines when selecting a device or disk (CD or DVD) to submit for data transfer:
 
 - Hardware Requirements:
