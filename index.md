@@ -18,7 +18,6 @@ lastupdated: "2017-11-13"
 
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Storage** > **Data Migration** > **Data Transfer Service** from the Navigation Bar to access the Data Transfer Service screen. <br/>
-![Data Transfer Service option in Customer Portal Menu](/images/DTSinControlMenu.PNG)
 
 Upon accessing the Data Transfer Service screen, users may submit a data transfer request, view details regarding a request, view the ticket history associated with the device tracking for a request and cancel an existing request.
 
