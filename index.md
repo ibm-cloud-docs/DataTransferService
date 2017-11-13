@@ -31,7 +31,7 @@ Data transfer requests are designed to let the appropriate parties in our datace
 
 Follow the steps below to submit a data transfer request.
 
-1. Access the **Data Transfer Service** screen in the[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/> **Note**: This screen is only available to the master user of the account.
+1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. <br/> **Note**: This screen is only available to the master user of the account.
 2. Click **Order Data Transfer Request** at the top of the screen.
 3. Complete each field in the **Device Information** section according to the table below.
 <table border="1"><tbody><tr><th>Field Name</th><th>Instructions</th></tr><tr><td>Device Type</td><td>The type of device being sent to the destination. If the device type is not listed, select "Other".</td></tr><tr><td>Serial Number</td><td> The serial number for the device.</td></tr><tr><td>Description</td><td>A brief description of the device. Important details to include may be identifying factors such as color, labels or stickers that are attached, etc.</td></tr><tr><td>Note</td><td>Any additional notes regarding the device or the transfer.</td></tr><tr><td>Destination</td><td>Datacenter that will receive the device.</td></tr><tr><td>Carrier</td><td>Post or express carrier used to ship the device to its destination.</td></tr><tr><td>Tracking Number</td><td>Full tracking number for the shipment.</td></tr></tbody></table>
@@ -45,7 +45,7 @@ After submitting the request, the status for the request ticket will appear as *
 
 ## Accessing the Shipments Screen
 
-The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays all shipments associated with [Data Transfer Service](index.html) requests. From this screen, shipments may be viewed and return shipments may be confirmed upon receipt. Follow the steps below to access the Shipments screen.
+The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays all shipments associated with Data Transfer Service requests. From this screen, shipments may be viewed and return shipments may be confirmed upon receipt. Follow the steps below to access the Shipments screen.
 
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} using your unique credentials.
 2. Select **Account** > **Manage** > **Shipments** from the Navigation Bar to access the Shipments screen.
