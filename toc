@@ -14,9 +14,6 @@ IBM Cloud Storage - Data Transfer Service
     {: .navgroup-end}
     
     {: .navgroup id="howto"}
-    access-data-transfer-service-screen.md
-    submit-data-transfer-request.md
-    access-shipments-screen.md
     sort-or-filter-shipments-list.md
     connect-dts-linux-centosrhel-7.md
     connect-dts-windows-iscsi-software-initiator.md
