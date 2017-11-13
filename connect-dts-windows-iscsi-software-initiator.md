@@ -2,13 +2,13 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-06-27"
+lastupdated: "2017-11-13"
 
 ---
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Connect to DTS Device in Windows with iSCSI Software Initiator
+# Connecting to DTS Device in Windows with iSCSI Software Initiator
 
 To interact with an iSCSI LUN in Windows, users must connect to the LUN using iSCSI Software Initiator, Microsoft's proprietary iSCSI tool.  For users running Windows Server 2008 or Windows Vista and above, iSCSI Software Initiator is built into the operating system.  Users running Windows Server 2003, Windows XP and Windows 2000 must download the Initiator prior to completing this procedure.  Follow the steps below to connect to an iSCSI LUN in Windows with iSCSI Software Initiator.
 
