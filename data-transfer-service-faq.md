@@ -17,7 +17,7 @@ Data transfer allows authorized users (generally the account's administrator) to
 
 ## Can I Ship a Device for Data Transfer Internationally?
 
-Hardware and disks may be shipped both domestically and internationally to any of our datacenters; however, we follow the guidelines below when returning devices. Client is responsible for:
+Hardware and disks may be shipped both domestically and internationally to any of our datacenters; however you as the Client are responsible for:
 
 - ensuring no import or export license is required to ship the Device to the {{site.data.keyword.IBM}} data center, or to return it to Client (if applicable);
 - ensuring neither Client nor any Client end user whose data is included in the Content is subject to any U.S. Government order revoking or denying their U.S. export privileges. Client agrees to notify {{site.data.keyword.IBM}} immediately if Client or any such end user becomes subject to any such order;
@@ -25,7 +25,7 @@ Hardware and disks may be shipped both domestically and internationally to any o
 - complying with all applicable laws, including privacy, import and export, associated with delivery and return of the Device, and the transfer of Content to the {{site.data.keyword.IBM}} data center; and
 - having proper agreements in place, and obtaining all required permissions, with Client’s end user for any end user data Client will transfer to the Hardware.
 
-Please include a return shipping label and all appropriate export documents with your shipment and we will package the device(s) for return using the label and documents you provided. If return was not requested, the device will be destroyed.
+Please include a pre-paid return shipping label and all appropriate export documents with your shipment and we will package the device(s) for return using the label and documents you provided. If return was not requested, the device will be destroyed.
 
 
 ## What Types of Devices Can I Send with a Data Transfer Request?
