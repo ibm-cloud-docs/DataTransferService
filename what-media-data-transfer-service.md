@@ -26,11 +26,11 @@ The Data Transfer Service is a service that allows you to send a USB 2.0 or 3.0 
 2.    First 2 weeks of Data Transfer no cost ($25 per 1 week extension)
 
 **Note**: Client is responsible for:  
-a. ensuring no import or export license is required to ship the Device to the {{site.data.keyword.IBM}} data center, or to return it to Client (if applicable); 
-b. ensuring neither Client nor any Client end user whose data is included in the Content is subject to any U.S. Government order revoking or denying their U.S. export privileges. Client agrees to notify IBM immediately if Client or any such end user becomes subject to any such order;  
-c. obtaining all licensing, shipping, and customs clearance for the Device, including paying any duties, taxes and shipping costs to and from (if applicable) the {{site.data.keyword.IBM}} data center;   
-d. complying with all applicable laws, including privacy, import and export, associated with delivery and return of the Device, and the transfer of Content to the {{site.data.keyword.IBM}} data center; and 
-e. having proper agreements in place, and obtaining all required permissions, with Client’s end user for any end user data Client will transfer to the Hardware
+- ensuring no import or export license is required to ship the Device to the {{site.data.keyword.IBM}} data center, or to return it to Client (if applicable); 
+- ensuring neither Client nor any Client end user whose data is included in the Content is subject to any U.S. Government order revoking or denying their U.S. export privileges. Client agrees to notify IBM immediately if Client or any such end user becomes subject to any such order;  
+- obtaining all licensing, shipping, and customs clearance for the Device, including paying any duties, taxes and shipping costs to and from (if applicable) the {{site.data.keyword.IBM}} data center;   
+- complying with all applicable laws, including privacy, import and export, associated with delivery and return of the Device, and the transfer of Content to the {{site.data.keyword.IBM}} data center; and 
+- having proper agreements in place, and obtaining all required permissions, with Client’s end user for any end user data Client will transfer to the Hardware
 
 ## Making a Request
 This is done under **Storage** > **Data Migration** >  **Data Transfer**, then click on the **Order Data Transfer Request** link on the top right of the page.
