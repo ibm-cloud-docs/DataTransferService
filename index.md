@@ -55,7 +55,7 @@ After submitting the request, the status for the request ticket will appear as *
 
 After the device is received, the status is updated to *Received by SoftLayer* and updated again to *Connected* after a datacenter technician has connected the device to our network. 
 
-The initial data transfer period is to last no more than two (2) weeks. During this time, access to the device is permitted to the account administrator only. Should additional time be necessary, an extension may be requested. Conversely, if the device should be shipped sooner than two (2) weeks, a request for return may be made. You must notify {{site.data.keyword.IBM}} via the  [{{site.data.keyword.slportal}}](https://control.softlayer.com/) once transfer is complete. We will then detach the Device and either return or destroy it.
+The initial data transfer period is to last no more than two (2) weeks. During this time, access to the device is permitted to the account administrator only. Should additional time be necessary, an extension may be requested. Conversely, if the device should be shipped sooner than two (2) weeks, a request for return may be made. You must notify {{site.data.keyword.IBM}} via the  [{{site.data.keyword.slportal}}](https://control.softlayer.com/) once transfer is complete. We will then detach the Device and either return or destroy it depending on what you requested.
 
 
 ## Accessing the Shipments Screen
