@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-09-28"
+lastupdated: "2017-12-14"
 
 ---
 {:new_window: target="_blank"}
@@ -10,7 +10,7 @@ lastupdated: "2017-09-28"
 
 # What is Media Data Transfer Service?
  
-The Data Transfer Service is a service that allows you to send a USB 2.0 or 3.0 compatible device and/or CD's and DVD's to a {site.data.keyword.BluSoftlayer_full}} datacenter to be connected directly to your network. The device is housed in a dedicated rack located in the datacenter of choice and will be mounted as an iSCSI target. Advanced Format drives are now supported as well.
+The Data Transfer Service is a service that allows you to send a USB 2.0 or 3.0 compatible device and/or CD's and DVD's to a {{site.data.keyword.BluSoftlayer_full}} datacenter to be connected directly to your network. The device is housed in a dedicated rack located in the datacenter of choice and will be mounted as an iSCSI target. Advanced Format drives are now supported as well.
 
 ## Hardware Requirements
 1.    Device must have a power supply that is 208v/220v compatible
@@ -23,13 +23,19 @@ The Data Transfer Service is a service that allows you to send a USB 2.0 or 3.0 
 
 ## Cost to You
 1.    Initial Request for service: $0
-2.    First 2 weeks no cost ($25 per1 week extension)
-3.    Return Shipping to domestic locations (within the United States): $0
+2.    First 2 weeks of Data Transfer: $0
+      **Note**: $25 per week is charged for extension
+3.    Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
 
-**Note**: We are unable to ship internationally from any of our locations due to VAT/Customs.  We are able to return devices shipped within the continental United States back to other locations within the US. In Singapore we are able to return devices, without charge, to Singapore addresses.  In Amsterdam we are able to handle return shipping to all countries within the European Union. In the event you require international shipping from one of our locations, please take care to ensure return shipping materials (UPS/FEDEX labels and export documents (such as a commercial invoice)) are included with your device.
+**Note**: Client is responsible for:  
+- ensuring no import or export license is required to ship the Device to the {{site.data.keyword.IBM}} data center, or to return it to Client (if applicable); 
+- ensuring neither Client nor any Client end user whose data is included in the Content is subject to any U.S. Government order revoking or denying their U.S. export privileges. Client agrees to notify {{site.data.keyword.IBM}} immediately if Client or any such end user becomes subject to any such order;  
+- obtaining all licensing, shipping, and customs clearance for the Device, including paying any duties, taxes and shipping costs to and from (if applicable) the {{site.data.keyword.IBM}} data center;   
+- complying with all applicable laws, including privacy, import and export, associated with delivery and return of the Device, and the transfer of Content to the {{site.data.keyword.IBM}} data center; and 
+- having proper agreements in place, and obtaining all required permissions, with Client’s end user for any end user data Client will transfer to the Hardware.
 
 ## Making a Request
-This is done under **Storage** > **Data Transfer**, then click on the **Order Data Transfer Request** link on the top right of the page.
+This is done under **Storage** > **Data Migration** >  **Data Transfer**, then click on the **Order Data Transfer Request** link on the top right of the page.
 
 ![Making a Data Transfer Request](/images/DTS.png)
  
@@ -46,10 +52,10 @@ Fill out this form with the devices
 Once filled out this will automatically create a support ticket to alert our technicians that the device is being shipped to us and allow them the ability to track the delivery.  Once we receive the device we will then proceed to connect it to our dedicated rack.  Once we have connected the device the ticket will be updated providing you a link to your log on credentials to the iSCSI target.
 
 ## Request Return
-At any time you can request that the device be shipped back to you at no extra charge.  You do this by selecting **Storage** > **Data Transfer** and from the Action drop down of your device you select request return.  This will alert our technicians that you would like the device shipped back to you and disconnected.
+If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device to be shipped back to you any time during the 2 week long transfer period. You do this via the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} by selecting **Storage** > **Data Migration** > **Data Transfer** and from the **Action** drop down of your device you select **request return**. This will alert our technicians that you would like the device disconnected and shipped back to you.
 
 ## Request Extension
-After your 2 week free period if you still require use of your USB device you must request an extension which will alert our technicians that you would like to extend the time that the device is connected.  You do this in the same way that you would request your device returned to you by selecting **Storage** > **Data Transfer** and in the **Action** drop down for the device select request extension.  Each week longer than the two first weeks there will be a service fee of 25 dollars that must be paid.  Also depending on the available space in the datacenter for your device your request could be denied.  If the request is granted the ticket will be updated stating that you have been granted the extra week.
+After your 2 week free period if you still require use of your USB device you must request an extension which will alert our technicians that you would like to extend the time that the device is connected.  You do this in the same way that you would request your device returned to you by selecting **Storage** > **Data Migration** > **Data Transfer** and in the **Action** drop down for the device select **request extension**.  Each week longer than the two first weeks there will be a service fee of 25 dollars that must be paid.  Also depending on the available space in the datacenter for your device your request could be denied.  If the request is granted the ticket will be updated stating that you have been granted the extra week.
 
 ## Disconnect
-After the two week period the device will automatically be disconnected from our datacenter and returned to you via the carrier of choice and to the return address you specified in the initial request.  The ticket will be updated stating that the device has been disconnected.
+After the two week period the device will automatically be disconnected from our datacenter and returned to you via the carrier of choice and to the return address you specified in the initial request. The ticket will be updated stating that the device has been disconnected. If you did not request the return of your device, it will be destroyed onsite.
