@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017
-lastupdated: "2017-11-13"-
+lastupdated: "2017-11-13"
 
 ---
 {:new_window: target="_blank"}
