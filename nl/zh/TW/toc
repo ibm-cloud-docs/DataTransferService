@@ -1,0 +1,24 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="DataTransferService" audience="services" href=“/docs/infrastructure/DataTransferService/index.html”}
+IBM Cloud Storage - Data Transfer Service
+
+    {: .navgroup id="learn"}
+    index.md
+    what-media-data-transfer-service.md
+
+    {: .topicgroup}
+    相關鏈結
+        [Control Portal](https://control.softlayer.com/)
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    sort-or-filter-shipments-list.md
+    connect-dts-linux-centosrhel-7.md
+    connect-dts-windows-iscsi-software-initiator.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    data-transfer-service-faq.md
+    {: .navgroup-end}
