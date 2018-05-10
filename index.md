@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-18"
+  years: 1994, 2018
+lastupdated: "2018-05-02"
 
 ---
 {:new_window: target="_blank"}
@@ -23,13 +23,13 @@ Upon accessing the Data Transfer Service screen, users may submit a data transfe
 
 ## Submitting a Data Transfer Request
 
-Data transfer requests are designed to let the appropriate parties in our datacenters know to expect a shipment from a client. Requests are submitted through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. When creating a request, keep the following guidelines in mind:
+Data transfer requests are designed to let the appropriate parties in our data centers know to expect a shipment from a client. Requests are submitted through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. When creating a request, keep the following guidelines in mind:
 
 - Ensure that the device being sent in association with the request meets all [hardware requirements](/docs/infrastructure/DataTransferService/data-transfer-service-faq.html).
 - Only one device can be associated with each requests. If you want to send multiple devices, please create a new request for each device.
 - If the device is to be returned, please provide pre-paid shipping label and export documents as needed in the package so that the device may be returned after the transfer period.
 - If shipping internationally, you are responsible to obtain all licensing, shipping, and customs clearance for the Device, including paying any duties, taxes and shipping costs to and from (if applicable) the IBM data center.
-- The carrier and tracking number for the shipment to our datacenter must be provided when completing the request. Ensure that the label has been created with the appropriate datacenter address prior to completing the request.
+- You need to provide the name of the carrier and tracking number for the shipment to our data center when completing the request.  Ensure that the shipping label has been created with the appropriate data center address prior to completing the request.
 
 Follow the steps below to submit a data transfer request.
 
@@ -41,7 +41,7 @@ Follow the steps below to submit a data transfer request.
  <tr><th>Field Name</th><th>Instructions</th></tr>
  <tr><td>Device Type</td><td>The type of device being sent to the destination. If the device type is not listed, select "Other".</td></tr>
  <tr><td>Serial Number</td><td> The serial number for the device.</td></tr><tr><td>Description</td><td>A brief description of the device. Important details to include may be identifying factors such as color, labels or stickers that are attached, etc.</td></tr>
- <tr><td>Note</td><td>Any additional notes regarding the device or the transfer.</td></tr><tr><td>Destination</td><td>Datacenter that will receive the device.</td></tr>
+ <tr><td>Note</td><td>Any additional notes regarding the device or the transfer.</td></tr><tr><td>Destination</td><td>Data center that will receive the device.</td></tr>
  <tr><td>Carrier</td><td>Post or express carrier used to ship the device to its destination.</td></tr>
  <tr><td>Tracking Number</td><td>Full tracking number for the shipment.</td></tr>
  </tbody>
@@ -53,7 +53,7 @@ Follow the steps below to submit a data transfer request.
 
 After submitting the request, the status for the request ticket will appear as *Sent to SoftLayer*. Please notify us, if any import or export shipment requires a license from your local government, and attach licensing information in the ticket.
 
-After the device is received, the status is updated to *Received by SoftLayer* and updated again to *Connected* after a datacenter technician has connected the device to our network. 
+After the device is received, the status is updated to *Received by SoftLayer* and updated again to *Connected* after a data center technician has connected the device to our network. 
 
 The initial data transfer period is to last no more than two (2) weeks. During this time, access to the device is permitted to the account administrator only. Should additional time be necessary, an extension may be requested. Conversely, if the device should be shipped sooner than two (2) weeks, a request for return may be made. You must notify {{site.data.keyword.IBM}} via the  [{{site.data.keyword.slportal}}](https://control.softlayer.com/) once transfer is complete. We will then detach the Device and either return or destroy it depending on what you requested.
 
