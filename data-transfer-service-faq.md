@@ -51,7 +51,7 @@ Yes, your hardware or disks can be returned at any time or can stay connected lo
 
 If you request an extension, the extension request will be processed as quickly as possible. It's important to note that each extension request extends the time that the device is connected for one week and can be subject to an extension fee. More details will be included when a member of our team responds to the request in the original ticket.
 
-## What Does Each Status on My Data Transfer Ticket Mean?
+## What does each status on my data transfer ticket mean?
 
 Each status on the data transfer ticket indicates the phase of the transfer process for the hardware or disks submitted to the data center. Refer to the table below for specific details on each status:
 
