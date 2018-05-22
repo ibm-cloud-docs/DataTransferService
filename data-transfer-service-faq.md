@@ -8,7 +8,7 @@ lastupdated: "2018-05-22"
 {:new_window: target="_blank"}
 {:shortdesc: .shortdesc}
 
-# Data Transfer Service - frequently asked questions
+# Frequently asked questions
 
 ## What is Data Transfer?
 
