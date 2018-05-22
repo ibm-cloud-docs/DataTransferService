@@ -1,31 +1,40 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 1994, 2018
+lastupdated: "2018-05-22"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
-# Sorting or Filtering the Shipments List
+# Sorting or filtering the shipments list
 
-The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays shipments associated with Data Transfer Service requests. Upon accessing the screen, shipping requests from the last 30 days are displayed. Shipments may be sorted and filtered to view older shipments or specific shipment types. Follow the steps below to sort or filter the shipments list.
+The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays shipments associated that are with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types. 
 
-## Sort or Filter the Shipments List
+## How to sort or filter the shipments list
 
-1. Access the Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Refer to [Accessing the Shipments Screen](index.html).
-2. Determine if the view should be filtered for specific details or sorted by shipment status.
+1. Access the Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
+2. Determine whether the view is to be filtered for specific details or sorted by shipment status.
+  - If you want to sort by shipment status, you can select one of the following options from the **Display** list: **Open Shipping Requests**, **Closed Shipping Requests**, **Canceled Shipping Requests** or **All Shipping Requests**.
+  - If you want to filter for specific details, select one or more of the *filter options** available and click **Filter**.
 
-<table><tbody><tr><th>If the view should be...</th><th>Then...</th></tr><tr><td>Sorted by shipment status</td><td><ul><li>Select one of the following options from the <strong>Display</strong> drop down box:<ul><li>Open Shipping Requests</li><li>Closed Shipping Requests</li><li>Canceled Shipping Requests</li><li>All Shipping Requests<br> </li></ul></li><li>No further action is required.</li></ul></td></tr><tr><td>Filtered for specific details</td><td>Proceed to the next step.</td></tr></tbody></table>
 
-3. Complete one or more of the **filter options** available on the **Filter** tab.
-![DTS Shipment Screen](/images/DTSShipmentScreen.PNG) <br/> Refer to the table below for more information.
+![DTS Shipment Screen](/images/DTSShipmentScreen.PNG)
 
-<table><tbody><tr><th>Filter Option</th><th>Entry Information</th></tr><tr><td>Shipped Date</td><td>Select the time frame of the shipment from the drop down box.</td></tr><tr><td>Shipped From</td><td>Select the location from which the shipment originated from the drop down box.</td></tr><tr><td>Carrier</td><td>Select the courier (i.e. FedEx, UPS, USPS, etc.) transporting the shipment from the drop down box.</td></tr><tr><td>Shipment Type</td><td>Select the type of shipment from the drop down box.</td></tr><tr><td>Shipped To</td><td>Select the location to which the shipment was sent from the drop down box.</td></tr><tr><td>Tracking Number</td><td>Enter the tacking number provided by the courier in the text box.</td></tr><tr><td>Item Description</td><td>Enter the description of the item being shipped in the text box.</td></tr></tbody></table>
+<table><caption>Table 1 shows the filter options available in the Shipment screen. The left column lists the available options and the right side column provides their descriptions.</caption>
+<tr><th>Filter option</th><th>Entry information</th></tr>
+<tr><td>Shipped date</td><td>Select the time frame of the shipment.</td></tr>
+<tr><td>Shipped from</td><td>Select the location where the shipment originates from.</td></tr>
+<tr><td>Carrier</td><td>Select the courier (for example FedEx, UPS, or USPS) that transports the shipment.</td></tr>
+<tr><td>Shipment type</td><td>Select the type of shipment.</td></tr>
+<tr><td>Shipped To</td><td>Select the location to which the shipment was sent.</td></tr>
+<tr><td>Tracking number</td><td>Enter the tacking number that was provided by the courier.</td></tr>
+<tr><td>Item Description</td><td>Enter the description of the item that is shipped.</td></tr>
+</table>
 
-4. Click **Filter** to filter the Shipment List. Click **Cancel** to cancel the action.
 
 ## What Happens Next
 
-After filtering the Shipments List, all shipments that correspond with the parameters set by the filter are displayed in the Shipment List. To modify the filter options entered, click **Modify** and update the desired filter options. To clear all parameters set by the filter, click **Clear All**. If the results were sorted by the shipment status, all shipments that are within the selected status are displayed. Select a new status from the drop down list to update the displayed results at any time.
+After you filtered the Shipments List, all shipments that correspond with the parameters set by the filter are displayed in the Shipment List. Click **Modify** and update the filter options if you want to change the list. To clear all parameters set by the filter, click **Clear All**. 
+
+If the results were sorted by the shipment status, all shipments that are within the selected status are displayed. Select a new status from the list to update the displayed results at any time.
