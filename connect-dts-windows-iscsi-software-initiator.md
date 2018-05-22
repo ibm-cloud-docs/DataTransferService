@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017
-lastupdated: "2017-11-13"
+  years: 2017, 2018
+lastupdated: "2018-05-22"
 
 ---
 {:new_window: target="_blank"}
@@ -10,37 +10,32 @@ lastupdated: "2017-11-13"
 
 # Connecting to DTS Device in Windows with iSCSI Software Initiator
 
-To interact with an iSCSI LUN in Windows, users must connect to the LUN using iSCSI Software Initiator, Microsoft's proprietary iSCSI tool.  For users running Windows Server 2008 or Windows Vista and above, iSCSI Software Initiator is built into the operating system.  Users running Windows Server 2003, Windows XP and Windows 2000 must download the Initiator prior to completing this procedure.  Follow the steps below to connect to an iSCSI LUN in Windows with iSCSI Software Initiator.
+To interact with an iSCSI LUN in Windows, users must connect to the storage using the iSCSI Software Initiator, Microsoft's proprietary iSCSI tool. For users of Windows Server 2008, or Windows Vista and above, the iSCSI Software Initiator is built into the operating system. Users of Windows Server 2003, Windows XP, and Windows 2000 must download the Initiator before starting this procedure.
 
 ## Connect to an iSCSI LUN
 
-1. Retrieve the **iSCSI User Name, Pasword and Storage Address** for the iSCSI being connected from the Customer Portal.  Refer to Access the Data Transfer Screen.
-2. Launch iSCSI Initiator.
-3. Update initiator name on the **Configuration** tab to the IQN data in the SoftLayer portal.
-4. Click the **Discovery** tab.
-5. Click the **Add** button in the **Target Portals** section of the screen.
-6. Enter the **iSCSI IP Address** in the **IP address or DNS name** field.
-7. Click the **Advanced** tab.
+1. From the {{site.data.keyword.slportal}}, retrieve the **iSCSI user name, password, and storage address** for the storage device you want to connect.
+2. Start iSCSI Initiator.
+3. On the **Configuration** tab, update initiator name to the IQN data in the {{site.data.keyword.slportal}}.
+4. Click **Discovery**.
+5. In the **Target Portals** section, click **Add**.
+6. In the **IP address or DNS name** field, enter the **iSCSI IP address**.
+7. Click **Advanced**.
 8. Update the iSCSI logon information.
    - Select the **CHAP logon information** check box to enable CHAP logon.
-   - Enter the **iSCSI Username** in the **User name** field.
-   - Enter the **iSCSI Password** in the **Target secret** field.
-   - Click the **OK** button twice.
-9. Click the **Targets** tab.
+   - Enter the iSCSI user name in the **user name** field.
+   - Enter the iSCSI password in the **target secret** field.
+   - Click **OK** twice.
+9. Click **Targets**
 10. Select the newly added iSCSI from the **Targets** list.
-11. Click the **Logon** button. The **Log On to Target** pop up menu will appear.
-12. Select the **Automatically restore this connection when the system boots** check box to set the connection to persist between reboots.
-13. Click **the Advanced** button.
+11. Click **Logon**. The **Log On to Target** window appears.
+12. Select the **Automatically restore this connection when the system boots** check box to set the connection to persist between restarts.
+13. Click **Advanced**.
 14. Update the iSCSI logon information.
     - Select the **CHAP logon information** check box to enable CHAP logon.
-    - Enter the **iSCSI Username** in the **User name** field.
-    - Enter the **iSCSI Password** in the **Target secret** field.
-    - Click the **OK** button twice.
+    - Enter the iSCSI user name in the **user name** field.
+    - Enter the iSCSI password in the **target secret** field.
+    - Click **OK** twice.
 15. Verify that the new iSCSI target displays as Connected on the Targets tab.
-
-<table>
-<tbody>
-<tr>
-<th>If the iSCSI target…</th><th>Then...</th></tr>
-<tr><td>Displays as Connected</td><td>Click the <strong>OK</strong> button. Your iSCSI LUN is now connected.</td></tr>
-<tr><td>Does not display as Connected</td><td>Repeat the steps above to reset the connection.</td></tr></tbody></table>
+    - If your iSCSI target displays as **Connected**, click **OK**. Your iSCSI LUN is now connected
+    - If your iSCSI target doesn't display as **Connected**, repeat all the previous steps to reset the connection.
