@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2017-05-22"
+lastupdated: "2018-05-22"
 
 ---
 {:pre: .pre}
@@ -16,18 +16,18 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
 1. Install iscsi-initiator and multipath mapper for Linux.
    ```
    yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath
-   ``` 
+   ```
    {: pre}
-   
+
 2. Create the iscsid.conf configuration file.
 
 3. Back up the original configuration:
    ```
    cp /etc/iscsi/iscsid.conf{,.save}
-   ``` 
+   ```
    {: pre}
-   
-4. Open /etc/iscsi/iscsid.conf with your favorite text editor and replace the contents with the following code: 
+
+4. Open /etc/iscsi/iscsid.conf with your favorite text editor and replace the contents with the following code:
    ```
    node.startup = automatic
    node.session.auth.username = ISCSI_USER
@@ -52,19 +52,19 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
    /etc/init.d/iscsi start
    ```
    {: pre}
-   
+
 6. Run a discovery against the iscsi target host:<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
-   
+
 7. Connect to the iscsi target host:<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
    {: pre}
-   
+
 8. Restart the iscsi service (Because node.startup is set to automatic in iscsid.conf it automatically logs in to the target host).<br/>
    ```
    /etc/init.d/iscsi restart

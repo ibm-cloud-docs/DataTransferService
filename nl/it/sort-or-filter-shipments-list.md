@@ -1,31 +1,40 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 1994, 2018
+lastupdated: "2018-05-22"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
 # Ordinamento o filtraggio dell'elenco spedizioni
 
-La schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} visualizza le spedizioni associate alle richieste del servizio di trasferimento dati. Quando si accede alla schermata, vengono visualizzate le richieste di spedizione degli ultimi 30 giorni. Le spedizioni possono essere ordinate e filtrate per visualizzare le spedizioni meno recenti oppure degli specifici tipi di spedizione. Attieniti alla procedura di seguito per ordinare o filtrare l'elenco spedizioni.
+La schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} visualizza le spedizioni associate alle richieste del servizio di trasferimento dati. Vengono visualizzate tutte le richieste di spedizione degli ultimi 30 giorni. Le spedizioni possono essere ordinate e filtrate per visualizzare spedizioni meno recenti o specifici tipi di spedizione. 
 
-## Ordinare o filtrare l'elenco spedizioni
+## Come ordinare o filtrare l'elenco spedizioni
 
-1. Accedi alla schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Fai riferimento a [Accesso alla schermata Shipments](index.html).
+1. Accedi alla schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
 2. Determina se la vista deve essere filtrata per dei dettagli specifici oppure ordinata in base allo stato della spedizione.
+  - Se vuoi ordinare in base allo stato di spedizione, puoi selezionare una delle seguenti opzioni dall'elenco **Display**: **Open Shipping Requests**, **Closed Shipping Requests**, **Canceled Shipping Requests** o **All Shipping Requests**.
+  - Se vuoi filtrare in base a specifici dettagli, seleziona una o più delle *opzioni di filtro** disponibili e fai clic su **Filter**.
 
-<table><tbody><tr><th>Se la vista deve essere...</th><th>Allora...</th></tr><tr><td>Ordinata in base allo stato della spedizione</td><td><ul><li>Seleziona una delle seguenti opzioni dalla casella a discesa <strong>Display</strong>:<ul><li>Open Shipping Requests</li><li>Closed Shipping Requests</li><li>Canceled Shipping Requests</li><li>All Shipping Requests<br> </li></ul></li><li>Non sono richieste ulteriori azioni.</li></ul></td></tr><tr><td>Filtrata per degli specifici dettagli</td><td>Procedi al passo successivo.</td></tr></tbody></table>
 
-3. Completa una o più delle **opzioni di filtro** disponibili nella scheda **Filter**.
-![Schermata DTS Shipment](/images/DTSShipmentScreen.PNG) <br/> Fai riferimento alla tabella di seguito per ulteriori informazioni.
+![Schermata DTS Shipment](/images/DTSShipmentScreen.PNG)
 
-<table><tbody><tr><th>Opzione di filtro</th><th>Informazioni sull'immissione</th></tr><tr><td>Shipped Date</td><td>Seleziona l'intervallo di tempo della spedizione dalla casella a discesa.</td></tr><tr><td>Shipped From</td><td>Seleziona la località da cui ha avuto origine la spedizione dalla casella a discesa.</td></tr><tr><td>Carrier</td><td>Seleziona il corriere (ossia FedEx, UPS, USPS, ecc.) che si occupa del trasporto dalla casella a discesa.</td></tr><tr><td>Shipment Type</td><td>Seleziona il tipo di spedizione dalla casella a discesa.</td></tr><tr><td>Shipped To</td><td>Seleziona la località a cui è stata inviata la spedizione dalla casella a discesa.</td></tr><tr><td>Tracking Number</td><td>Immetti il numero di tracciabilità fornito dal corriere nella casella di testo.</td></tr><tr><td>Item Description</td><td>Immetti la descrizione dell'articolo oggetto della spedizione nella casella di testo.</td></tr></tbody></table>
+<table><caption>La tabella 1 mostra le opzioni di filtro disponibili nella schermata Shipment. La colonna a sinistra elenca le opzioni disponibili e la colonna a destra ne fornisce le descrizioni.</caption>
+<tr><th>Opzione di filtro</th><th>Informazioni sull'immissione</th></tr>
+<tr><td>Shipped date</td><td>Seleziona l'intervallo di tempo della spedizione.</td></tr>
+<tr><td>Shipped from</td><td>Seleziona la località da cui ha origine la spedizione.</td></tr>
+<tr><td>Carrier</td><td>Seleziona il corriere (ad es. FedEx, UPS o USPS) che trasporta la spedizione.</td></tr>
+<tr><td>Shipment type</td><td>Seleziona il tipo di spedizione.</td></tr>
+<tr><td>Shipped To</td><td>Seleziona la località a cui è stata inviata la spedizione.</td></tr>
+<tr><td>Tracking number</td><td>Immetti il numero di tracciabilità che è stato fornito dal corriere.</td></tr>
+<tr><td>Item Description</td><td>Immetti la descrizione dell'articolo che è stato spedito.</td></tr>
+</table>
 
-4. Fai clic su **Filter** per filtrare l'elenco spedizioni. Fai clic su **Cancel** per annullare l'azione.
 
 ## Cosa succede poi
 
-Dopo che l'elenco spedizioni è stato filtrato, tutte le spedizioni che corrispondono ai parametri impostati dal filtro vengono visualizzate nell'elenco spedizioni. Per modificare le opzioni di filtro immesse, fai clic su **Modify** e aggiorna le opzioni di filtro desiderate. Per cancellare tutti i parametri impostati dal filtro, fai clic su **Clear All**. Se i risultati sono stati ordinati in base allo stato di spedizione, vengono visualizzate tutte le spedizioni che rientrano nello stato selezionato. Seleziona un nuovo stato dall'elenco a discesa per aggiornare i risultati visualizzati in qualsiasi momento.
+Dopo che hai filtrato l'elenco spedizioni, in esso vengono visualizzate tutte le spedizioni che corrispondono ai parametri impostati dal filtro. Se vuoi modificare l'elenco, fai clic su **Modify** e aggiorna le opzioni di filtro. Per cancellare tutti i parametri impostati dal filtro, fai clic su **Clear All**. 
+
+Se i risultati sono stati ordinati in base allo stato di spedizione, vengono visualizzate tutte le spedizioni che rientrano nello stato selezionato. Seleziona un nuovo stato dall'elenco per aggiornare i risultati visualizzati in qualsiasi momento.

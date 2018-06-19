@@ -2,15 +2,15 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="DataTransferService" audience="services" href="/docs/infrastructure/DataTransferService/index.html"}
-IBM Cloud Storage - データ転送サービス
+IBM Cloud Storage - Servizio di trasferimento dati
 
     {: .navgroup id="learn"}
     index.md
     what-media-data-transfer-service.md
 
     {: .topicgroup}
-    関連リンク
-        [Control ポータル](https://control.softlayer.com/)
+    Link correlati
+        [Portale di controllo](https://control.softlayer.com/)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

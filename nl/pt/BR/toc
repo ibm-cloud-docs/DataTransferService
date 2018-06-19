@@ -1,16 +1,16 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DataTransferService" audience="services" href=“/docs/infrastructure/DataTransferService/index.html”}
-IBM Cloud Storage - Data Transfer Service
+{: .toc subcollection="DataTransferService" audience="services" href="/docs/infrastructure/DataTransferService/index.html"}
+IBM Cloud Storage - Serviço Data Transfer
 
     {: .navgroup id="learn"}
     index.md
     what-media-data-transfer-service.md
 
     {: .topicgroup}
-    Links Relacionados
-        [Control Portal](https://control.softlayer.com/)
+    Links relacionados
+        [Portal de controle](https://control.softlayer.com/)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

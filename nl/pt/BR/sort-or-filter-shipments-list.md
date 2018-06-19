@@ -1,31 +1,40 @@
 ---
 
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-13"
+  years: 1994, 2018
+lastupdated: "2018-05-22"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
 # Classificando ou filtrando a lista de remessas
 
-A tela Remessas dentro do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} exibe as remessas associadas a solicitações do Data Transfer Service. Ao acessar a tela, as solicitações de envio dos últimos 30 dias são exibidas. As remessas podem ser classificadas e filtradas para visualizar remessas mais antigas ou tipos específicos de remessa. Siga as etapas abaixo para classificar ou filtrar a lista de remessas.
+A tela Remessas no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} exibe as remessas associadas que estão com solicitações do serviço de transferência de dados. Todas as solicitações de envio dos últimos 30 dias são exibidas. As remessas podem ser classificadas e filtradas para visualizar remessas mais antigas ou tipos específicos de remessa. 
 
-## Classificar ou filtrar a lista de remessas
+## Como classificar ou filtrar a lista de remessas
 
-1. Acesse a tela Remessas dentro do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Consulte [Acessando a tela Remessas](index.html).
+1. Acesse a tela Remessas dentro do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
 2. Determine se a visualização deve ser filtrada para obter detalhes específicos ou classificada por status da remessa.
+  - Se você deseja classificar por status da remessa, é possível selecionar uma das opções a seguir na lista **Exibição**: **Solicitações de remessa abertas**, **Solicitações de remessa encerradas**, **Solicitações de remessa canceladas** ou **Todas as solicitações de remessa**.
+  - Se você deseja filtrar por detalhes específicos, selecione uma ou mais *opções de filtro** disponíveis e clique em **Filtrar**.
 
-<table><tbody><tr><th>Se a visualização tiver que ser...</th><th>Então...</th></tr><tr><td>Classificada por status da remessa</td><td><ul><li>Selecione uma das opções a seguir na caixa suspensa <strong>Exibir</strong>:<ul><li>Solicitações de envio abertas</li><li>Solicitações de envio encerradas</li><li>Solicitações de envio canceladas</li><li>Todas as solicitações de envio<br> </li></ul></li><li>Nenhuma ação adicional é necessária.</li></ul></td></tr><tr><td>Filtrada para obter detalhes específicos</td><td>Continue com a próxima etapa.</td></tr></tbody></table>
 
-3. Conclua uma ou mais das **opções de filtro** disponíveis na guia **Filtro**.
-![Tela Remessa do DTS](/images/DTSShipmentScreen.PNG) <br/> Consulte a tabela abaixo para obter mais informações.
+![Tela Envio do DTS](/images/DTSShipmentScreen.PNG)
 
-<table><tbody><tr><th>Opção de filtro</th><th>Informações de entrada</th></tr><tr><td>Data de envio</td><td>Selecione o prazo da remessa da caixa suspensa.</td></tr><tr><td>Enviado de</td><td>Selecione o local do qual a remessa foi originada na caixa suspensa.</td></tr><tr><td>Transportadora</td><td>Selecione a transportadora (ou seja, FedEx, UPS, USPS etc.) que está transportando a remessa na caixa suspensa.</td></tr><tr><td>Tipo de remessa</td><td>Selecione o tipo de remessa da caixa suspensa.</td></tr><tr><td>Enviado para</td><td>Selecione o local para o qual a remessa foi enviada na caixa suspensa.</td></tr><tr><td>Número de rastreamento</td><td>Insira o número de rastreamento fornecido pela transportadora na caixa de texto.</td></tr><tr><td>Descrição do item</td><td>Insira a descrição do item que está sendo enviado na caixa de texto.</td></tr></tbody></table>
+<table><caption>A Tabela 1 mostra as opções de filtro disponíveis na tela Remessa. A coluna esquerda lista as opções disponíveis e a coluna direita fornece suas descrições.</caption>
+<tr><th>Opção de filtro</th><th>Informações de entrada</th></tr>
+<tr><td>Data de envio</td><td>Selecione o prazo da remessa.</td></tr>
+<tr><td>Enviado de</td><td>Selecione o local do qual a remessa se origina.</td></tr>
+<tr><td>Transportadora</td><td>Selecione o courier (por exemplo, FedEx, UPS ou USPS) que transporta a remessa.</td></tr>
+<tr><td>Tipo de remessa</td><td>Selecione o tipo de remessa.</td></tr>
+<tr><td>Enviado para</td><td>Selecione o local para o qual a remessa foi enviada.</td></tr>
+<tr><td>Número de rastreamento</td><td>Insira o número de rastreamento que foi fornecido pelo courier.</td></tr>
+<tr><td>Descrição do item</td><td>Insira a descrição do item que é enviado.</td></tr>
+</table>
 
-4. Clique em **Filtrar** para filtrar a Lista de remessa. Clique em **Cancelar** para cancelar a ação.
 
 ## O que acontece em seguida
 
-Depois de filtrar a Lista de remessas, todas as remessas que correspondem aos parâmetros configurados pelo filtro são exibidas na Lista de remessas. Para modificar as opções de filtro inseridas, clique em **Modificar** e atualize as opções de filtro desejadas. Para limpar todos os parâmetros configurados pelo filtro, clique em **Limpar todos**. Se os resultados tiverem sido classificados pelo status da remessa, todas as remessas que estiverem dentro do status selecionado serão exibidas. Selecione um novo status na lista suspensa para atualizar os resultados exibidos a qualquer momento.
+Depois de ter filtrado a Lista de remessas, todas as remessas que correspondem aos parâmetros configurados pelo filtro são exibidas na Lista de remessas. Clique em **Modificar** e atualize as opções de filtro se você desejar mudar a lista. Para limpar todos os parâmetros configurados pelo filtro, clique em **Limpar todos**. 
+
+Se os resultados tiverem sido classificados pelo status da remessa, todas as remessas que estiverem dentro do status selecionado serão exibidas. Selecione um novo status da lista para atualizar os resultados exibidos a qualquer momento.
