@@ -2,21 +2,21 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
 
 # Sorting or filtering the shipments list
 
-The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays shipments associated that are with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types. 
+The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} displays shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types. 
 
-## How to sort or filter the shipments list
+## Sorting and Filtering
 
 1. Access the Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
 2. Determine whether the view is to be filtered for specific details or sorted by shipment status.
   - If you want to sort by shipment status, you can select one of the following options from the **Display** list: **Open Shipping Requests**, **Closed Shipping Requests**, **Canceled Shipping Requests** or **All Shipping Requests**.
-  - If you want to filter for specific details, select one or more of the *filter options** available and click **Filter**.
+  - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.
 
 
 ![DTS Shipment Screen](/images/DTSShipmentScreen.PNG)
@@ -33,8 +33,6 @@ The Shipments screen within the [{{site.data.keyword.slportal}}](https://control
 </table>
 
 
-## What Happens Next
-
-After you filtered the Shipments List, all shipments that correspond with the parameters set by the filter are displayed in the Shipment List. Click **Modify** and update the filter options if you want to change the list. To clear all parameters set by the filter, click **Clear All**. 
+After you filtered the Shipments List, all shipments that correspond with the parameters that are set by the filter are displayed in the Shipment List. Click **Modify** and update the filter options if you want to change the list. To clear all parameters that are set by the filter, click **Clear All**. 
 
 If the results were sorted by the shipment status, all shipments that are within the selected status are displayed. Select a new status from the list to update the displayed results at any time.
