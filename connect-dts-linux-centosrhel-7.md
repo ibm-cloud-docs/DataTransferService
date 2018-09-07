@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-06-27"
+lastupdated: "2018-09-07"
 
 ---
 {:pre: .pre}
@@ -49,7 +49,7 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
 
 5. Start iSCSI.<br/>
    ```
-   /etc/init.d/iscsi start
+   systemctl start iscsi.service
    ```
    {: pre}
 
