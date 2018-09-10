@@ -67,6 +67,6 @@ To interact with an iSCSI LUN in Linux-based operating systems, users must conne
 
 8. Restart the iSCSI  service. Because `node.startup` is set to automatic in `iscsid.conf` it automatically logs in to the target host.<br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}
