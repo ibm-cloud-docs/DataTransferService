@@ -2,18 +2,20 @@
 
 copyright:
   years: 1994, 2018
-lastupdated: "2018-08-08"
+lastupdated: "2018-11-05"
 
 ---
-
+{:faq: data-hd-content-type='faq'}
 
 # FAQs
 
 ## What is Data Transfer?
+{: faq}
 
 This service allows authorized users (generally the account's administrator) to send compatible devices to one of the {{site.data.keyword.BluSoftlayer_full}} data centers to be connected directly to the account's network. The device is housed in a dedicated rack and is mounted as an iSCSI target for two weeks. During that period, the administrator can access the device on the network to use it with other devices and services on the account. After the two-week period, an extension can be requested to keep the device connected to the network. Otherwise, the device is either returned to the party specified in the request; or the device is destroyed onsite.
 
 ## Can a device for data transfer be sent internationally?
+{: faq}
 
 Hardware and disks can be sent both domestically and internationally to any of the {{site.data.keyword.BluSoftlayer}} data centers. However, you as the Client are responsible for:
 
@@ -27,6 +29,8 @@ Include a pre-paid return shipping label and all appropriate export documents wi
 
 
 ## What types of devices can be sent with a data transfer request?
+{: faq}
+
 Use the following guidelines when you select a device or disk (CD or DVD) to submit for data transfer:
 
 - **Hardware Requirements**
@@ -46,6 +50,7 @@ Use the following guidelines when you select a device or disk (CD or DVD) to sub
    - Each disk must be clearly and uniquely labeled.
 
 ## Can the device be sent back sooner or can it stay longer than two weeks?
+{: faq}
 
 Yes, your hardware or disks can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request ticket with the appropriate request. If you request a return, {{site.data.keyword.BluSoftlayer}} disconnects and returns the hardware or disks to the return address provided in the original request by using the pre-paid shipping labels and packaging you provided.
 
