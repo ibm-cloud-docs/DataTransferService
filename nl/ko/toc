@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DataTransferService" audience="services" href="/docs/infrastructure/DataTransferService/index.html"}
+{: .toc subcollection="DataTransferService" audience="services" href="/docs/infrastructure/DataTransferService/index.html" path="infrastructure/DataTransferService"}
 IBM Cloud Storage - 데이터 전송 서비스
 
     {: .navgroup id="learn"}
@@ -20,5 +20,5 @@ IBM Cloud Storage - 데이터 전송 서비스
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    data-transfer-service-faq.md
+    faqs.md
     {: .navgroup-end}

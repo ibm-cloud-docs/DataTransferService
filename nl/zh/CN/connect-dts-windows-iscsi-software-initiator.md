@@ -2,15 +2,14 @@
 
 copyright:
   years: 2017, 2018
-lastupdated: "2018-05-22"
+lastupdated: "2018-06-27"
 
 ---
 {:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
 
 # 在 Windows 中使用 iSCSI 软件启动器连接到 DTS 设备
 
-要在 Windows 中与 iSCSI LUN 进行交互，用户必须使用 iSCSI 软件启动器（Microsoft 的专有 iSCSI 工具）来连接到存储器。对于 Windows Server 2008 或 Windows Vista 及更高版本的用户，iSCSI 软件启动器已内置于操作系统中。Windows Server 2003、Windows XP 和 Windows 2000 的用户必须先下载该启动器，然后再启动此过程。
+要在 Windows 中与 iSCSI LUN 进行交互，用户必须使用 iSCSI 软件启动器（Microsoft 的专有 iSCSI 工具）来连接到存储器。对于 Windows Server 2008、Windows Vista 或更新版本的用户，iSCSI 软件启动器已内置于操作系统中。Windows Server 2003、Windows XP 和 Windows 2000 的用户必须先下载该启动器，然后再启动此过程。
 
 ## 连接到 iSCSI LUN
 
@@ -29,7 +28,7 @@ lastupdated: "2018-05-22"
 9. 单击**目标**
 10. 从**目标**列表中选择新添加的 iSCSI。
 11. 单击**登录**。这将显示**登录到目标**窗口。
-12. 选中**系统引导时自动还原此连接**复选框，以设置在重新启动之间持久保持连接。
+12. 选中**系统引导时自动还原此连接**，以设置在重新启动之间持久保持连接。
 13. 单击**高级**。
 14. 更新 iSCSI 登录信息。
     - 选中 **CHAP 登录信息**复选框以启用 CHAP 登录。
