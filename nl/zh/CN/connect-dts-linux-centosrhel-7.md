@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-09-10"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
 
-# 连接到 Linux for CentOS/RHEL 7 中的 DTS 设备
+# 在 Linux for CentOS/RHEL 7 中连接到 DTS 设备
+{: #mountingDTSlinux}
 
  要与基于 Linux 的操作系统中的 iSCSI LUN 进行交互，用户必须通过在终端中输入一系列命令来连接到该 LUN。用于与基于 Linux 的操作系统中的 iSCSI LUN 进行交互的工具取决于设备上安装的操作系统的类型和版本。
 
@@ -65,7 +66,7 @@ lastupdated: "2018-09-10"
    ```
    {: pre}
 
-8. 重新启动 iSCSI 服务。因为 `node.startup` 在 `iscsid.conf` 中设置为 automatic，因此它会自动登录到目标主机。<br/>
+8. 重新启动 iSCSI 服务。`iscsid.conf` 中的 `node.startup` 设置为“自动”，因此它会自动登录到目标主机。<br/>
    ```
    systemctl restart iscsi.service
    ```

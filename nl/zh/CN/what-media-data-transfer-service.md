@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # 介质数据传输服务简介
- 
+{: #mediaDTS}
+
 通过数据传输服务，您可以将 USB 2.0 或 3.0 兼容设备、CD 和 DVD 发往 {{site.data.keyword.BluSoftlayer_full}} 数据库中心，以直接连接到您的网络。设备将安装在专用机架中，并作为 iSCSI 目标安装。现在也支持高级格式的驱动器。
 
 ## 硬件需求
@@ -34,7 +35,7 @@ lastupdated: "2018-06-27"
 - 与客户的用户就客户想要传输到硬件的任何用户数据签订相应协议，并获取所有必需许可权。
 
 ## 发出请求
-您可以通过 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 提交请求
+您可以通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 提交请求
 
 1. 单击**存储** > **数据迁移** > **数据传输**。
 2. 单击**订购数据传输请求**。
@@ -53,18 +54,18 @@ lastupdated: "2018-06-27"
 此请求将创建支持凭单，以提醒 {{site.data.keyword.BluSoftlayer}} 技术人员，设备已发货，使他们能够跟踪交付情况。{{site.data.keyword.BluSoftlayer}} 收到设备后，技术人员会将其连接到专用机架。连接设备后，将更新凭单以向您提供 iSCSI 目标的登录凭证的链接。
 
 ## 请求退回
-如果您提供了退回地址并在包装中包含了预付的装运标签，那么在 2 周的传输周期内，您可以随时请求将设备发回给您。您可以通过 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 提交请求
+如果您提供了退回地址并在包装中包含了预付的装运标签，那么在 2 周的传输周期内，您可以随时请求将设备发回给您。您可以通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 提交请求。
 
 1. 选择**存储** > **数据迁移** > **数据传输**。
-2. 从设备的**操作**菜单，选择**请求退回**。 
+2. 从设备的**操作**菜单，选择**请求退回**。
 
 此更新将提醒 {{site.data.keyword.BluSoftlayer}} 技术人员，您希望将设备断开连接并发回给您。
 
 ## 请求延期
-在两周免费期后，如果仍需要使用设备，必须通过 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} 请求延期。此更新将提醒 {{site.data.keyword.BluSoftlayer}} 技术人员，您希望延长设备的连接时间。 
+在两周免费期后，如果仍需要使用设备，必须通过 [{{site.data.keyword.slportal}} ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://control.softlayer.com/){:new_window} 请求延期。此更新将提醒 {{site.data.keyword.BluSoftlayer}} 技术人员，您希望延长设备的连接时间。
 
 1. 选择**存储** > **数据迁移** > **数据传输**
-2. 在设备的**操作**菜单中，选择**请求延期**。 
+2. 在设备的**操作**菜单中，选择**请求延期**。
 
 每额外连接一周都必须支付 25 美元的服务费用。您的延期请求可能被拒绝，具体取决于数据中心的可用空间。如果请求得到批准，将更新凭单。
 

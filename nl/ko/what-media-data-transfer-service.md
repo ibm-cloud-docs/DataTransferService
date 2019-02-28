@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # 매체 데이터 전송 서비스 소개
- 
+{: #mediaDTS}
+
 데이터 전송 서비스를 사용하면 USB 2.0 또는 3.0 호환 가능 디바이스, CD 및 DVD를 네트워크에 직접 연결되는 {{site.data.keyword.BluSoftlayer_full}} 데이터 센터로 보낼 수 있습니다. 디바이스는 전용 랙에 장착되며 iSCSI 대상으로서 마운트됩니다. 이제 고급 포맷 드라이브도 지원됩니다.
 
 ## 하드웨어 요구사항
@@ -34,7 +35,7 @@ lastupdated: "2018-06-27"
 - 클라이언트가 하드웨어에 전송할 사용자 데이터에 대해 클라이언트의 사용자와 적절한 계약을 맺고 모든 필수 권한을 확보합니다.
 
 ## 요청하기
-[{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}을 통해 요청을 제출할 수 있습니다.
+[{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}을 통해 요청을 제출할 수 있습니다.
 
 1. **스토리지** > **데이터 마이그레이션** > **데이터 전송**을 클릭하십시오.
 2. **데이터 전송 요청 주문**을 클릭하십시오.
@@ -50,21 +51,21 @@ lastupdated: "2018-06-27"
 6. 사용되는 운송 업체
 7. 데이터 전송 완료 후에 디바이스를 보낼 반환 주소
 
-이 요청으로 지원 티켓이 작성되어 디바이스가 발송됨을 {{site.data.keyword.BluSoftlayer}} 기술자에게 알리며 기술자는 전달 과정을 추적할 수 있습니다. {{site.data.keyword.BluSoftlayer}}에서 디바이스를 수령하면 기술자가 전용 랙에 연결합니다. 디바이스가 연결되면 iSCSI 대상에 대한 로그온 신임 정보로의 링크를 제공하도록 티켓이 업데이트됩니다.
+이 요청으로 지원 티켓이 작성되어 디바이스가 발송됨을 {{site.data.keyword.BluSoftlayer}} 기술자에게 알리며 기술자는 전달 과정을 추적할 수 있습니다. {{site.data.keyword.BluSoftlayer}}에서 디바이스를 수령하면 기술자가 전용 랙에 연결합니다. 디바이스가 연결되면 iSCSI 대상에 대한 로그온 인증 정보로의 링크를 제공하도록 티켓이 업데이트됩니다.
 
 ## 반환 요청
-반환 주소를 제공하고 패키지에 선불 발송 레이블을 포함한 경우 2주 전송 기간 중에 언제든 디바이스를 반송하도록 요청할 수 있습니다. [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}을 통해 요청을 제출할 수 있습니다.
+반환 주소를 제공하고 패키지에 선불 발송 레이블을 포함한 경우 2주 전송 기간 중에 언제든 디바이스를 반송하도록 요청할 수 있습니다. [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}을 통해 요청을 제출할 수 있습니다.
 
 1. **스토리지** > **데이터 마이그레이션** > **데이터 전송**을 선택하십시오.
-2. 디바이스의 **조치** 메뉴에서 **반환 요청**을 선택하십시오. 
+2. 디바이스의 **조치** 메뉴에서 **반환 요청**을 선택하십시오.
 
 이 업데이트에서는 사용자가 디바이스의 연결을 끊고 디바이스 반송을 원한다는 사실을 {{site.data.keyword.BluSoftlayer}} 기술자에게 알립니다.
 
 ## 연장 요청
-2주의 무료 사용 기간이 지난 후에도 디바이스를 계속 사용해야 하는 경우 [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}을 통해 연장을 요청해야 합니다. 이 업데이트에서는 사용자가 디바이스 연결 시간 연장을 원한다는 사실을 {{site.data.keyword.BluSoftlayer}} 기술자에게 알립니다. 
+2주의 무료 사용 기간이 지난 후에도 디바이스를 계속 사용해야 하는 경우 [{{site.data.keyword.slportal}} ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://control.softlayer.com/){:new_window}을 통해 연장을 요청해야 합니다. 이 업데이트에서는 사용자가 디바이스 연결 시간 연장을 원한다는 사실을 {{site.data.keyword.BluSoftlayer}} 기술자에게 알립니다.
 
 1. **스토리지** > **데이터 마이그레이션** > **데이터 전송**을 선택하십시오.
-2. 디바이스의 **조치** 메뉴에서 **연장 요청**을 선택하십시오. 
+2. 디바이스의 **조치** 메뉴에서 **연장 요청**을 선택하십시오.
 
 추가 1주마다 $25의 서비스 요금을 지불해야 합니다. 연장 요청은 데이터 센터에서 사용 가능한 공간에 따라 거부될 수도 있습니다. 요청이 승인되면 티켓이 업데이트됩니다.
 

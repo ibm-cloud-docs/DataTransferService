@@ -1,22 +1,23 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-22"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Classificando ou filtrando a lista de remessas
+{: #sortingshipments}
 
-A tela Remessas no [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} exibe as remessas associadas que estão com solicitações do serviço de transferência de dados. Todas as solicitações de envio dos últimos 30 dias são exibidas. As remessas podem ser classificadas e filtradas para visualizar remessas mais antigas ou tipos específicos de remessa. 
+A tela Remessas dentro do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window} exibe remessas que estão associadas a solicitações de Serviço de transferência de dados. Todas as solicitações de envio dos últimos 30 dias são exibidas. As remessas podem ser classificadas e filtradas para visualizar remessas mais antigas ou tipos específicos de remessa.
 
-## Como classificar ou filtrar a lista de remessas
+## Classificando e Filtrando
 
-1. Acesse a tela Remessas dentro do [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
+1. Acesse a tela Remessas dentro do [{{site.data.keyword.slportal}} ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://control.softlayer.com/){:new_window}.
 2. Determine se a visualização deve ser filtrada para obter detalhes específicos ou classificada por status da remessa.
   - Se você deseja classificar por status da remessa, é possível selecionar uma das opções a seguir na lista **Exibição**: **Solicitações de remessa abertas**, **Solicitações de remessa encerradas**, **Solicitações de remessa canceladas** ou **Todas as solicitações de remessa**.
-  - Se você deseja filtrar por detalhes específicos, selecione uma ou mais *opções de filtro** disponíveis e clique em **Filtrar**.
+  - Se você desejar filtrar por detalhes específicos, selecione uma ou mais das **opções de filtro** disponíveis e clique em **Filtrar**.
 
 
 ![Tela Envio do DTS](/images/DTSShipmentScreen.PNG)
@@ -33,8 +34,7 @@ A tela Remessas no [{{site.data.keyword.slportal}}](https://control.softlayer.co
 </table>
 
 
-## O que acontece em seguida
-
-Depois de ter filtrado a Lista de remessas, todas as remessas que correspondem aos parâmetros configurados pelo filtro são exibidas na Lista de remessas. Clique em **Modificar** e atualize as opções de filtro se você desejar mudar a lista. Para limpar todos os parâmetros configurados pelo filtro, clique em **Limpar todos**. 
+Depois de ter filtrado a Lista de remessas, todas as remessas correspondentes aos parâmetros configurados pelo filtro
+são exibidas na Lista de remessas. Clique em **Modificar** e atualize as opções de filtro se você desejar mudar a lista. Para limpar todos os parâmetros configurados pelo filtro, clique em **Limpar todos**.
 
 Se os resultados tiverem sido classificados pelo status da remessa, todas as remessas que estiverem dentro do status selecionado serão exibidas. Selecione um novo status da lista para atualizar os resultados exibidos a qualquer momento.

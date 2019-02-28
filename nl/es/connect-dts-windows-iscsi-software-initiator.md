@@ -1,21 +1,21 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-05-22"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
-{:shortdesc: .shortdesc}
+
 
 # Conexión al dispositivo DTS en Windows con software iSCSI
+{: #mountingDTSWindows}
 
-Para interactuar con un LUN iSCSI en Windows, los usuarios deben conectarse al almacenamiento mediante el iniciador de software iSCSI, la herramienta iSCSI propiedad de Microsoft. Para los usuarios de Windows Server 2008 o Windows Vista y versiones superiores, el iniciador de software iSCSI está integrado en el sistema operativo. Los usuarios de Windows Server 2003, Windows XP y Windows 2000 deben descargar el iniciador antes de iniciar este procedimiento.
+Para interactuar con un LUN iSCSI en Windows, los usuarios deben conectarse al almacenamiento mediante el iniciador de software iSCSI, una herramienta iSCSI propiedad de Microsoft. Para los usuarios de Windows Server 2008 o Windows Vista y versiones posteriores, el iniciador de software iSCSI está integrado en el sistema operativo. Los usuarios de Windows Server 2003, Windows XP y Windows 2000 deben descargar el iniciador antes de iniciar este procedimiento.
 
-## Conectar a un LUN iSCSI
+## Conexión a un LUN iSCSI
 
 1. Desde {{site.data.keyword.slportal}}, recupere **la dirección de almacenamiento, la contraseña y el nombre de usuario de iSCSI** del dispositivo de almacenamiento que desea conectar.
-2. Inicie el iniciador iSCSI.
+2. Inicie el iniciador de iSCSI.
 3. En el separador **Configuración**, actualice el nombre del iniciador para los datos IQN de {{site.data.keyword.slportal}}.
 4. Pulse **Descubrimiento**.
 5. En la sección **Portales de destino**, pulse **Añadir**.
@@ -29,7 +29,7 @@ Para interactuar con un LUN iSCSI en Windows, los usuarios deben conectarse al a
 9. Pulse **Destinos**
 10. Seleccione el iSCSI recién añadido de la lista **Destinos**.
 11. Pulse **Iniciar sesión**. Aparecerá la ventana **Iniciar sesión en destino**.
-12. Seleccione el recuadro de selección **Restaurar automáticamente la conexión cuando se reinicie el sistema** para que la conexión se mantenga entre reinicios.
+12. Seleccione **Restaurar automáticamente la conexión al arrancar el sistema** para que la conexión se mantenga entre reinicios.
 13. Pulse **Avanzado**.
 14. Actualice la información de inicio de sesión iSCSI.
     - Seleccione el recuadro de selección **información de inicio de sesión CHAP** para habilitar el inicio de sesión CHAP.

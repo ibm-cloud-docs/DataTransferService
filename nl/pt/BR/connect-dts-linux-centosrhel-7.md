@@ -1,33 +1,34 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2017-05-22"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:pre: .pre}
 
 # Conectando-se ao dispositivo DTS no Linux for CentOS/RHEL 7
+{: #mountingDTSlinux}
 
-Para interagir com uma LUN iSCSI em sistemas operacionais baseados em Linux, os usuários devem se conectar ao LUN inserindo uma série de comandos no terminal. A ferramenta usada para interagir com um LUN iSCSI em um S.O. baseado no Linux é dependente do tipo e versão do S.O. instalado no dispositivo.
+Para interagir com uma LUN iSCSI em sistemas operacionais baseados em Linux, os usuários devem se conectar ao LUN inserindo uma série de comandos no terminal. A ferramenta usada para interagir com uma LUN iSCSI em um S.O. baseado no Linux depende do tipo e da versão do S.O. instalado no dispositivo.
 
-## Instruções para o CentOS 7 e o RHEL 7
+## Configurando a conexão no CentOS 7 e no RHEL 7
 
-1. Instale o inicializador iSCSI e o mapeador de caminhos múltiplos para Linux.
+1. Instale o inicializador iSCSI e os utilitários do mapeador de caminhos múltiplos para o Linux.
    ```
    yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath
-   ``` 
+   ```
    {: pre}
-   
-2. Crie o arquivo de configuração iscsid.conf.
 
-3. Faça backup da configuração original:
+2. Crie o arquivo de configuração  ` iscsid.conf ` .
+
+3. Faça backup da configuração original.
    ```
    cp /etc/iscsi/iscsid.conf{,.save}
-   ``` 
+   ```
    {: pre}
-   
-4. Abra /etc/iscsi/iscsid.conf com seu editor de texto favorito e substitua os conteúdos pelo código a seguir: 
+
+4. Abra `/etc/iscsi/iscsid.conf` com o seu editor de texto favorito e substitua o conteúdo pelo código a seguir:
    ```
    node.startup = automatic
    node.session.auth.username = ISCSI_USER
@@ -47,26 +48,26 @@ Para interagir com uma LUN iSCSI em sistemas operacionais baseados em Linux, os 
    ```
    {: pre}
 
-5. Inicie o iscsi:<br/>
+5. Inicie o iSCSI.<br/>
    ```
-   /etc/init.d/iscsi start
+   systemctl start iscsi.service
    ```
    {: pre}
-   
-6. Execute uma descoberta no host de destino iscsi:<br/>
+
+6. Execute uma descoberta com relação ao host de destino iscsi.<br/>
    ```
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
-   
-7. Conecte-se ao host de destino iscsi:<br/>
+
+7. Conecte-se ao host de destino iscsi.<br/>
    ```
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
    {: pre}
-   
-8. Reinicie o serviço iscsi (como o node.startup está configurado como automatic no iscsid.conf, ele efetua login automaticamente no host de destino).<br/>
+
+8. Reinicie o serviço iSCSI. Como o `node.startup` está configurado como automático em `iscsid.conf`, ele efetua login automaticamente no host de destino.<br/>
    ```
-   /etc/init.d/iscsi restart
+   systemctl restart iscsi.service
    ```
    {: pre}

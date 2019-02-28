@@ -1,14 +1,15 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Présentation du service de transfert de données sur support
- 
+{: #mediaDTS}
+
 Le service de transfert de données vous permet d'envoyer un périphérique compatible USB 2.0 ou 3.0, des CD et des DVD vers un centre de données {{site.data.keyword.BluSoftlayer_full}} afin de les connecter directement à votre réseau. Le périphérique est hébergé dans une armoire dédiée et est monté comme cible iSCSI. Les disques Advanced Format (AF) sont désormais pris en charge.
 
 ## Exigences liées au matériel
@@ -34,7 +35,7 @@ Le service de transfert de données vous permet d'envoyer un périphérique comp
 - Avoir mis en place des accords appropriés, et obtenu tous les droits nécessaires, avec l'utilisateur du client en ce qui concerne le transfert matériel des données de l'utilisateur par le client.
 
 ## Processus de demande
-Vous pouvez soumettre une demande via le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
+Vous pouvez soumettre une demande via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 
 1. Cliquez sur **Stockage** > **Migration de données** > **Transfert de données**.
 2. Cliquez sur **Commander demande de transfert de données**.
@@ -53,18 +54,18 @@ Renseignez le formulaire en indiquant les informations suivantes relatives au p�
 Cette demande crée un ticket de demande d'assistance afin de prévenir les techniciens {{site.data.keyword.BluSoftlayer}} de l'arrivée prochaine du périphérique et de leur permettre de suivre l'expédition. Lorsqu'{{site.data.keyword.BluSoftlayer}} reçoit le périphérique, les techniciens le connectent à l'armoire dédiée. Une fois le périphérique connecté, le ticket est mis à jour afin de vous fournir un lien vers vos données d'identification de connexion pour la cible iSCSI.
 
 ## Demande de retour
-Si vous avez fourni une adresse de retour et inclut l'étiquette de retour prépayée dans le colis, vous pouvez demander que le périphérique vous soit renvoyé n'importe quand pendant le délai des deux semaines du transfert. Vous pouvez soumettre la demande via le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}
+Si vous avez fourni une adresse de retour et inclut l'étiquette de retour prépayée dans le colis, vous pouvez demander que le périphérique vous soit renvoyé n'importe quand pendant le délai des deux semaines du transfert. Vous pouvez soumettre la demande via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}.
 
 1. Sélectionnez **Stockage** > **Migration de données** > **Transfert de données**.
-2. Dans le menu **Action** de votre périphérique, sélectionnez **Demander un retour**. 
+2. Dans le menu **Action** de votre périphérique, sélectionnez **Demander un retour**.
 
 Un message est alors envoyé aux techniciens {{site.data.keyword.BluSoftlayer}} afin de les informer qu'ils doivent déconnecter le périphérique et vous le renvoyer.
 
 ## Demande d'extension
-Une fois la période de deux semaines gratuites écoulée, si vous avez encore besoin d'utiliser votre périphérique, vous devez faire une demande d'extension via le portail [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. Un message est alors envoyé aux techniciens {{site.data.keyword.BluSoftlayer}} afin de les informer que vous souhaitez étendre la durée de connexion du périphérique. 
+Une fois la période de deux semaines gratuites écoulée, si vous avez encore besoin d'utiliser votre périphérique, vous devez faire une demande d'extension via le portail [{{site.data.keyword.slportal}} ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://control.softlayer.com/){:new_window}. Un message est alors envoyé aux techniciens {{site.data.keyword.BluSoftlayer}} afin de les informer que vous souhaitez étendre la durée de connexion du périphérique.
 
 1. Sélectionnez **Stockage** > **Migration de données** > **Transfert de données**.
-2. Dans le menu **Action** du périphérique, sélectionnez **Demander une extension**. 
+2. Dans le menu **Action** du périphérique, sélectionnez **Demander une extension**.
 
 Chaque semaine supplémentaire induit des frais de service obligatoires d'un montant de $25. Votre demande d'extension est susceptible d'être refusée selon l'espace disponible dans le centre de données. Lorsque la demande est acceptée, le ticket est mis à jour.
 

@@ -1,22 +1,23 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-22"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Ordenar o filtrar la lista de envíos
+{: #sortingshipments}
 
-La pantalla de envíos de la [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} muestra los envíos asociados con las solicitudes de servicio de transferencia de datos. Se mostrarán las solicitudes de envío de los últimos 30 días. Los envíos pueden ordenarse y filtrarse para ver envíos más antiguos o tipos de envío concretos. 
+La pantalla de envíos de la [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window} muestra los envíos que están asociados a las solicitudes de servicio de transferencia de datos. Se mostrarán las solicitudes de envío de los últimos 30 días. Los envíos pueden ordenarse y filtrarse para ver envíos más antiguos o tipos de envío concretos.
 
-## Cómo ordenar o filtrar la lista de envíos
+## Ordenación y filtrado
 
-1. Acceda a la pantalla de envíos de [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
+1. Acceda a la pantalla de envíos de [{{site.data.keyword.slportal}} ![Icono de enlace externo](../../icons/launch-glyph.svg "Icono de enlace externo")](https://control.softlayer.com/){:new_window}.
 2. Determine si debe filtrarse la vista para obtener detalles concretos u ordenarse por estado de envío.
   - Si desea ordenar según el estado del envío, puede seleccionar una de las opciones siguientes de la lista **Visualizar**: **Solicitudes de envío abiertas**, **Solicitudes de envío cerradas**, **Solicitudes de envío canceladas** o **Todas las solicitudes de envío**.
-  - Si desea filtrar por detalles específicos, seleccione una o varias de las *opciones de filtro** disponibles y pulse **Filtrar**.
+  - Si desea filtrar por detalles específicos, seleccione una o varias de las **opciones de filtro** disponibles y pulse **Filtrar**.
 
 
 ![Pantalla de envíos DTS](/images/DTSShipmentScreen.PNG)
@@ -33,8 +34,6 @@ La pantalla de envíos de la [{{site.data.keyword.slportal}}](https://control.so
 </table>
 
 
-## Qué sucede a continuación
-
-Después de filtrar la lista de envíos, en la lista de envío se muestran todos los envíos que se corresponden con los parámetros establecidos por el filtro. Pulse **Modificar** y actualice las opciones de filtro si desea modificar la lista. Para borrar todos los parámetros establecidos por el filtro, pulse **Borrar todo**. 
+Después de filtrar la lista de envíos, en la lista de envío se muestran todos los envíos que se corresponden con los parámetros establecidos por el filtro. Pulse **Modificar** y actualice las opciones de filtro si desea modificar la lista. Para borrar todos los parámetros establecidos por el filtro, pulse **Borrar todo**.
 
 Si los resultados se han ordenado por el estado del envío, se muestran todos los envíos que coinciden con el estado seleccionado. Seleccione un estado nuevo en la lista para actualizar los resultados mostrados en cualquier momento.

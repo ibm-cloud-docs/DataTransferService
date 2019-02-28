@@ -1,11 +1,11 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DataTransferService" audience="services" href="/docs/infrastructure/DataTransferService/index.html"}
+{: .toc subcollection="DataTransferService" audience="services" href="/docs/infrastructure/DataTransferService?topic=DataTransferService-gettingstarted" path="infrastructure/DataTransferService"}
 IBM Cloud Storage - Serviço Data Transfer
 
     {: .navgroup id="learn"}
-    index.md
+    getting-started.md
     what-media-data-transfer-service.md
 
     {: .topicgroup}
@@ -20,5 +20,5 @@ IBM Cloud Storage - Serviço Data Transfer
     {: .navgroup-end}
 
     {: .navgroup id="help"}
-    data-transfer-service-faq.md
+    faqs.md
     {: .navgroup-end}

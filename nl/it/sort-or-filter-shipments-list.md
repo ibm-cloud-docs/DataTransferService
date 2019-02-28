@@ -1,22 +1,23 @@
 ---
 
 copyright:
-  years: 1994, 2018
-lastupdated: "2018-05-22"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
 {:new_window: target="_blank"}
 
 # Ordinamento o filtraggio dell'elenco spedizioni
+{: #sortingshipments}
 
-La schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window} visualizza le spedizioni associate alle richieste del servizio di trasferimento dati. Vengono visualizzate tutte le richieste di spedizione degli ultimi 30 giorni. Le spedizioni possono essere ordinate e filtrate per visualizzare spedizioni meno recenti o specifici tipi di spedizione. 
+La schermata Shipments nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window} visualizza le spedizioni associate alle richieste del servizio di trasferimento dati.Vengono visualizzate tutte le richieste di spedizione degli ultimi 30 giorni. Le spedizioni possono essere ordinate e filtrate per visualizzare spedizioni meno recenti o specifici tipi di spedizione.
 
-## Come ordinare o filtrare l'elenco spedizioni
+## Ordinamento e filtro
 
-1. Accedi alla schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.softlayer.com/){:new_window}. 
+1. Accedi alla schermata Shipments nel [{{site.data.keyword.slportal}} ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://control.softlayer.com/){:new_window}.
 2. Determina se la vista deve essere filtrata per dei dettagli specifici oppure ordinata in base allo stato della spedizione.
   - Se vuoi ordinare in base allo stato di spedizione, puoi selezionare una delle seguenti opzioni dall'elenco **Display**: **Open Shipping Requests**, **Closed Shipping Requests**, **Canceled Shipping Requests** o **All Shipping Requests**.
-  - Se vuoi filtrare in base a specifici dettagli, seleziona una o più delle *opzioni di filtro** disponibili e fai clic su **Filter**.
+  - Se vuoi filtrare in base a specifici dettagli, seleziona una o più delle **opzioni di filtro** disponibili e fai clic su **Filter**.
 
 
 ![Schermata DTS Shipment](/images/DTSShipmentScreen.PNG)
@@ -33,8 +34,6 @@ La schermata Shipments nel [{{site.data.keyword.slportal}}](https://control.soft
 </table>
 
 
-## Cosa succede poi
-
-Dopo che hai filtrato l'elenco spedizioni, in esso vengono visualizzate tutte le spedizioni che corrispondono ai parametri impostati dal filtro. Se vuoi modificare l'elenco, fai clic su **Modify** e aggiorna le opzioni di filtro. Per cancellare tutti i parametri impostati dal filtro, fai clic su **Clear All**. 
+Dopo che hai filtrato l'elenco spedizioni, in esso vengono visualizzate tutte le spedizioni che corrispondono ai parametri impostati dal filtro. Se vuoi modificare l'elenco, fai clic su **Modify** e aggiorna le opzioni di filtro. Per cancellare tutti i parametri impostati dal filtro, fai clic su **Clear All**.
 
 Se i risultati sono stati ordinati in base allo stato di spedizione, vengono visualizzate tutte le spedizioni che rientrano nello stato selezionato. Seleziona un nuovo stato dall'elenco per aggiornare i risultati visualizzati in qualsiasi momento.

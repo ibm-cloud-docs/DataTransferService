@@ -1,13 +1,14 @@
 ---
 
 copyright:
-  years: 2017, 2018
-lastupdated: "2018-06-27"
+  years: 2017, 2019
+lastupdated: "2019-02-05"
 
 ---
-{:new_window: target="_blank"}
+
 
 # Connexion au périphérique DTS sous Windows via l'initiateur logiciel iSCSI
+{: #mountingDTSWindows}
 
 Pour interagir avec un numéro d'unité logique iSCSI sous Windows, les utilisateurs doivent se connecter à la mémoire à l'aide de l'initiateur logiciel iSCSI, l'outil iSCSI propriétaire de Microsoft. Pour les utilisateurs de Windows Server 2008, Windows Vista ou des versions ultérieures, l'initiateur logiciel iSCSI est intégré au système d'exploitation. Les utilisateurs de Windows Server 2003, Windows XP et Windows 2000 doivent télécharger l'initiateur avant de commencer la procédure ci-dessous.
 
@@ -37,4 +38,4 @@ Pour interagir avec un numéro d'unité logique iSCSI sous Windows, les utilisat
     - Cliquez deux fois sur **OK**.
 15. Vérifiez que la nouvelle cible iSCSI apparaît avec l'état Connected sur l'onglet Targets.
     - Si votre cible iSCSI a pour état **Connected**, cliquez sur **OK**. Votre numéro d'unité logique iSCSI est désormais connecté.
-    - Si votre cible iSCSI n'est pas à l'état**Connected**, répétez toutes les étapes précédentes pour réinitialiser la connexion.
+    - Si votre cible iSCSI n'est pas à l'état **Connected**, répétez toutes les étapes précédentes pour réinitialiser la connexion.
