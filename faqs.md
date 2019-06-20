@@ -21,7 +21,7 @@ This service allows authorized users (generally the account's administrator) to 
 ## Can a device for data transfer be sent internationally?
 {: faq}
 
-Hardware and disks can be sent both domestically and internationally to any of the {{site.data.keyword.BluSoftlayer}} data centers. However, you as the Client are responsible for:
+Hardware can be sent both domestically and internationally to any of the {{site.data.keyword.BluSoftlayer}} data centers. However, you as the Client are responsible for:
 
 - Ensuring that no import or export license is required to ship the Device to the {{site.data.keyword.IBM}} data center, or to return it to Client (if applicable);
 - Ensuring that Client or any Client user whose data is included in the Content is not subject to any US Government order that revokes or denies their US export privileges. You must notify {{site.data.keyword.IBM}} immediately if your enterprise or any such user becomes subject to any such order;
@@ -50,21 +50,21 @@ Use the following guidelines when you select a device to submit for data transfe
 ## Can the device be sent back sooner or can it stay longer than two weeks?
 {: faq}
 
-Yes, your hardware or disks can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request ticket with the appropriate request. If you request a return, {{site.data.keyword.BluSoftlayer}} disconnects and returns the hardware or disks to the return address provided in the original request by using the pre-paid shipping labels and packaging you provided.
+Yes, your hardware can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request ticket with the appropriate request. If you request a return, {{site.data.keyword.BluSoftlayer}} disconnects and returns the hardware to the return address provided in the original request by using the pre-paid shipping labels and packaging you provided.
 
 If you request an extension, the extension request will be processed as quickly as possible. It's important to note that each extension request extends the time that the device is connected for one week and can be subject to an extension fee. More details will be included when a member of the {{site.data.keyword.BluSoftlayer_full}} team responds to the request in the original ticket.
 
-Each status on the data transfer ticket indicates the phase of the transfer process for the hardware or disks that were submitted to the data center. Refer to the table for specific details on each status:
+Each status on the data transfer ticket indicates the phase of the transfer process for the hardware that was submitted to the data center. Refer to the table for specific details on each status:
 
 |Status 	| Definition |
 |---------| -----------|
-|`Sent To SoftLayer` |The Data Transfer Request was submitted by the user and the hardware or disks are being shipped to the selected data center.|
+|`Sent To SoftLayer` |The Data Transfer Request was submitted by the user and the hardware is being shipped to the selected data center.|
 |`Received by SoftLayer` |	The shipment was received by the data center, the device was assigned a serial number and was scanned into the {{site.data.keyword.BluSoftlayer}} system.|
-|`Connect` |	The hardware or disk is connected to the device.|
+|`Connect` |	The hardware is connected to the device.|
 |`Connected` |	An iSCSI target is created for the device.|
 |`Request for Extension` | Client requested an extension on the two-week connection time.|
-|`Request for Return` | Client requested the return of hardware or disks.|
-|`Disconnect` |	Disconnection of hardware or disks was initiated.|
+|`Request for Return` | Client requested the return of hardware.|
+|`Disconnect` |	Disconnection of hardware was initiated.|
 |`Disconnected` |	Target is safely detached.|
 |`Destroyed` | The device was destroyed on site by following the {{site.data.keyword.BluSoftlayer}} HDD destruction procedure.|
-|`Return by SoftLayer` |	Hardware or disks was packaged and shipped to the return address provided in the original request.|
+|`Return by SoftLayer` |	Hardware was packaged and shipped to the return address provided in the original request.|
