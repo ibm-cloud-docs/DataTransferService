@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-20"
 
 keywords:
 
@@ -35,7 +35,7 @@ Include a pre-paid return shipping label and all appropriate export documents wi
 ## What types of devices can be sent with a data transfer request?
 {: faq}
 
-Use the following guidelines when you select a device or disk (CD or DVD) to submit for data transfer:
+Use the following guidelines when you select a device to submit for data transfer:
 
 - **Hardware Requirements**
 
@@ -46,12 +46,6 @@ Use the following guidelines when you select a device or disk (CD or DVD) to sub
    - Device must be USB 2.0 or USB 3.0 compatible.
 
    - Provide a USB A Male connector (standard USB plug that fits most computers).
-
-- **CD/DVD Requirements**
-
-   - Disks must be submitted in CD books, jewel cases, or similar container. If you want to submit multiple disks, store disks together in a single case or CD book.
-
-   - Each disk must be clearly and uniquely labeled.
 
 ## Can the device be sent back sooner or can it stay longer than two weeks?
 {: faq}

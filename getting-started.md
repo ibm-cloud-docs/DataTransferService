@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-20"
 
 keywords:
 
@@ -14,7 +14,7 @@ subcollection: DataTransferService
 # Getting started tutorial
 {: #gettingstarted}
 
-Customers can use the {{site.data.keyword.BluSoftlayer_full}} data transfer service to send a USB 2.0 or USB 3.0 compatible device, CDs, and DVDs to a {{site.data.keyword.BluSoftlayer}} data center. Their device is connected directly to their network so they can remotely control the data transfer. The device is housed in a dedicated rack that is located in the customers data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.BluSoftlayer}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.BluSoftlayer}} customers.
+Customers can use the {{site.data.keyword.BluSoftlayer_full}} data transfer service to send a USB 2.0 or USB 3.0 compatible device to a {{site.data.keyword.BluSoftlayer}} data center. Their device is connected directly to their network so they can remotely control the data transfer. The device is housed in a dedicated rack that is located in the customers data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.BluSoftlayer}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.BluSoftlayer}} customers.
 
 ## Accessing the data transfer service screen
 
@@ -63,7 +63,7 @@ After the device is received, the status is updated to `Received by SoftLayer`. 
 The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/) when transfer is complete. Then, {{site.data.keyword.BluSoftlayer}} detaches the Device and either returns it or destroys it depending on what you requested.
 
 
-## Accessing the Shipments Screen
+## Accessing the Shipments screen
 
 The Shipments screen within the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} displays all shipments that are associated with data transfer service requests. From this screen, you can view shipments and you can confirm return shipments upon receipt.
 

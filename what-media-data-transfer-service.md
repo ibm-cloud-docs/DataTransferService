@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-06-20"
 
 keywords:
 
@@ -14,20 +14,17 @@ subcollection: DataTransferService
 # Introducing the media data transfer service
 {: #mediaDTS}
 
-With the data transfer service, you can send a USB 2.0 or 3.0 compatible device, CDs, and DVDs to a {{site.data.keyword.BluSoftlayer_full}} data center to be connected directly to your network. The device is housed in a dedicated rack and is mounted as an iSCSI target. Advanced Format drives are now supported as well.
+With the data transfer service, you can send a USB 2.0 or 3.0 compatible device to a {{site.data.keyword.BluSoftlayer_full}} data center to be connected directly to your network. The device is housed in a dedicated rack and is mounted as an iSCSI target. Advanced Format drives are now supported as well.
 
-## Hardware Requirements
+## Hardware requirements
 1.    Device must have a power supply that is 208v/220v compatible
 2.    Device must have a power plug that fits a standard 120v socket (NEMA 5-15P)
 3.    Device must be USB 2.0 compatible (3.0 is now supported as well)
 4.    Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
-5.    CDS / DVDS
-      - Must be in CD books, cases, jewel cases, or some of form of container. Place them all together in one container (A CD book, for example) is possible. Each disk must be labeled uniquely.
-      - Disks are rotated at the customer’s request through the ticket.
 
 ## Cost to You
-1.    Initial Request for service = $0
-2.    First 2 weeks of Data Transfer = $0
+1.    Initial request for service = $0
+2.    First two weeks of data transfer = $0
       **Note**: $25 per week is charged for extension.
 3.    Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
 
@@ -38,7 +35,7 @@ With the data transfer service, you can send a USB 2.0 or 3.0 compatible device,
 - Complying with all applicable laws that are associated with delivery and return of the Device, and the transfer of Content to the {{site.data.keyword.IBM}} data center. This requirement includes privacy, import, and export laws.
 - Having proper agreements in place with and obtaining all required permissions from the Client’s user for any user data that the Client wants to transfer to the Hardware.
 
-## Making a Request
+## Making a request
 You can submit a request through [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
 
 1. Click **Storage** > **Data Migration** > **Data Transfer**.
@@ -57,7 +54,7 @@ Complete the form with the device's
 
 This request creates a support ticket to alert the {{site.data.keyword.BluSoftlayer}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.BluSoftlayer}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
 
-## Requesting a Return
+## Requesting a return
 If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you any time during the two-week transfer period. You can submit the request through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
@@ -65,7 +62,7 @@ If you provided a return address and included the pre-paid shipping label in the
 
 This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want the device to be disconnected and sent back to you.
 
-## Requesting an Extension
+## Requesting an extension
 After your two-week free period, if you still require use of your device you must request an extension through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want to extend the time that the device is connected.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**
@@ -73,5 +70,5 @@ After your two-week free period, if you still require use of your device you mus
 
 Each extra week incurs a service fee of $25 that must be paid. Your extension request might be denied depending on the available space in the data center. When the request is granted, the ticket is updated.
 
-## Disconnecting the Device
+## Disconnecting the device
 After the two-week period, the device is automatically be disconnected from the data center. If you requested a return, then your device is returned to you by the carrier you chose and to the return address you specified in the initial request. The ticket is updated stating that the device was disconnected. If you didn't request the return of your device, then it is destroyed onsite.
