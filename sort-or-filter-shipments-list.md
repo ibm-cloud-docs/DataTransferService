@@ -9,7 +9,16 @@ keywords:
 subcollection: DataTransferService
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Sorting or filtering the shipments list
 {: #sortingshipments}

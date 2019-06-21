@@ -10,13 +10,23 @@ subcollection: DataTransferService
 
 ---
 
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Connecting to DTS Device in Windows with iSCSI Software Initiator
-{: #mountingDTSWindows}
+{: #mount-dts-windows}
 
 To interact with an iSCSI LUN in Windows, users must connect to the storage by using the iSCSI Software Initiator, a proprietary iSCSI tool of Microsoft. For users of Windows Server 2008, or Windows Vista or newer versions, the iSCSI Software Initiator is built into the operating system. Users of Windows Server 2003, Windows XP, and Windows 2000 must download the Initiator before they start this procedure.
 
 ## Connecting to an iSCSI LUN
+{: #connect-dts-iscsi}
 
 1. From the {{site.data.keyword.slportal}}, retrieve the **iSCSI user name, password, and storage address** for the storage device you want to connect.
 2. Start the iSCSI Initiator.

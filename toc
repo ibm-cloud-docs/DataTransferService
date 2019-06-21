@@ -6,11 +6,7 @@ IBM Cloud Storage - Data Transfer Service
 
     {: .navgroup id="learn"}
     getting-started.md
-    what-media-data-transfer-service.md
-
-    {: .topicgroup}
-    Related links
-        [Control Portal](https://control.softlayer.com/)
+    about.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}

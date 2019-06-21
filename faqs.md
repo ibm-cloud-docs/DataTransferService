@@ -9,6 +9,16 @@ keywords:
 subcollection: DataTransferService
 
 ---
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 {:faq: data-hd-content-type='faq'}
 
 # FAQs

@@ -9,7 +9,16 @@ keywords:
 subcollection: DataTransferService
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Getting started tutorial
 {: #gettingstarted}
@@ -17,21 +26,23 @@ subcollection: DataTransferService
 Customers can use the {{site.data.keyword.BluSoftlayer_full}} data transfer service to send a USB 2.0 or USB 3.0 compatible device to a {{site.data.keyword.BluSoftlayer}} data center. Their device is connected directly to their network so they can remotely control the data transfer. The device is housed in a dedicated rack that is located in the customers data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.BluSoftlayer}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.BluSoftlayer}} customers.
 
 ## Accessing the data transfer service screen
+{: #access-dts-screen}
 
 **Note**: this screen is only available to the master user of the account.
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} with your unique credentials.
+1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} with your unique credentials.
 2. Select **Storage** > **Data Migration** > **Data Transfer** from the Navigation Bar to access the Data Transfer Service screen. <br/>
 
 On the **Data Transfer Service** screen, users can submit a data transfer request, view details of a request, view the ticket history that is associated with the device tracking, and cancel an existing request.
 
 ## Submitting a data transfer request
+{: #submit-dts-request}
 
-Data transfer requests are designed to let the appropriate parties in our data centers know to expect a shipment from a client. Requests are submitted through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+Data transfer requests are designed to let the appropriate parties in our data centers know to expect a shipment from a client. Requests are submitted through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 
 When you create a request, keep the following guidelines in mind.
 
-- Ensure that the device you want to send meets all [hardware requirements](/docs/infrastructure/DataTransferService/data-transfer-service-faq.html).
+- Ensure that the device you want to send meets all [hardware requirements](/docs/infrastructure/DataTransferService?topic=DataTransferService-about#hardware-requirements).
 - Only one device can be associated with one request. If you want to send multiple devices, you must create a new request for each device.
 - If the device is to be returned, provide a pre-paid shipping label and export documents as needed in the package so that the device can be returned after the transfer period.
 - If you're shipping the device internationally, you're responsible to obtain all licensing, shipping, and customs clearance for the Device. Your responsibilities include paying any duties, taxes, and shipping costs to and from (if applicable) the {{site.data.keyword.BluSoftlayer}} data center.
@@ -39,7 +50,7 @@ When you create a request, keep the following guidelines in mind.
 
 Follow these steps to submit a data transfer request.
 
-1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 2. Click **Order Data Transfer Request**.
 3. Complete each field in the **Device Information** section according to the table 1.
 <table border="1">
@@ -64,13 +75,14 @@ The initial data transfer period is two weeks. During this time, access to the d
 
 
 ## Accessing the Shipments screen
+{: #access-shipments-screen}
 
-The Shipments screen within the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} displays all shipments that are associated with data transfer service requests. From this screen, you can view shipments and you can confirm return shipments upon receipt.
+The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} displays all shipments that are associated with data transfer service requests. From this screen, you can view shipments and you can confirm return shipments upon receipt.
 
 To access the Shipments screen:
 
-1. Access the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} using your unique credentials.
+1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} using your unique credentials.
 2. Select **Account** > **Manage** > **Shipments** from the Navigation Bar.
 
-On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be [sorted or filtered](sort-or-filter-shipments-list.html) by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
+On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be [sorted or filtered](/docs/infrastructure/DataTransferService?topic=DataTransferService-sort-or-filter-shipments-list) by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
 ![Shipments Screen](/images/DTSShipmentScreen1.png)

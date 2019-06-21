@@ -9,7 +9,16 @@ keywords:
 subcollection: DataTransferService
 
 ---
-{:new_window: target="_blank"}
+
+{:shortdesc: .shortdesc}
+{:screen: .screen}
+{:pre: .pre}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:codeblock: .codeblock}
+{:tip: .tip}
+{:note: .note}
+{:important: .important}
 
 # Introducing the media data transfer service
 {: #mediaDTS}
@@ -17,12 +26,16 @@ subcollection: DataTransferService
 With the data transfer service, you can send a USB 2.0 or 3.0 compatible device to a {{site.data.keyword.BluSoftlayer_full}} data center to be connected directly to your network. The device is housed in a dedicated rack and is mounted as an iSCSI target. Advanced Format drives are now supported as well.
 
 ## Hardware requirements
+{: #hardware-requirements}
+
 1.    Device must have a power supply that is 208v/220v compatible
 2.    Device must have a power plug that fits a standard 120v socket (NEMA 5-15P)
 3.    Device must be USB 2.0 compatible (3.0 is now supported as well)
 4.    Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
 
-## Cost to You
+## Pricing
+{: #pricing}
+
 1.    Initial request for service = $0
 2.    First two weeks of data transfer = $0
       **Note**: $25 per week is charged for extension.
@@ -36,7 +49,9 @@ With the data transfer service, you can send a USB 2.0 or 3.0 compatible device 
 - Having proper agreements in place with and obtaining all required permissions from the Client’s user for any user data that the Client wants to transfer to the Hardware.
 
 ## Making a request
-You can submit a request through [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}
+{: #make-request}
+
+You can submit a request through [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 
 1. Click **Storage** > **Data Migration** > **Data Transfer**.
 2. Click **Order Data Transfer Request**.
@@ -55,7 +70,9 @@ Complete the form with the device's
 This request creates a support ticket to alert the {{site.data.keyword.BluSoftlayer}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.BluSoftlayer}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
 
 ## Requesting a return
-If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you any time during the two-week transfer period. You can submit the request through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}.
+{: #request-return}
+
+If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you any time during the two-week transfer period. You can submit the request through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. From the **Action** menu of your device, select **request return**.
@@ -63,7 +80,9 @@ If you provided a return address and included the pre-paid shipping label in the
 This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want the device to be disconnected and sent back to you.
 
 ## Requesting an extension
-After your two-week free period, if you still require use of your device you must request an extension through the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window}. This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want to extend the time that the device is connected.
+{: #request-extension}
+
+After your two-week free period, if you still require use of your device you must request an extension through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want to extend the time that the device is connected.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**
 2. In the **Action** menu for the device, select **request extension**.
@@ -71,4 +90,6 @@ After your two-week free period, if you still require use of your device you mus
 Each extra week incurs a service fee of $25 that must be paid. Your extension request might be denied depending on the available space in the data center. When the request is granted, the ticket is updated.
 
 ## Disconnecting the device
+{: #disconnect-device}
+
 After the two-week period, the device is automatically be disconnected from the data center. If you requested a return, then your device is returned to you by the carrier you chose and to the return address you specified in the initial request. The ticket is updated stating that the device was disconnected. If you didn't request the return of your device, then it is destroyed onsite.
