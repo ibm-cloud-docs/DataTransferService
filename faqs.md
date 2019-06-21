@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-06-21"
 
 keywords:
 
@@ -38,14 +38,13 @@ Include a pre-paid return shipping label and all appropriate export documents wi
 Use the following guidelines when you select a device to submit for data transfer:
 
 - **Hardware Requirements**
-
    - Power supply must be 208v/220v compatible.
-
    - Power plug must fit a standard 120v socket (NEMA 5-15P).
-
    - Device must be USB 2.0 or USB 3.0 compatible.
+   - Provide a USB A male connector (standard USB plug that fits most computers).
 
-   - Provide a USB A Male connector (standard USB plug that fits most computers).
+Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
+{: note}
 
 ## Can the device be sent back sooner or can it stay longer than two weeks?
 {: faq}
