@@ -28,18 +28,22 @@ With the data transfer service, you can send a USB 2.0 or 3.0 compatible device 
 ## Hardware requirements
 {: #hardware-requirements}
 
-1.    Device must have a power supply that is 208v/220v compatible
-2.    Device must have a power plug that fits a standard 120v socket (NEMA 5-15P)
-3.    Device must be USB 2.0 compatible (3.0 is now supported as well)
-4.    Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
+1. Device must have a power supply that is 208v/220v compatible
+2. Device must have a power plug that fits a standard 120v socket (NEMA 5-15P)
+3. Device must be USB 2.0 compatible (3.0 is now supported as well)
+4. Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
+
+  Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
+  {: note}
+
 
 ## Pricing
 {: #pricing}
 
-1.    Initial request for service = $0
-2.    First two weeks of data transfer = $0
+1. Initial request for service = $0
+2. First two weeks of data transfer = $0
       **Note**: $25 per week is charged for extension.
-3.    Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
+3. Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
 
 **Note**: Client is responsible for
 - Ensuring no import or export license is required to send the Device to the {{site.data.keyword.IBM}} data center, or to return it to Client (if applicable).
