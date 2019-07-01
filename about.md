@@ -20,7 +20,7 @@ subcollection: DataTransferService
 {:note: .note}
 {:important: .important}
 
-# About the Data Transfer Service
+# About Data Transfer Service
 {: #mediaDTS}
 
 With the {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 or 3.0 compatible device to a {{site.data.keyword.cloud_notm}} data center to be connected directly to your network. The device is housed in a dedicated rack and is mounted as an iSCSI target. Advanced Format drives are now supported as well.
