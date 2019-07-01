@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-01"
 
 keywords:
 
@@ -20,10 +20,10 @@ subcollection: DataTransferService
 {:note: .note}
 {:important: .important}
 
-# Introducing the media data transfer service
+# About the Data Transfer Service
 {: #mediaDTS}
 
-With the data transfer service, you can send a USB 2.0 or 3.0 compatible device to a {{site.data.keyword.BluSoftlayer_full}} data center to be connected directly to your network. The device is housed in a dedicated rack and is mounted as an iSCSI target. Advanced Format drives are now supported as well.
+With the {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 or 3.0 compatible device to a {{site.data.keyword.cloud_notm}} data center to be connected directly to your network. The device is housed in a dedicated rack and is mounted as an iSCSI target. Advanced Format drives are now supported as well.
 
 ## Hardware requirements
 {: #hardware-requirements}
@@ -45,7 +45,8 @@ With the data transfer service, you can send a USB 2.0 or 3.0 compatible device 
       **Note**: $25 per week is charged for extension.
 3. Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
 
-**Note**: Client is responsible for
+As the Client, you are responsible for:
+
 - Ensuring no import or export license is required to send the Device to the {{site.data.keyword.IBM}} data center, or to return it to Client (if applicable).
 - Ensuring that Client or any Client user whose data is included in the Content is not subject to any US Government order that revokes or denies their US export privileges. Notify {{site.data.keyword.IBM}} immediately if Client or any such user becomes subject to any such order.
 - Obtaining all licensing, shipping, and customs clearance for the Device. Client responsibilities include paying any duties, taxes, and shipping costs to and from (if applicable) the {{site.data.keyword.IBM}} data center.

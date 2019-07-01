@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-20"
+lastupdated: "2019-07-01"
 
 keywords:
 
@@ -23,7 +23,7 @@ subcollection: DataTransferService
 # Getting started tutorial
 {: #gettingstarted}
 
-Customers can use the {{site.data.keyword.BluSoftlayer_full}} data transfer service to send a USB 2.0 or USB 3.0 compatible device to a {{site.data.keyword.BluSoftlayer}} data center. Their device is connected directly to their network so they can remotely control the data transfer. The device is housed in a dedicated rack that is located in the customers data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.BluSoftlayer}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.BluSoftlayer}} customers.
+You can use the {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to a {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.BluSoftlayer}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.BluSoftlayer}} customers.
 
 ## Accessing the data transfer service screen
 {: #access-dts-screen}
@@ -33,7 +33,7 @@ Customers can use the {{site.data.keyword.BluSoftlayer_full}} data transfer serv
 1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} with your unique credentials.
 2. Select **Storage** > **Data Migration** > **Data Transfer** from the Navigation Bar to access the Data Transfer Service screen. <br/>
 
-On the **Data Transfer Service** screen, users can submit a data transfer request, view details of a request, view the ticket history that is associated with the device tracking, and cancel an existing request.
+On the **Data Transfer Service** screen, you can submit a data transfer request, view details of a request, view the ticket history that is associated with the device tracking, and cancel an existing request.
 
 ## Submitting a data transfer request
 {: #submit-dts-request}
