@@ -28,14 +28,13 @@ With the {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2
 ## Hardware requirements
 {: #hardware-requirements}
 
-1. Device must have a power supply that is 208v/220v compatible
-2. Device must have a power plug that fits a standard 120v socket (NEMA 5-15P)
-3. Device must be USB 2.0 compatible (3.0 is now supported as well)
-4. Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
+- Device must have a power supply that is 208v/220v compatible
+- Device must have a power plug that fits a standard 120v socket (NEMA 5-15P)
+- Device must be USB 2.0 compatible (3.0 is now supported as well)
+- Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
 
   Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
   {: note}
-
 
 ## Pricing
 {: #pricing}
