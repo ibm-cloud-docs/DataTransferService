@@ -61,7 +61,7 @@ You can submit a request through [{{site.data.keyword.slportal}}](https://contro
 1. Click **Storage** > **Data Migration** > **Data Transfer**.
 2. Click **Order Data Transfer Request**.
 
-![Making a Data Transfer Request](/images/DTS.png)
+    ![Making a Data Transfer Request](images/DTS.png)
 
 Complete the form with the device's
 1. Serial number
@@ -72,7 +72,7 @@ Complete the form with the device's
 6. Carrier service that is used
 7. Return address of where you want the device to be sent to after data transfer is finished.
 
-This request creates a support ticket to alert the {{site.data.keyword.BluSoftlayer}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.BluSoftlayer}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
+This request creates a support ticket to alert the {{site.data.keyword.cloud_notm}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.cloud_notm}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
 
 ## Requesting a return
 {: #request-return}
@@ -82,7 +82,7 @@ If you provided a return address and included the pre-paid shipping label in the
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. From the **Action** menu of your device, select **request return**.
 
-This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want the device to be disconnected and sent back to you.
+This update alerts the {{site.data.keyword.cloud_notm}} technicians that you want the device to be disconnected and sent back to you.
 
 ## Requesting an extension
 {: #request-extension}
