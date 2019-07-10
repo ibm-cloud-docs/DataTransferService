@@ -23,7 +23,7 @@ subcollection: DataTransferService
 # Getting started tutorial
 {: #gettingstarted}
 
-You can use the {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to a {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.cloud_notm}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.cloud_notm}} customers.
+You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to a {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.cloud_notm}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.cloud_notm}} customers.
 
 ## Accessing the data transfer service screen
 {: #access-dts-screen}
