@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="DataTransferService" category="storage" audience="services" href="/docs/infrastructure/DataTransferService?topic=DataTransferService-gettingstarted" path="infrastructure/DataTransferService"}
-IBM Cloud Storage - Data Transfer Service
+IBM Cloud Data Transfer Service
 
     {: .navgroup id="learn"}
     getting-started.md

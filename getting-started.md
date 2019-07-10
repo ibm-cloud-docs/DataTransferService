@@ -23,17 +23,18 @@ subcollection: DataTransferService
 # Getting started tutorial
 {: #gettingstarted}
 
-You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to a {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.cloud_notm}}'s private network, and it's a service offered free-of-charge to all {{site.data.keyword.cloud_notm}} customers.
+You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to an {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.cloud_notm}}'s private network, and it's a service that is offered free-of-charge to all {{site.data.keyword.cloud_notm}} customers.
 
-## Accessing the data transfer service screen
+## Accessing the Data Transfer Service screen
 {: #access-dts-screen}
 
-**Note**: this screen is only available to the master user of the account.
+You can manage data transfer requests by using the {{site.data.keyword.slportal}}.
 
-1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} with your unique credentials.
-2. Select **Storage** > **Data Migration** > **Data Transfer** from the Navigation Bar to access the Data Transfer Service screen. <br/>
+1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} with your unique credentials.
+2. Select **Storage** > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
 
-    On the **Data Transfer Service** screen, you can submit a data transfer request, view details of a request, view the ticket history that is associated with the device tracking, and cancel an existing request.
+    The Data Transfer screen is available only to the master user of the account. To access this screen, contact the account owner.
+    {: note} 
 
 ## Submitting a data transfer request
 {: #submit-dts-request}
@@ -54,17 +55,16 @@ Follow these steps to submit a data transfer request.
 2. Click **Order Data Transfer Request**.
 3. Complete each field in the **Device Information** section according to the following table.
 
-
-  | Field | Description |
-  | --- | --- |
-  | Device Type | The type of device that is sent to the esgination. If the device type is not listed, select **Other**. |
-  | Serial Number | The serial number for the device |
-  | Description | A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device. |
-  | Note | Any additional notes about the device or the transfer. |
-  | Destination | The data center that is to receive the device. |
-  | Carrier | The post or express carrier that is used to ship the device to its destination. |
-  | Tracking Number | The full tracking number for the shipment. |
-  {: caption="Table 1. Describes the fields that are required for creating a data transfer request" caption-side="top"}
+    | Field | Description |
+    | --- | --- |
+    | Device Type | The type of device that is sent to the esgination. If the device type is not listed, select **Other**. |
+    | Serial Number | The serial number for the device |
+    | Description | A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device. |
+    | Note | Any additional notes about the device or the transfer. |
+    | Destination | The data center that is to receive the device. |
+    | Carrier | The post or express carrier that is used to ship the device to its destination. |
+    | Tracking Number | The full tracking number for the shipment. |
+    {: caption="Table 1. Describes the fields that are required for creating a data transfer request" caption-side="top"}
 
 4. Complete each field in the **Return Address** section or select the **Company Address** check box to automatically populate the fields with the company address on file.
    
@@ -77,7 +77,7 @@ After you submit the request, the status for the request ticket appears as `Sent
 
 After the device is received, the status is updated to `Received by SoftLayer`. The ticket status is updated again to `Connected` after a data center technician connects the device to the network.
 
-The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/) when transfer is complete. Then, {{site.data.keyword.cloud_notm}} detaches the Device and either returns it or destroys it depending on what you requested.
+The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} when transfer is complete. Then, {{site.data.keyword.cloud_notm}} detaches the device and either returns it or destroys it depending on what you requested.
 
 
 ## Accessing the Shipments screen
