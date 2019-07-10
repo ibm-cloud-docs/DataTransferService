@@ -55,16 +55,16 @@ Follow these steps to submit a data transfer request.
 2. Click **Order Data Transfer Request**.
 3. Complete each field in the **Device Information** section according to the following table.
 
-    | Field | Description |
-    | --- | --- |
-    | Device Type | The type of device that is sent to the esgination. If the device type is not listed, select **Other**. |
-    | Serial Number | The serial number for the device |
-    | Description | A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device. |
-    | Note | Any additional notes about the device or the transfer. |
-    | Destination | The data center that is to receive the device. |
-    | Carrier | The post or express carrier that is used to ship the device to its destination. |
-    | Tracking Number | The full tracking number for the shipment. |
-    {: caption="Table 1. Describes the fields that are required for creating a data transfer request" caption-side="top"}
+      | Field | Description |
+      | --- | --- |
+      | Device Type | The type of device that is sent to the esgination. If the device type is not listed, select **Other**. |
+      | Serial Number | The serial number for the device |
+      | Description | A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device. |
+      | Note | Any additional notes about the device or the transfer. |
+      | Destination | The data center that is to receive the device. |
+      | Carrier | The post or express carrier that is used to ship the device to its destination. |
+      | Tracking Number | The full tracking number for the shipment. |
+      {: caption="Table 1. Describes the fields that are required for creating a data transfer request" caption-side="top"}
 
 4. Complete each field in the **Return Address** section or select the **Company Address** check box to automatically populate the fields with the company address on file.
    
