@@ -55,16 +55,41 @@ Follow these steps to submit a data transfer request.
 2. Click **Order Data Transfer Request**.
 3. Complete each field in the **Device Information** section according to the following table.
 
-      | Field | Description |
-      | --- | --- |
-      | Device Type | The type of device that is sent to the esgination. If the device type is not listed, select **Other**. |
-      | Serial Number | The serial number for the device |
-      | Description | A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device. |
-      | Note | Any additional notes about the device or the transfer. |
-      | Destination | The data center that is to receive the device. |
-      | Carrier | The post or express carrier that is used to ship the device to its destination. |
-      | Tracking Number | The full tracking number for the shipment. |
-      {: caption="Table 1. Describes the fields that are required for creating a data transfer request" caption-side="top"}
+  <table>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Device Type</td>
+      <td>The type of device that is sent to the destination. If the device type is not listed, select <b>Other</b>.</td>
+    </tr>
+    <tr>
+      <td>Serial Number</td>
+      <td>The serial number for the device.</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device.</td>
+    </tr>
+    <tr>
+      <td>Note</td>
+      <td>Any additional notes about the device or the transfer.</td>
+    </tr>
+    <tr>
+      <td>Destination</td>
+      <td>The data center that is to receive the device.</td>
+    </tr>
+    <tr>
+      <td>Carrier</td>
+      <td>The post or express carrier that is used to ship the device to its destination.</td>
+    </tr>
+    <tr>
+      <td>Tracking Number</td>
+      <td>The full tracking number for the shipment.</td>
+    </tr>
+    <caption style="caption-side:bottom;">Table 1. Describes the fields that are required for creating a data transfer request</caption>
+  </table>
 
 4. Complete each field in the **Return Address** section or select the **Company Address** check box to automatically populate the fields with the company address on file.
    
