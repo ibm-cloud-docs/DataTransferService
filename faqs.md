@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-06-21"
+lastupdated: "2019-07-10"
 
 keywords:
 
@@ -22,6 +22,10 @@ subcollection: DataTransferService
 {:faq: data-hd-content-type='faq'}
 
 # FAQs
+{: #faqs}
+
+Frequently asked questions about {{site.data.keyword.cloud}} Data Transfer Service.
+{: shortdesc}
 
 ## What is Data Transfer Service?
 {: faq}
