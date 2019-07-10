@@ -23,7 +23,7 @@ subcollection: DataTransferService
 
 # FAQs
 
-## What is Data Transfer?
+## What is Data Transfer Service?
 {: faq}
 
 This service allows authorized users (generally the account's administrator) to send compatible devices to one of the {{site.data.keyword.BluSoftlayer_full}} data centers to be connected directly to the account's network. The device is housed in a dedicated rack and is mounted as an iSCSI target for two weeks. During that period, the administrator can access the device on the network to use it with other devices and services on the account. After the two-week period, an extension can be requested to keep the device connected to the network. Otherwise, the device is either returned to the party specified in the request; or the device is destroyed onsite.
