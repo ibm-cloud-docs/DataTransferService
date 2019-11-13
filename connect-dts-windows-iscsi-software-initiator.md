@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2019
-lastupdated: "2019-07-10"
+lastupdated: "2019-11-13"
 
 keywords:
 
@@ -31,7 +31,7 @@ To interact with an iSCSI LUN in Windows, you must connect to the storage by usi
 1. From the {{site.data.keyword.slportal}}, retrieve the **iSCSI user name, password, and storage address** for the storage device you want to connect.
 2. Start the iSCSI Initiator.
 3. Click **Discovery**.
-4. In the **Target Portals** section, click **Add**.
+4. In the **Target Portals** section, click **Discover Portal...**.
 5. In the **IP address or DNS name** field, enter the **iSCSI IP address**.
 6. Click **Advanced**.
 7. Update the iSCSI logon information.
