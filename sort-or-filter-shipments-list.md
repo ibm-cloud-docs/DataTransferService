@@ -34,7 +34,7 @@ The Shipments screen within the [{{site.data.keyword.slportal}} ![External link 
   - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.
 
 
-![DTS Shipment Screen](/images/DTSShipmentScreen.PNG)
+![DTS Shipment Screen](/images/DTSShipmentScreen.png)
 
 <table><caption>Table 1 shows the filter options available in the Shipment screen. The left column lists the available options and the right side column provides their descriptions.</caption>
 <tr><th>Filter option</th><th>Entry information</th></tr>
