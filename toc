@@ -1,8 +1,8 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="DataTransferService" category="storage" audience="services" href="/docs/infrastructure/DataTransferService?topic=DataTransferService-gettingstarted" path="infrastructure/DataTransferService"}
-IBM Cloud Data Transfer Service
+{: .toc subcollection="DataTransferService" category="storage" audience="services" href="/docs/DataTransferService?topic=DataTransferService-gettingstarted" path="DataTransferService"}
+Data Transfer Service
 
     {: .navgroup id="learn"}
     getting-started.md
