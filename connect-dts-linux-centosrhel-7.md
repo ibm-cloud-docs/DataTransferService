@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-07-10"
+  years: 2017, 2021
+lastupdated: "2021-05-13"
 
 keywords:
 
@@ -24,6 +24,8 @@ subcollection: DataTransferService
 {: #mount-dts-linux}
 
 To interact with an iSCSI LUN in Linux-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux-based OS is dependent upon the type and version of the OS that is installed on the device.
+
+Before you begin, retrieve the iSCSI user name, password, and storage address for the storage volume that you want to connect from the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
 
 ## Configuring connection in CentOS 7 and RHEL 7
 {: #configure-connection-linux}
