@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-11-13"
+  years: 2017, 2021
+lastupdated: "2021-05-13"
 
 keywords:
 
@@ -28,9 +28,9 @@ You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 
 ## Accessing the Data Transfer Service screen
 {: #access-dts-screen}
 
-You can manage data transfer requests by using the {{site.data.keyword.slportal}}.
+You can manage data transfer requests by using the {{site.data.keyword.cloud_notm}} console.
 
-1. Log in to the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} with your unique credentials.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} with your unique credentials.
 2. Select **Storage** > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
 
     The Data Transfer screen is available only to the master user of the account. To access this screen, contact the account owner.
@@ -39,11 +39,11 @@ You can manage data transfer requests by using the {{site.data.keyword.slportal}
 ## Submitting a data transfer request
 {: #submit-dts-request}
 
-Data transfer requests are designed to let the appropriate parties in our data centers know to expect a shipment from a client. Requests are submitted through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+Data transfer requests are designed to let the appropriate parties in our data centers know to expect a shipment from a client. Requests are submitted through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
 
 When you create a request, keep the following guidelines in mind.
 
-- Ensure that the device you want to send meets all [hardware requirements](/docs/infrastructure/DataTransferService?topic=DataTransferService-about#hardware-requirements).
+- Ensure that the device you want to send meets all [hardware requirements](/docs/DataTransferService?topic=DataTransferService-about#hardware-requirements).
 - Only one device can be associated with one request. If you want to send multiple devices, you must create a new request for each device.
 - If the device is to be returned, provide a pre-paid shipping label and export documents as needed in the package so that the device can be returned after the transfer period.
 - If you're shipping the device internationally, you're responsible to obtain all licensing, shipping, and customs clearance for the Device. Your responsibilities include paying any duties, taxes, and shipping costs to and from (if applicable) the {{site.data.keyword.cloud_notm}} data center.
@@ -51,7 +51,7 @@ When you create a request, keep the following guidelines in mind.
 
 Follow these steps to submit a data transfer request.
 
-1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
 2. Click **Order Data Transfer Request**.
 3. Complete each field in the **Device Information** section according to the following table.
 
@@ -102,18 +102,18 @@ After you submit the request, the status for the request ticket appears as `Sent
 
 After the device is received, the status is updated to `Received by SoftLayer`. The ticket status is updated again to `Connected` after a data center technician connects the device to the network.
 
-The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} when transfer is complete. Then, {{site.data.keyword.cloud_notm}} detaches the device and either returns it or destroys it depending on what you requested.
+The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}when transfer is complete. Then, {{site.data.keyword.cloud_notm}} detaches the device and either returns it or destroys it depending on what you requested.
 
 
 ## Accessing the Shipments screen
 {: #access-shipments-screen}
 
-The Shipments screen within the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} displays all shipments that are associated with data transfer service requests. From this screen, you can view shipments and you can confirm return shipments upon receipt.
+The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} displays all shipments that are associated with data transfer service requests. From this screen, you can view shipments and you can confirm return shipments upon receipt.
 
 To access the Shipments screen:
 
-1. Access the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external} using your unique credentials.
+1. Access the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} using your unique credentials.
 2. Select **Account** > **Manage** > **Shipments** from the Navigation Bar.
 
-On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be [sorted or filtered](/docs/infrastructure/DataTransferService?topic=DataTransferService-sort-or-filter-shipments-list) by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
+On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be [sorted or filtered](/docs/DataTransferService?topic=DataTransferService-sort-or-filter-shipments-list) by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
 ![Shipments Screen](/images/DTSShipmentScreen1.png)
