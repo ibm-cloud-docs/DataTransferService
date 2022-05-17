@@ -8,8 +8,8 @@ toc:
     category: storage_classic
     audience: service
     href: /docs/DataTransferService?topic=DataTransferService-gettingstarted
-    console-page:
-    product-page: 
+    console-page: /classic
+    product-page: https://cloud.ibm.com/docs/DataTransferService?topic=DataTransferService-about
     path: DataTransferService
     label: IBM Cloud Data Transfer Service
 
