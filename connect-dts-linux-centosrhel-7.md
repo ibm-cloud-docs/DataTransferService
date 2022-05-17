@@ -29,14 +29,14 @@ subcollection: DataTransferService
 # Connecting to DTS Device in Linux&reg;for CentOS/RHEL 7
 {: #mount-dts-linux}
 
-To interact with an iSCSI LUN in Linux-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux-based OS is dependent upon the type and version of the OS that is installed on the device.
+To interact with an iSCSI LUN in Linux-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux&reg;-based OS is dependent upon the type and version of the OS that is installed on the device.
 
 Before you begin, retrieve the iSCSI user name, password, and storage address for the storage volume that you want to connect from the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
 
 ## Configuring connection in CentOS 7 and RHEL 7
 {: #configure-connection-linux}
 
-1. Install iSCSI initiator and multipath mapper utilities for Linux.
+1. Install iSCSI initiator and multipath mapper utilities for Linux&reg;.
    ```zsh
    yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath
    ```
