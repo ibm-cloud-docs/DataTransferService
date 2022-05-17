@@ -39,7 +39,7 @@ The Shipments screen within the [{{site.data.keyword.slportal}} ![External link 
    - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.
 
 
-![DTS Shipment Screen](/images/DTSShipmentScreen.png)
+![DTS Shipment Screen](/images/DTSShipmentScreen.png){: caption="Figure 1. shows the shipment screen." caption-side="bottom"}
 
 |Filter option|Entry information|
 |-------------|-----------------|
