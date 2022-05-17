@@ -13,7 +13,6 @@ subcollection: DataTransferService
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:pre: .pre}
-{:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
 {:codeblock: .codeblock}
 {:tip: .tip}

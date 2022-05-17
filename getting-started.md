@@ -13,7 +13,6 @@ subcollection: DataTransferService
 {:shortdesc: .shortdesc}
 {:screen: .screen}
 {:pre: .pre}
-{:table: .aria-labeledby="caption"}
 {:external: target="_blank" .external}
 {:codeblock: .codeblock}
 {:tip: .tip}
@@ -70,7 +69,7 @@ Follow these steps to submit a data transfer request.
    | Destination| The data center that is to receive the device. |
    | Carrier| The post or express carrier that is used to ship the device to its destination. |
    | Tracking Number | The full tracking number for the shipment. |
-   {: caption="Table 1. Table 1. Describes the fields that are required for creating a data transfer request." caption-side="top"}
+   {: caption="Table 1. Describes the fields that are required for creating a data transfer request." caption-side="bottom"}
 
 4. Complete each field in the **Return Address** section or select the **Company Address** check box to automatically populate the fields with the company address on file.
    
