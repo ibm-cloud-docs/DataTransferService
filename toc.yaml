@@ -1,0 +1,52 @@
+#  Name your file `toc.yaml`
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+
+toc:
+  properties:
+    subcollection: DataTransferService
+    category: storage_classic
+    audience: service
+    href: /docs/DataTransferService?topic=DataTransferService-gettingstarted
+    console-page:
+    product-page: 
+    path: DataTransferService
+    label: IBM Cloud Data Transfer Service
+
+#  List your getting started tutorial (getting-started.md) as the first item in the Get started nav group. See https://test.cloud.ibm.com/docs/writing?topic=writing-navigation for more details on the toc design.
+  entries:
+    - navgroup:
+        id: learn
+        topics:
+        - getting-started.md
+        - about.md
+
+    - navgroup:
+        id: howto
+        topics:
+        - sort-or-filter-shipments-list.md
+        - connect-dts-linux-centosrhel-7.md
+        - connect-dts-windows-iscsi-software-initiator.md
+
+    - navgroup:
+        id: reference
+        topics:
+        - topicgroup:
+            label: Identity and Access Management
+            topics:
+            - /account/account-mngclassicinfra
+        - topicgroup:
+            label: Service Level Agreement
+            topics:
+              - link:
+                  label: Service Level Agreements for IBM Cloud (Public Cloud)
+                  href: https://www.ibm.com/support/customer/csol/terms    
+
+    - navgroup:
+        id: help
+        topics:
+        - topicgroup:
+            label: FAQs
+            topics:
+            - faqs.md
+            
