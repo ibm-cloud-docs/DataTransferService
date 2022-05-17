@@ -28,7 +28,7 @@ subcollection: DataTransferService
 # Sorting or filtering the shipments list
 {: #sort-or-filter-shipments-list}
 
-The Shipments screen within the [{{site.data.keyword.slportal}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){: external} displays shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types.
+The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} displays the shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types.
 
 ## Sorting and filtering
 {: #sorting}
@@ -54,6 +54,6 @@ The Shipments screen within the [{{site.data.keyword.slportal}} ![External link 
 {: summary="Table 1 shows the filter options available in the Shipment screen. The left column lists the available options and the right side column provides their descriptions."}
 
 
-After you filtered the Shipments List, all shipments that correspond with the parameters that are set by the filter are displayed in the Shipment List. Click **Modify** and update the filter options if you want to change the list. To clear all parameters that are set by the filter, click **Clear All**.
+After you filtered the Shipments List, all shipments that correspond with the parameters that are set by the filter are displayed in the Shipment List. Click **Modify**, and update the filter options if you want to change the list. To clear all parameters that are set by the filter, click **Clear All**.
 
 If the results were sorted by the shipment status, all shipments that are within the selected status are displayed. Select a new status from the list to update the displayed results at any time.
