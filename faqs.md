@@ -34,11 +34,13 @@ Frequently asked questions about {{site.data.keyword.cloud}} Data Transfer Servi
 
 ## What is Data Transfer Service?
 {: faq}
+{: #DTSdefinition}
 
 This service allows authorized users (generally the account's administrator) to send compatible devices to one of the {{site.data.keyword.BluSoftlayer_full}} data centers to be connected directly to the account's network. The device is housed in a dedicated rack and is mounted as an iSCSI target for two weeks. During that period, the administrator can access the device on the network to use it with other devices and services on the account. After the two-week period, an extension can be requested to keep the device connected to the network. Otherwise, the device is either returned to the party specified in the request; or the device is destroyed onsite.
 
 ## Can a device for data transfer be sent internationally?
 {: faq}
+{: #DTSinternational}
 
 Hardware can be sent both domestically and internationally to any of the {{site.data.keyword.BluSoftlayer}} data centers. However, you as the Client are responsible for:
 
@@ -53,6 +55,7 @@ Include a pre-paid return shipping label and all appropriate export documents wi
 
 ## What types of devices can be sent with a data transfer request?
 {: faq}
+{: #DTSdevices}
 
 Use the following **Hardware Requirements** guidelines when you select a device to submit for data transfer.
 
@@ -66,6 +69,7 @@ Use the following **Hardware Requirements** guidelines when you select a device 
 
 ## Can the device be sent back sooner or can it stay longer than two weeks?
 {: faq}
+{: #DTSreturndate}
 
 Yes, your hardware can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request ticket with the appropriate request. If you request a return, {{site.data.keyword.cloud}} disconnects and returns the hardware to the return address provided in the original request by using the pre-paid shipping labels and packaging you provided.
 
@@ -88,6 +92,6 @@ Each status on the data transfer ticket indicates the phase of the transfer proc
 
 ## Can I mount DTS on VMware ESXi servers?
 {: faq}
-{: #DTStpVMware}
+{: #DTSVMware}
 
 {{site.data.keyword.cloud}} does not support mounting a DTS device on a VMware&reg; VCenter server. You can attach the DTS device to Linux&reg; and Windows&reg; operating systems.
