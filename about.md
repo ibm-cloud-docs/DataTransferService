@@ -19,6 +19,12 @@ subcollection: DataTransferService
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 # About Data Transfer Service
 {: #about}
@@ -33,15 +39,17 @@ With {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 o
 - Device must be USB 2.0 compatible (3.0 is now supported as well)
 - Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
 
-  Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
-  {: note}
+   Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
+   {: note}
 
 ## Pricing
 {: #pricing}
 
 1. Initial request for service = $0
 2. First two weeks of data transfer = $0
-      **Note**: $25 per week is charged for extension.
+   25 per week is charged for extension.
+   {: note}
+   
 3. Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
 
 As the Client, you are responsible for:
@@ -55,10 +63,11 @@ As the Client, you are responsible for:
 ## Making a request
 {: #make-request}
 
-You can submit a request through [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} with your unique credentials.
+2. Select **Classic Infrastrucure** > **Storage** > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
 
-1. Click **Storage** > **Data Migration** > **Data Transfer**.
-2. Click **Order Data Transfer Request**.
+    The Data Transfer screen is available only to the master user of the account. To access this screen, contact the account owner.
+    {: note} 
 
     ![Making a Data Transfer Request](images/DTS.png)
 
