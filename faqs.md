@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-07-10"
+  years: 2017, 2022
+lastupdated: "2022-05-17"
 
 keywords:
 
@@ -64,7 +64,7 @@ Use the following guidelines when you select a device to submit for data transfe
 ## Can the device be sent back sooner or can it stay longer than two weeks?
 {: faq}
 
-Yes, your hardware can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request ticket with the appropriate request. If you request a return, {{site.data.keyword.BluSoftlayer}} disconnects and returns the hardware to the return address provided in the original request by using the pre-paid shipping labels and packaging you provided.
+Yes, your hardware can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request ticket with the appropriate request. If you request a return, {{site.data.keyword.cloud}} disconnects and returns the hardware to the return address provided in the original request by using the pre-paid shipping labels and packaging you provided.
 
 If you request an extension, the extension request will be processed as quickly as possible. It's important to note that each extension request extends the time that the device is connected for one week and can be subject to an extension fee. More details will be included when a member of the {{site.data.keyword.BluSoftlayer_full}} team responds to the request in the original ticket.
 
@@ -73,12 +73,18 @@ Each status on the data transfer ticket indicates the phase of the transfer proc
 |Status 	| Definition |
 |---------| -----------|
 |`Sent To SoftLayer` |The Data Transfer Request was submitted by the user and the hardware is being shipped to the selected data center.|
-|`Received by SoftLayer` |	The shipment was received by the data center, the device was assigned a serial number and was scanned into the {{site.data.keyword.BluSoftlayer}} system.|
+|`Received by SoftLayer` |	The shipment was received by the data center, the device was assigned a serial number and was scanned into the {{site.data.keyword.cloud}} system.|
 |`Connect` |	The hardware is connected to the device.|
 |`Connected` |	An iSCSI target is created for the device.|
 |`Request for Extension` | Client requested an extension on the two-week connection time.|
 |`Request for Return` | Client requested the return of hardware.|
 |`Disconnect` |	Disconnection of hardware was initiated.|
 |`Disconnected` |	Target is safely detached.|
-|`Destroyed` | The device was destroyed on site by following the {{site.data.keyword.BluSoftlayer}} HDD destruction procedure.|
+|`Destroyed` | The device was destroyed on site by following the {{site.data.keyword.cloud}} HDD destruction procedure.|
 |`Return by SoftLayer` |	Hardware was packaged and shipped to the return address provided in the original request.|
+
+## Can I mount DTS on VMware ESXi servers?
+{: faq}
+{: #DTStpVMware}
+
+{{site.data.keyword.cloud}} does not support mounting a DTS device on a VMware&reg; VCenter server. You can attach the DTS device to Linux&reg; and Windows&reg; operating systems.
