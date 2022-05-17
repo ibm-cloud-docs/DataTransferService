@@ -19,7 +19,12 @@ subcollection: DataTransferService
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
-{:faq: data-hd-content-type='faq'}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 # FAQs
 {: #faqs}
@@ -49,9 +54,7 @@ Include a pre-paid return shipping label and all appropriate export documents wi
 ## What types of devices can be sent with a data transfer request?
 {: faq}
 
-Use the following guidelines when you select a device to submit for data transfer:
-
-**Hardware Requirements**
+Use the following **Hardware Requirements** guidelines when you select a device to submit for data transfer.
 
 - Power supply must be 208v/220v compatible.
 - Power plug must fit a standard 120v socket (NEMA 5-15P).

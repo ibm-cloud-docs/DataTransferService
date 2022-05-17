@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2021
-lastupdated: "2021-05-13"
+  years: 2017, 2022
+lastupdated: "2022-05-17"
 
 keywords:
 
@@ -19,6 +19,12 @@ subcollection: DataTransferService
 {:tip: .tip}
 {:note: .note}
 {:important: .important}
+{:DomainName: data-hd-keyref="APPDomain"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:shortdesc: .shortdesc}
+{:ui: .ph data-hd-interface='ui'}
+{:cli: .ph data-hd-interface='cli'}
+{:api: .ph data-hd-interface='api'}
 
 # Getting started tutorial
 {: #gettingstarted}
@@ -54,47 +60,23 @@ Follow these steps to submit a data transfer request.
 1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
 2. Click **Order Data Transfer Request**.
 3. Complete each field in the **Device Information** section according to the following table.
-
-  <table>
-    <tr>
-      <th>Field</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td>Device Type</td>
-      <td>The type of device that is sent to the destination. If the device type is not listed, select <b>Other</b>.</td>
-    </tr>
-    <tr>
-      <td>Serial Number</td>
-      <td>The serial number for the device.</td>
-    </tr>
-    <tr>
-      <td>Description</td>
-      <td>A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device.</td>
-    </tr>
-    <tr>
-      <td>Note</td>
-      <td>Any additional notes about the device or the transfer.</td>
-    </tr>
-    <tr>
-      <td>Destination</td>
-      <td>The data center that is to receive the device.</td>
-    </tr>
-    <tr>
-      <td>Carrier</td>
-      <td>The post or express carrier that is used to ship the device to its destination.</td>
-    </tr>
-    <tr>
-      <td>Tracking Number</td>
-      <td>The full tracking number for the shipment.</td>
-    </tr>
-    <caption style="caption-side:bottom;">Table 1. Describes the fields that are required for creating a data transfer request</caption>
-  </table>
+   
+   |  Field  | Device Type |
+   |---------|-------------|
+   | Device Type |  The type of device that is sent to the destination. If the device type is not listed, select **Other**. |
+   | Serial Number| The serial number for the device.|
+   | Description | A brief description of the device, such as color, labels, stickers, or other characteristics that identify the device. |
+   | Note | Any additional notes about the device or the transfer. |
+   | Destination| The data center that is to receive the device. |
+   | Carrier| The post or express carrier that is used to ship the device to its destination. |
+   | Tracking Number | The full tracking number for the shipment. |
+   {: caption="Table 1. Table 1. Describes the fields that are required for creating a data transfer request." caption-side="top"}
 
 4. Complete each field in the **Return Address** section or select the **Company Address** check box to automatically populate the fields with the company address on file.
    
    Remember to include the prepaid return label and any needed export documents in the package.
    {: note}
+
 5. After you read the service agreement, select the **I have read and agree to the Data Transfer Service Agreement and the Master Service Agreement** check box.
 6. Click **Submit Service Request**.
 
@@ -102,7 +84,7 @@ After you submit the request, the status for the request ticket appears as `Sent
 
 After the device is received, the status is updated to `Received by SoftLayer`. The ticket status is updated again to `Connected` after a data center technician connects the device to the network.
 
-The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}when transfer is complete. Then, {{site.data.keyword.cloud_notm}} detaches the device and either returns it or destroys it depending on what you requested.
+The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}  when transfer is complete. Then, {{site.data.keyword.cloud_notm}} detaches the device and either returns it or destroys it depending on what you requested.
 
 
 ## Accessing the Shipments screen
