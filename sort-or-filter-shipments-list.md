@@ -39,11 +39,11 @@ The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](https
    - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.
 
 
-![DTS Shipment Screen](/images/DTSShipmentScreen.png){: caption="Figure 1. shows the shipment screen." caption-side="bottom"}
+![DTS Shipment Screen](/images/DTSShipmentScreen.png){: caption="Figure 1 shows the shipment screen." caption-side="bottom"}
 
 |Filter option|Entry information|
 |-------------|-----------------|
-|Shipped date|Select the time frame of the shipment.|
+|Shipped date|Select the timeframe of the shipment.|
 |Shipped from|Select the location where the shipment originates from.|
 |Carrier|Select the courier (for example FedEx, UPS, or USPS) that transports the shipment.|
 |Shipment type|Select the type of shipment.|

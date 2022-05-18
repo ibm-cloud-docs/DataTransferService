@@ -34,10 +34,10 @@ With {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 o
 ## Hardware requirements
 {: #hardware-requirements}
 
-- Device must have a power supply that is 208v/220v compatible
-- Device must have a power plug that fits a standard 120v socket (NEMA 5-15P)
-- Device must be USB 2.0 compatible (3.0 is now supported as well)
-- Device must come with USB cable with USB A Male connector (standard plug that fits most computers)
+- Device must have a power supply that is 208v/220v compatible.
+- Device must have a power plug that fits a standard 120v socket (NEMA 5-15P).
+- Device must be USB 2.0 compatible (3.0 is now supported as well).
+- Device must come with USB cable with USB A Male connector (standard plug that fits most computers).
 
    Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
    {: note}
@@ -69,15 +69,15 @@ As the Client, you are responsible for:
     The Data Transfer screen is available only to the master user of the account. To access this screen, contact the account owner.
     {: note} 
 
-    ![Making a Data Transfer Request](images/DTS.png){: caption="Figure 1. shows the page where Data Transfer requests can be made." caption-side="bottom"}
+    ![Making a Data Transfer Request.](images/DTS.png){: caption="Figure 1 shows the page where Data Transfer requests can be made." caption-side="bottom"}
 
-Complete the form with the device's
-1. Serial number
-2. Type
-3. A short description of the device
-4. The data center that you want the device to go to
-5. Tracking number that is used to track the shipment
-6. Carrier service that is used
+Complete the form with the device's information:
+1. Serial number.
+2. Type.
+3. A short description of the device.
+4. The data center that you want the device to go to.
+5. Tracking number that is used to track the shipment.
+6. Carrier service that is used.
 7. Return address of where you want the device to be sent to after data transfer is finished.
 
 This request creates a support ticket to alert the {{site.data.keyword.cloud_notm}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.cloud_notm}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
@@ -97,7 +97,7 @@ This update alerts the {{site.data.keyword.cloud_notm}} technicians that you wan
 
 After your two-week free period, if you still require use of your device you must request an extension through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want to extend the time that the device is connected.
 
-1. Select **Storage** > **Data Migration** > **Data Transfer**
+1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. In the **Action** menu for the device, select **request extension**.
 
 Each extra week incurs a service fee of $25 that must be paid. Your extension request might be denied depending on the available space in the data center. When the request is granted, the ticket is updated.
