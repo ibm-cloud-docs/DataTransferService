@@ -1,8 +1,8 @@
 # Data Transfer Service docs
 This repository stores documentation source files for the Data Transfer service.
 
-- [Jenkins build](https://wcp-ace-docs-jenkins.swg-devops.com/job/Docs-build/job/Docs-build-DataTransferService/)
-- Slack channel: `#docs-datatransferserv`
+- [Jenkins build](https://wcp-docs-team-jenkins.swg-devops.com/job/build/job/cloud-docs/job/DataTransferService/)
+- Slack channel: [#docs-datatransferservice](https://ibm-cloudplatform.slack.com/archives/C03G7EXLTU1)
 
 ## Publishing
 
