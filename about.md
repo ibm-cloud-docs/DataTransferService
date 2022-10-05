@@ -10,21 +10,7 @@ subcollection: DataTransferService
 
 ---
 
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:table: .aria-labeledby="caption"}
-{:external: target="_blank" .external}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
+{{site.data.keyword.attribute-definition-list}}
 
 # About Data Transfer Service
 {: #about}
@@ -49,7 +35,7 @@ With {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 o
 2. First two weeks of data transfer = $0
    25 per week is charged for extension.
    {: note}
-   
+
 3. Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
 
 As the Client, you are responsible for:
@@ -67,7 +53,7 @@ As the Client, you are responsible for:
 2. Select **Classic Infrastrucure** > **Storage** > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
 
     The Data Transfer screen is available only to the master user of the account. To access this screen, contact the account owner.
-    {: note} 
+    {: note}
 
     ![Making a Data Transfer Request.](images/DTS.png){: caption="Figure 1 shows the page where Data Transfer requests can be made." caption-side="bottom"}
 

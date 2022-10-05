@@ -10,30 +10,17 @@ subcollection: DataTransferService
 
 ---
 
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:external: target="_blank" .external}
-{:codeblock: .codeblock}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:DomainName: data-hd-keyref="APPDomain"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:shortdesc: .shortdesc}
-{:ui: .ph data-hd-interface='ui'}
-{:cli: .ph data-hd-interface='cli'}
-{:api: .ph data-hd-interface='api'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Sorting or filtering the shipments list
 {: #sort-or-filter-shipments-list}
 
-The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} displays the shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types.
+The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/login){: external} displays the shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types.
 
 ## Sorting and filtering
 {: #sorting}
 
-1. Access the Shipments screen within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external}.
+1. Access the Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/login}){: external}.
 2. Determine whether the view is to be filtered for specific details or sorted by shipment status.
    - If you want to sort by shipment status, you can select one of the following options from the **Display** list: **Open Shipping Requests**, **Closed Shipping Requests**, **Canceled Shipping Requests** or **All Shipping Requests**.
    - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.

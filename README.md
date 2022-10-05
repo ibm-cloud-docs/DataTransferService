@@ -12,11 +12,11 @@ Start in the `staging` branch of this repository. Commits to `staging` run a bui
 
 ### Staging
 
-1. Commit to `staging`. Check that [the build](https://wcp-docs-team-jenkins.swg-devops.com/job/build/job/cloud-docs/job/DataTransferService/) passes linting. 
+1. Commit to `staging`. Check that [the build](https://wcp-docs-team-jenkins.swg-devops.com/job/build/job/cloud-docs/job/DataTransferService/) passes linting.
 2. Validate your changes in [staging](https://test.cloud.ibm.com/docs/DataTransferService).
 
 ### Production
 
-1. Work in `staging` branch until you're happy with the changes. 
+1. Work in `staging` branch until you're happy with the changes.
 2. Merge the changes to the `production` branch.
 3. After the merge, validate your changes in [production](https://cloud.ibm.com/docs/DataTransferService).
