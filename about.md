@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2019
-lastupdated: "2019-07-10"
+  years: 2017, 2022
+lastupdated: "2022-10-07"
 
 keywords:
 
@@ -49,8 +49,8 @@ As the Client, you are responsible for:
 ## Making a request
 {: #make-request}
 
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}){: external} with your unique credentials.
-2. Select **Classic Infrastrucure** > **Storage** > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
+1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
+2. Select **Classic Infrastrucure** > **Storage** > **Data Migration** > **Data Transfer** to access the Data Transfer Service screen.
 
     The Data Transfer screen is available only to the master user of the account. To access this screen, contact the account owner.
     {: note}
@@ -66,12 +66,12 @@ Complete the form with the device's information:
 6. Carrier service that is used.
 7. Return address of where you want the device to be sent to after data transfer is finished.
 
-This request creates a support ticket to alert the {{site.data.keyword.cloud_notm}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.cloud_notm}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
+This request creates a support case to alert the {{site.data.keyword.cloud_notm}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.cloud_notm}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
 
 ## Requesting a return
 {: #request-return}
 
-If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you any time during the two-week transfer period. You can submit the request through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}.
+If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you any time during the two-week transfer period. You can submit the request in the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. From the **Action** menu of your device, select **request return**.
@@ -81,7 +81,7 @@ This update alerts the {{site.data.keyword.cloud_notm}} technicians that you wan
 ## Requesting an extension
 {: #request-extension}
 
-After your two-week free period, if you still require use of your device you must request an extension through the [{{site.data.keyword.slportal}}](https://control.softlayer.com/){: external}. This update alerts the {{site.data.keyword.BluSoftlayer}} technicians that you want to extend the time that the device is connected.
+After your two-week free period, if you still require use of your device you must request an extension in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. This update alerts the technicians that you want to extend the time that the device is connected.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. In the **Action** menu for the device, select **request extension**.
