@@ -43,7 +43,7 @@ When you create a request, keep the following guidelines in mind.
 
 Follow these steps to submit a data transfer request.
 
-1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.cloud_notm}} console](/login}){: external}.
+1. Access the **Data Transfer Service** screen in the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 2. Click **Order Data Transfer Request**.
 3. Complete each field in the **Device Information** section according to the following table.
 
@@ -80,7 +80,7 @@ The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/logi
 
 To access the Shipments screen:
 
-1. Access the [{{site.data.keyword.cloud_notm}} console](/login}){: external} with your unique credentials.
+1. Access the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
 2. Select **Account** > **Manage** > **Shipments** from the Navigation Bar.
 
 On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be [sorted or filtered](/docs/DataTransferService?topic=DataTransferService-sort-or-filter-shipments-list) by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
