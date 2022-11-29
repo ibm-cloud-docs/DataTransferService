@@ -34,7 +34,7 @@ toc:
         - topicgroup:
             label: Identity and Access Management
             topics:
-            - /account/account-mngclassicinfra
+            - include: ../account/iam-mnginfra.md
         - topicgroup:
             label: Service Level Agreement
             topics:
