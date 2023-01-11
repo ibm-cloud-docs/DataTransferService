@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-05-17"
+  years: 2017, 2023
+lastupdated: "2023-01-11"
 
-keywords:
+keywords: faqs, frequently asked questions, DTS, data transfer,
 
 subcollection: DataTransferService
 
@@ -57,7 +57,7 @@ Use the following **Hardware Requirements** guidelines when you select a device 
 {: faq}
 {: #DTSreturndate}
 
-Yes, your hardware can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request case with the appropriate request. If you request a return, {{site.data.keyword.cloud}} disconnects and returns the hardware to the return address provided in the original request by using the pre-paid shipping labels and packaging you provided.
+Yes, your hardware can be returned at any time or can stay connected longer, if necessary. To request a return on an extension, add a comment to the original data transfer request case with the appropriate request. If you request a return, {{site.data.keyword.cloud}} disconnects and returns the hardware to the return address provided in the original request by using the pre-paid shipping labels and packaging that you provided.
 
 If you request an extension, the extension request is processed as quickly as possible. It's important to note that each extension request extends the time that the device is connected for one week and can be subject to an extension fee. More details are added when a member of the {{site.data.keyword.BluSoftlayer_full}} team responds to the request in the original ticket.
 
