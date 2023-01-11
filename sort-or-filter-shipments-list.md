@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-05-17"
+  years: 2017, 2023
+lastupdated: "2023-01-11"
 
 keywords:
 
@@ -23,7 +23,7 @@ The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/logi
 1. Access the Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 2. Determine whether the view is to be filtered for specific details or sorted by shipment status.
    - If you want to sort by shipment status, you can select one of the following options from the **Display** list: **Open Shipping Requests**, **Closed Shipping Requests**, **Canceled Shipping Requests** or **All Shipping Requests**.
-   - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.
+   - If you want to filter for specific details, select one, or more of the **filter options** available and click **Filter**.
 
 
 ![DTS Shipment Screen](/images/DTSShipmentScreen.png){: caption="Figure 1 shows the shipment screen." caption-side="bottom"}

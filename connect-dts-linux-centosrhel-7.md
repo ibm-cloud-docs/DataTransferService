@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-05-17"
+  years: 2017, 2023
+lastupdated: "2023-01-11"
 
-keywords:
+keywords: connecting DTS device, hook up, link up, mount DTS device, DTS
 
 subcollection: DataTransferService
 
@@ -17,7 +17,7 @@ subcollection: DataTransferService
 
 To interact with an iSCSI LUN in Linux-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux&reg;-based OS is dependent upon the type and version of the OS that is installed on the device.
 
-Before you begin, retrieve the iSCSI user name, password, and storage address for the storage volume that you want to connect from the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
+Before you begin, retrieve the iSCSI username, password, and storage address for the storage volume that you want to connect from the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
 ## Configuring connection in CentOS 7 and RHEL 7
 {: #configure-connection-linux}
@@ -74,7 +74,7 @@ Before you begin, retrieve the iSCSI user name, password, and storage address fo
    ```
    {: pre}
 
-8. Restart the iSCSI  service. Because `node.startup` is set to automatic in `iscsid.conf` it automatically logs in to the target host.
+8. Restart the iSCSI service. Because `node.startup` is set to automatic in `iscsid.conf`, it automatically logs in to the target host.
    ```zsh
    systemctl restart iscsi.service
    ```

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-05-17"
+  years: 2017, 2023
+lastupdated: "2023-01-11"
 
-keywords:
+keywords: connecting DTS, Map DTS Device to Windows OS, mapping DTS, attaching DTS
 
 subcollection: DataTransferService
 
@@ -15,12 +15,12 @@ subcollection: DataTransferService
 # Connecting to DTS Device in Windows&reg;with iSCSI Software Initiator
 {: #mount-dts-windows}
 
-To interact with an iSCSI LUN in Windows&reg;, you must connect to the storage by using the iSCSI Software Initiator, a proprietary iSCSI tool of Microsoft. For users of Windows&reg; Server 2008, or Windows&reg; Vista or newer versions, the iSCSI Software Initiator is built into the operating system. Users of Windows&reg;Server 2003, Windows&reg; XP, and Windows&reg; 2000 must download the Initiator before they start this procedure.
+To interact with an iSCSI LUN in Windows&reg;, you must connect to the storage by using the iSCSI Software Initiator, a proprietary iSCSI tool of Microsoft. For users of Windows&reg; Server 2008, or Windows&reg; Vista or newer versions, the iSCSI Software Initiator is built into the operating system. Users of Windows&reg; Server 2003, Windows&reg; XP, and Windows&reg; 2000 must download the Initiator before they start this procedure.
 
 ## Connecting to an iSCSI LUN
 {: #connect-dts-iscsi}
 
-1. From the {{site.data.keyword.slportal}}, retrieve the **iSCSI user name, password, and storage address** for the storage device you want to connect.
+1. From the {{site.data.keyword.slportal}}, retrieve the **iSCSI username, password, and storage address** for the storage device you want to connect.
 2. Start the iSCSI Initiator.
 3. Click **Discovery**.
 4. In the **Target Portals** section, click **Discover Portal...**.
@@ -28,7 +28,7 @@ To interact with an iSCSI LUN in Windows&reg;, you must connect to the storage b
 6. Click **Advanced**.
 7. Update the iSCSI logon information.
    - Click the **CHAP logon information** box to enable CHAP logon.
-   - Enter the iSCSI user name in the **user name** field.
+   - Enter the iSCSI username in the **username** field.
    - Enter the iSCSI password in the **target secret** field.
    - Click **OK** twice.
 8. Click **Targets**.
@@ -37,8 +37,8 @@ To interact with an iSCSI LUN in Windows&reg;, you must connect to the storage b
 11. Select **Automatically restore this connection when the system boots** to set the connection to persist between restarts.
 12. Click **Advanced**.
 13. Update the iSCSI logon information.
-    - Select the **CHAP logon information** check box to enable CHAP logon.
-    - Enter the iSCSI user name in the **user name** field.
+    - Select the **CHAP logon information** checkbox to enable CHAP logon.
+    - Enter the iSCSI username in the **username** field.
     - Enter the iSCSI password in the **target secret** field.
     - Click **OK** twice.
 14. Verify that the new iSCSI target displays as Connected on the Targets tab.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2022
-lastupdated: "2022-10-07"
+  years: 2017, 2023
+lastupdated: "2023-01-11"
 
 keywords:
 
@@ -50,9 +50,9 @@ As the Client, you are responsible for:
 {: #make-request}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
-2. Select **Classic Infrastrucure** > **Storage** > **Data Migration** > **Data Transfer** to access the Data Transfer Service screen.
+2. Select **Classic Infrastructure** > **Storage** > **Data Migration** > **Data Transfer** to access the Data Transfer Service screen.
 
-    The Data Transfer screen is available only to the master user of the account. To access this screen, contact the account owner.
+    The Data Transfer screen is available only to the primary user of the account. To access this screen, contact the account owner.
     {: note}
 
     ![Making a Data Transfer Request.](images/DTS.png){: caption="Figure 1 shows the page where Data Transfer requests can be made." caption-side="bottom"}
@@ -71,7 +71,7 @@ This request creates a support case to alert the {{site.data.keyword.cloud_notm}
 ## Requesting a return
 {: #request-return}
 
-If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you any time during the two-week transfer period. You can submit the request in the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
+If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you anytime during the two-week transfer period. You can submit the request in the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. From the **Action** menu of your device, select **request return**.
@@ -81,7 +81,7 @@ This update alerts the {{site.data.keyword.cloud_notm}} technicians that you wan
 ## Requesting an extension
 {: #request-extension}
 
-After your two-week free period, if you still require use of your device you must request an extension in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. This update alerts the technicians that you want to extend the time that the device is connected.
+After your two-week no-cost period, if you still require use of your device you must request an extension in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. This update alerts the technicians that you want to extend the time that the device is connected.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. In the **Action** menu for the device, select **request extension**.
