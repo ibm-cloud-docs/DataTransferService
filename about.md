@@ -33,7 +33,8 @@ With {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 o
 
 1. Initial request for service = $0
 2. First two weeks of data transfer = $0
-   25 per week is charged for extension.
+
+   $25 per week is charged for extension.
    {: note}
 
 3. Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
