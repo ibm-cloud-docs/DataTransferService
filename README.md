@@ -20,3 +20,6 @@ Start in the `staging` branch of this repository. Commits to `staging` run a bui
 1. Work in `staging` branch until you're happy with the changes.
 2. Merge the changes to the `production` branch.
 3. After the merge, validate your changes in [production](https://cloud.ibm.com/docs/DataTransferService).
+
+If you need tech writer assistance, contact Viktoria Muirhead (viktoria.muirhead@ibm.com).
+
