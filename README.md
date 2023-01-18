@@ -1,5 +1,5 @@
 # Data Transfer Service docs
-{: #readme}
+{: #DTSreadme}
 
 This repository stores documentation source files for the Data Transfer service.
 
