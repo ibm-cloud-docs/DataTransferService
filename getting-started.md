@@ -85,4 +85,4 @@ To access the Shipments screen:
 
 On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be [sorted or filtered](/docs/DataTransferService?topic=DataTransferService-sort-or-filter-shipments-list) by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
 
-![Shipments Screen](/images/DTSShipmentScreen1.png){: caption="Figure 1 shows the shipments screen" caption-side="bottom"}
+![Shipments Screen](/images/DTSShipmentScreen1.svg){: caption="Figure 1 shows the shipments screen" caption-side="bottom"}

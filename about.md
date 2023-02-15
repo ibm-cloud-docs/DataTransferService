@@ -56,7 +56,7 @@ As the Client, you are responsible for:
     The Data Transfer screen is available only to the primary user of the account. To access this screen, contact the account owner.
     {: note}
 
-    ![Making a Data Transfer Request.](images/DTS.png){: caption="Figure 1 shows the page where Data Transfer requests can be made." caption-side="bottom"}
+    ![Making a Data Transfer Request.](/images/DTS.svg){: caption="Figure 1 shows the page where Data Transfer requests can be made." caption-side="bottom"}
 
 Complete the form with the device's information:
 1. Serial number.
