@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-02-15"
 
 keywords:
 
@@ -26,7 +26,7 @@ The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/logi
    - If you want to filter for specific details, select one, or more of the **filter options** available and click **Filter**.
 
 
-![DTS Shipment Screen](/images/DTSShipmentScreen.png){: caption="Figure 1 shows the shipment screen." caption-side="bottom"}
+![DTS Shipment Screen](/images/DTSShipmentScreen.svg){: caption="Figure 1 shows the shipment screen." caption-side="bottom"}
 
 |Filter option|Entry information|
 |-------------|-----------------|
