@@ -15,7 +15,7 @@ subcollection: DataTransferService
 # Getting started with Data Transfer Service
 {: #gettingstarted}
 
-You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to an {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.cloud_notm}} private network, and it's a service that is offered at no charge to all {{site.data.keyword.cloud_notm}} customers.
+You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to an {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer large amounts of data without using {{site.data.keyword.cloud_notm}} Private network. It's a service that is offered at no charge to all {{site.data.keyword.cloud_notm}} customers.
 
 ## Accessing the Data Transfer Service screen
 {: #access-dts-screen}
@@ -63,8 +63,9 @@ Follow these steps to submit a data transfer request.
    Remember to include the prepaid return label and any needed export documents in the package.
    {: note}
 
-5. After you read the service agreement, check the **I have read and agree...** box.
-6. Click **Submit Service Request**.
+5. Review your order, and click the link to read the terms and conditions.
+6. Click the checkbox if you agree with the terms.
+7. Click **Submit Service Request**.
 
 After you submit the request, the status for the request ticket appears as `Sent to SoftLayer`. If any import or export shipment requires a license from your local government, notify {{site.data.keyword.BluSoftlayer}} and attach licensing information in the ticket.
 
@@ -85,4 +86,4 @@ To access the Shipments screen:
 
 On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be [sorted or filtered](/docs/DataTransferService?topic=DataTransferService-sort-or-filter-shipments-list) by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
 
-![Shipments Screen](/images/DTSShipmentScreen1.svg){: caption="Figure 1 shows the shipments screen" caption-side="bottom"}
+![Shipments Screen](/images/DTSShipmentScreen1.svg){: caption="Figure 1 shows the shipments screen." caption-side="bottom"}
