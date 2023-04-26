@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-02-22"
+lastupdated: "2023-04-26"
 
 keywords: issues, get support, how to request help, open a case, open a ticket
 
@@ -17,7 +17,7 @@ subcollection: DataTransferService
 If you experience an issue or have questions when you use Data Transfer Service, you can use the following resources before you open a support case.
 {: shortdesc}
 
-* Review the [FAQs](/docs/DataTransferService?topic=DataTransferService-faqs) in the product documentation.
+* Review the [FAQs](/docs/DataTransferService?topic=DataTransferService-faqs) in the Product Documentation.
 * Check the status of the {{site.data.keyword.cloud}} platform and resources by going to the [Status page](/status){: external}.
 * Review [Stack Overflow](https://stackoverflow.com/questions/tagged/ibm-cloud){: external} to see whether other users experienced the same problem. When you ask a question, tag the question with `ibm-cloud` and `data-transfer-service`, so it can be seen by the {{site.data.keyword.cloud_notm}} development teams.
 
