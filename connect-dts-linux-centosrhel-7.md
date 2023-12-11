@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2023
-lastupdated: "2023-01-11"
+lastupdated: "2023-12-11"
 
 keywords: connecting DTS device, hook up, link up, mount DTS device, DTS
 
@@ -12,10 +12,10 @@ subcollection: DataTransferService
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Connecting to DTS Device in Linux&reg;for CentOS/RHEL 7
+# Connecting to DTS Device in Linux for CentOS/RHEL 7
 {: #mount-dts-linux}
 
-To interact with an iSCSI LUN in Linux-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux&reg;-based OS is dependent upon the type and version of the OS that is installed on the device.
+To interact with an iSCSI LUN in Linux&reg;-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux&reg;-based OS is dependent upon the type and version of the OS that is installed on the device.
 
 Before you begin, retrieve the iSCSI username, password, and storage address for the storage volume that you want to connect from the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
@@ -23,7 +23,7 @@ Before you begin, retrieve the iSCSI username, password, and storage address for
 {: #configure-connection-linux}
 
 1. Install iSCSI initiator and multipath mapper utilities for Linux&reg;.
-   ```zsh
+   ```sh
    yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath
    ```
    {: pre}
@@ -31,13 +31,13 @@ Before you begin, retrieve the iSCSI username, password, and storage address for
 2. Create the `iscsid.conf` configuration file.
 
 3. Back up the original configuration.
-   ```zsh
+   ```sh
    cp /etc/iscsi/iscsid.conf{,.save}
    ```
    {: pre}
 
 4. Open `/etc/iscsi/iscsid.conf` with your favorite text editor and replace the contents with the following code:
-   ```zsh
+   ```sh
    node.startup = automatic
    node.session.auth.username = ISCSI_USER
    node.session.auth.password = ISCSI_PASS
@@ -57,25 +57,25 @@ Before you begin, retrieve the iSCSI username, password, and storage address for
    {: pre}
 
 5. Start iSCSI.
-   ```zsh
+   ```sh
    systemctl start iscsi.service
    ```
    {: pre}
 
 6. Run a discovery against the iscsi target host.
-   ```zsh
+   ```sh
    iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
    ```
    {: pre}
 
 7. Connect to the iscsi target host.
-   ```zsh
+   ```sh
    iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
    ```
    {: pre}
 
 8. Restart the iSCSI service. Because `node.startup` is set to automatic in `iscsid.conf`, it automatically logs in to the target host.
-   ```zsh
+   ```sh
    systemctl restart iscsi.service
    ```
    {: pre}
