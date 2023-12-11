@@ -38,7 +38,7 @@ When you create a request, keep the following guidelines in mind.
 - Ensure that the device that you want to send meets all [hardware requirements](/docs/DataTransferService?topic=DataTransferService-about#hardware-requirements).
 - Only one device can be associated with one request. If you want to send multiple devices, you must create a request for each device.
 - If the device is to be returned, provide a pre-paid shipping label, and export documents as needed in the package so that the device can be returned after the transfer period.
-- If you're shipping the device internationally, you're responsible to obtain all licensing, shipping, and customs clearance for the Device. Your responsibilities include paying any duties, taxes, and shipping costs to and from (if applicable) the {{site.data.keyword.cloud_notm}} data center.
+- If you're shipping the device internationally, you're responsible for obtaining all licensing, shipping, and customs clearance for the Device. Your responsibilities include paying any duties, taxes, and shipping costs to and from (if applicable) the {{site.data.keyword.cloud_notm}} data center.
 - You need to provide the name of the carrier and the tracking number for the shipment to the data center when you complete the request. Create the shipping label with the appropriate data center address before you submit the data transfer request.
 
 Follow these steps to submit a data transfer request.

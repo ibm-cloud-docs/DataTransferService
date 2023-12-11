@@ -20,10 +20,10 @@ With {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 o
 ## Hardware requirements
 {: #hardware-requirements}
 
-- Device must have a power supply that is 208v/220v compatible.
-- Device must have a power plug that fits a standard 120v socket (NEMA 5-15P).
-- Device must be USB 2.0 compatible (3.0 is now supported as well).
-- Device must come with USB cable with USB A Male connector (standard plug that fits most computers).
+- The device must have a power supply that is 208v/220v compatible.
+- The device must have a power plug that fits a standard 120v socket (NEMA 5-15P).
+- The device must be USB 2.0 compatible (3.0 is now supported as well).
+- Device must come with USB cable with USB A Male connector (a standard plug that fits most computers).
 
    Encrypted USB devices that require support for proprietary encryption software are not supported for data transfer.
    {: note}
@@ -37,7 +37,7 @@ With {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 o
    $25 per week is charged for extension.
    {: note}
 
-3. Shipping cost to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
+3. Shipping costs to and from the {{site.data.keyword.IBM}} data center including paying any duties and taxes.
 
 As the Client, you are responsible for:
 
@@ -63,11 +63,11 @@ Complete the form with the device's information:
 2. Type.
 3. A short description of the device.
 4. The data center that you want the device to go to.
-5. Tracking number that is used to track the shipment.
+5. A tracking number that is used to track the shipment.
 6. Carrier service that is used.
 7. Return address of where you want the device to be sent to after data transfer is finished.
 
-This request creates a support case to alert the {{site.data.keyword.cloud_notm}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.cloud_notm}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you a link to your logon credentials for the iSCSI target.
+This request creates a support case to alert the {{site.data.keyword.cloud_notm}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.cloud_notm}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you with a link to your logon credentials for the iSCSI target.
 
 ## Requesting a return
 {: #request-return}
@@ -82,7 +82,7 @@ This update alerts the {{site.data.keyword.cloud_notm}} technicians that you wan
 ## Requesting an extension
 {: #request-extension}
 
-After your two-week no-cost period, if you still require use of your device you must request an extension in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. This update alerts the technicians that you want to extend the time that the device is connected.
+After your two-week no-cost period, if you still require use of your device you must request an extension in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. This update alerts the technician that you want to extend the time that the device is connected.
 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. In the **Action** menu for the device, select **request extension**.
