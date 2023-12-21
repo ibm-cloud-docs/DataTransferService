@@ -1,28 +1,7 @@
 # Data Transfer Service docs
 {: #DTSreadme}
 
-This repository stores documentation source files for the Data Transfer service.
-
-- [Jenkins build](https://wcp-docs-team-jenkins.swg-devops.com/job/build/job/cloud-docs/job/DataTransferService/)
-- Slack channel: [#docs-datatransferservice](https://ibm-cloudplatform.slack.com/archives/C03G7EXLTU1)
-
-## Publishing
-{: #publishing}
-
-Start in the `staging` branch of this repository. Commits to `staging` run a build, lint your content, and publish changes to the [IBM Cloud stage docs](https://test.cloud.ibm.com/docs/infrastructure/DataTransferService). After you're happy with the changes, copy the modified files to the [IBM-Bluemix-Docs/DataTransferService](https://github.com/IBM-Bluemix-Docs/DataTransferService) repository, and then validate the changes in the [IBM Cloud production docs](https://cloud.ibm.com/docs/infrastructure/DataTransferService).
-
-### Staging
-{: #staging}
-
-1. Commit to `staging`. Check that [the build](https://wcp-docs-team-jenkins.swg-devops.com/job/build/job/cloud-docs/job/DataTransferService/) passes linting.
-2. Validate your changes in [staging](https://test.cloud.ibm.com/docs/DataTransferService).
-
-### Production
-{: #production}
-
-1. Work in `staging` branch until you're happy with the changes.
-2. Merge the changes to the `production` branch.
-3. After the merge, validate your changes in [production](https://cloud.ibm.com/docs/DataTransferService).
+This collection belongs to the Infrastructure Storage services.
 
 If you need tech writer assistance, contact Viktoria Muirhead (viktoria.muirhead@ibm.com).
 
