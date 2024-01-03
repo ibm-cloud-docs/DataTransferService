@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2023
+  years: 2017, 2024
 lastupdated: "2023-12-11"
 
 keywords: faqs, frequently asked questions, DTS, data transfer,
