@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2023
+  years: 2017, 2024
 lastupdated: "2023-04-26"
 
 keywords: issues, get support, how to request help, open a case, open a ticket

@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2017, 2023
+  years: 2017, 2024
 lastupdated: "2023-01-11"
 
 keywords: connecting DTS, Map DTS Device to Windows OS, mapping DTS, attaching DTS
