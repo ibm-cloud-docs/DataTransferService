@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-12-11"
+lastupdated: "2024-05-17"
 
 keywords: faqs, frequently asked questions, DTS, data transfer,
 
@@ -82,3 +82,9 @@ Each status on the data transfer case indicates the phase of the transfer proces
 {: #DTSVMware}
 
 {{site.data.keyword.cloud}} does not support mounting a DTS device on a VMware&reg; VCenter server. You can attach the DTS device to Linux&reg; and Windows&reg; operating systems.
+
+## Can I access my DTS device from VPC clients?
+{: faq}
+{: #DTS4VPC}
+
+No. Some Classic services are not accessible from VPC over DirectLink. If you have compute resources in Classic and VPC, you can try moving the data from your device to your Classic virtual server instance or baremetal server first. Then, copy the data from the Classic server to your VPC server.
