@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-12-11"
+lastupdated: "2024-07-23"
 
 keywords: connecting DTS device, hook up, link up, mount DTS device, DTS
 
@@ -12,19 +12,20 @@ subcollection: DataTransferService
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Connecting to DTS Device in Linux for CentOS/RHEL 7
+# Connecting to DTS Device in Linux
 {: #mount-dts-linux}
 
 To interact with an iSCSI LUN in Linux&reg;-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux&reg;-based OS is dependent upon the type and version of the OS that is installed on the device.
 
 Before you begin, retrieve the iSCSI username, password, and storage address for the storage volume that you want to connect from the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
-## Configuring connection in CentOS 7 and RHEL 7
+## Configuring connection in RHEL 9
 {: #configure-connection-linux}
 
 1. Install iSCSI initiator and multipath mapper utilities for Linux&reg;.
+
    ```sh
-   yum -y install iscsi-initiator-utils device-mapper device-mapper-multipath
+   dnf install iscsi-initiator-utils device-mapper device-mapper-multipath
    ```
    {: pre}
 
@@ -64,13 +65,13 @@ Before you begin, retrieve the iSCSI username, password, and storage address for
 
 6. Run a discovery against the iscsi target host.
    ```sh
-   iscsiadm -m discovery -t sendtargets -p [IP address in StorageLayer]
+   iscsiadm -m discovery -t sendtargets -p [IP address of the storage device]
    ```
    {: pre}
 
 7. Connect to the iscsi target host.
    ```sh
-   iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address in StorageLayer] -l
+   iscsiadm -m node -T [output from previous command, starting with IQN.] -p [IP address of the storage device] -l
    ```
    {: pre}
 
@@ -79,3 +80,5 @@ Before you begin, retrieve the iSCSI username, password, and storage address for
    systemctl restart iscsi.service
    ```
    {: pre}
+
+For more information, see [RedHat's documentation for Creating an iSCSI initiator](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_storage_devices/configuring-an-iscsi-initiator_managing-storage-devices#creating-an-iscsi-initiator_configuring-an-iscsi-initiator){: external}.
