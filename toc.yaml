@@ -22,7 +22,7 @@ toc:
         id: howto
         topics:
         - sort-or-filter-shipments-list.md
-        - connect-dts-linux-centosrhel-7.md
+        - connect-dts-linux-rhel.md
         - connect-dts-windows-iscsi-software-initiator.md
     - navgroup:
         id: reference
