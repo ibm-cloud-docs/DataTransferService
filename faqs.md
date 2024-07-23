@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-05-17"
+lastupdated: "2024-07-23"
 
 keywords: faqs, frequently asked questions, DTS, data transfer,
 
@@ -81,7 +81,7 @@ Each status on the data transfer case indicates the phase of the transfer proces
 {: faq}
 {: #DTSVMware}
 
-{{site.data.keyword.cloud}} does not support mounting a DTS device on a VMware&reg; VCenter server. You can attach the DTS device to Linux&reg; and Windows&reg; operating systems.
+{{site.data.keyword.cloud}} does not support mounting a DTS device on a VMware&reg; VCenter server. You can attach the DTS device to Linux&reg; and Windows operating systems.
 
 ## Can I access my DTS device from VPC clients?
 {: faq}
