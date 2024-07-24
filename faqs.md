@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-24"
 
 keywords: faqs, frequently asked questions, DTS, data transfer,
 
@@ -61,7 +61,7 @@ Yes, your hardware can be returned at any time or can stay connected longer, if 
 
 If you request an extension, the extension request is processed as quickly as possible. It's important to note that each extension request extends the time that the device is connected for one week and can be subject to an extension fee. More details are added when a member of the {{site.data.keyword.BluSoftlayer_full}} team responds to the request in the original ticket.
 
-Each status on the data transfer case indicates the phase of the transfer process for the hardware that was submitted to the data center. Refer to the table for specific details on each status:
+Each status on the data transfer case indicates the phase of the transfer process for the hardware that was submitted to the data center. Refer to the following table for specific details on each status.
 
 |Status 	| Definition |
 |---------| -----------|
