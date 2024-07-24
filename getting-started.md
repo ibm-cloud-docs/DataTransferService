@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-02-15"
+lastupdated: "2024-07-24"
 
 keywords:
 
@@ -72,7 +72,6 @@ After you submit the request, the status for the request ticket appears as `Sent
 After the device is received, the status is updated to `Received by SoftLayer`. The ticket status is updated again to `Connected` after a data center technician connects the device to the network.
 
 The initial data transfer period is two weeks. During this time, access to the device is granted to the account administrator only. If you need more time, you can request an extension. Also, if you want the device to be sent back sooner than two weeks, you can request the return. You must notify {{site.data.keyword.IBM}} through the [{{site.data.keyword.cloud_notm}} console](/login){: external} when transfer is complete. Then, {{site.data.keyword.cloud_notm}} detaches the device and either returns it or destroys it depending on what you requested.
-
 
 ## Accessing the Shipments screen
 {: #access-shipments-screen}

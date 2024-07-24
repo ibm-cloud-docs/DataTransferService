@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2023-12-18"
+lastupdated: "2024-07-24"
 
 keywords:
 
@@ -22,7 +22,11 @@ The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/logi
 
 1. Access the Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 2. Determine whether the view is to be filtered for specific details or sorted by shipment status.
-   - If you want to sort by shipment status, you can select one of the following options from the **Display** list: **Open Shipping Requests**, **Closed Shipping Requests**, **Canceled Shipping Requests** or **All Shipping Requests**.
+   - Windows  you can select one of the following options from the **Display** list.
+     - Open Shipping Requests
+     - Closed Shipping Requests
+     - Canceled Shipping Requests
+     - All Shipping Requests
    - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.
 
 

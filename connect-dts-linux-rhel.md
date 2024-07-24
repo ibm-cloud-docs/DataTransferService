@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-07-24"
 
 keywords: connecting DTS device, hook up, link up, mount DTS device, DTS
 
@@ -19,7 +19,7 @@ To interact with an iSCSI LUN in Linux&reg;-based operating systems, you must co
 
 Before you begin, retrieve the iSCSI username, password, and storage address for the storage volume that you want to connect from the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
-## Configuring connection in RHEL 9
+## Configuring a connection in RHEL 9
 {: #configure-connection-linux}
 
 1. Install iSCSI initiator and multipath mapper utilities for Linux&reg;.
@@ -81,4 +81,4 @@ Before you begin, retrieve the iSCSI username, password, and storage address for
    ```
    {: pre}
 
-For more information, see [RedHat's documentation for Creating an iSCSI initiator](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_storage_devices/configuring-an-iscsi-initiator_managing-storage-devices#creating-an-iscsi-initiator_configuring-an-iscsi-initiator){: external}.
+For more information, see [Red Hat's documentation for Creating an iSCSI initiator](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/9/html/managing_storage_devices/configuring-an-iscsi-initiator_managing-storage-devices#creating-an-iscsi-initiator_configuring-an-iscsi-initiator){: external}.
