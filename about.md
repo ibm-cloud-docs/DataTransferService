@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-08-19"
 
 keywords:
 
@@ -87,7 +87,7 @@ After your two-week no-cost period, if you still require use of your device you 
 1. Select **Storage** > **Data Migration** > **Data Transfer**.
 2. In the **Action** menu for the device, select **request extension**.
 
-Each extra week incurs a service fee of $25 that must be paid. Your extension request might be denied depending on the available space in the data center. When the request is granted, the ticket is updated.
+Each added week incurs a service fee of $25 that must be paid. Your extension request might be denied depending on the available space in the data center. When the request is granted, the ticket is updated.
 
 ## Disconnecting the device
 {: #disconnect-device}
