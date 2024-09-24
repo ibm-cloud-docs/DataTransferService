@@ -7,6 +7,7 @@ toc:
     category: storage_classic
     audience: service
     href: /docs/DataTransferService?topic=DataTransferService-gettingstarted
+    release-level: deprecated
     console-page: /classic-gen1
     product-page: https://cloud.ibm.com/docs/DataTransferService?topic=DataTransferService-about
     path: DataTransferService
@@ -18,6 +19,7 @@ toc:
         topics:
         - getting-started.md
         - about.md
+        - deprecation.md
     - navgroup:
         id: howto
         topics:

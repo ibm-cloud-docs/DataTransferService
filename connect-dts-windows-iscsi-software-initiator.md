@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-23"
+lastupdated: "2024-09-24"
 
 keywords: connecting DTS, Map DTS Device to Windows OS, mapping DTS, attaching DTS
 
@@ -15,7 +15,11 @@ subcollection: DataTransferService
 # Connecting to DTS Device in Windows&reg;with iSCSI Software Initiator
 {: #mount-dts-windows}
 
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new instances, and access to free instances will be removed. Existing instances are supported until 03 October 2025. Any instances that still exist on that date will be deleted.
+{: deprecated}
+
 To interact with an iSCSI LUN in Windows&reg;, you must connect to the storage by using the iSCSI Software Initiator, a proprietary iSCSI tool of Microsoft. 
+{: shortdesc}
 
 ## Connecting to an iSCSI LUN
 {: #connect-dts-iscsi}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-09-24"
 
 keywords: connecting DTS device, hook up, link up, mount DTS device, DTS
 
@@ -14,6 +14,9 @@ subcollection: DataTransferService
 
 # Connecting to DTS Device in Linux
 {: #mount-dts-linux}
+
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new instances, and access to free instances will be removed. Existing instances are supported until 03 October 2025. Any instances that still exist on that date will be deleted.
+{: deprecated}
 
 To interact with an iSCSI LUN in Linux&reg;-based operating systems, you must connect to the LUN by entering a series of commands in the terminal. The tool that is used to interact with an iSCSI LUN in a Linux&reg;-based OS is dependent upon the type and version of the OS that is installed on the device.
 
