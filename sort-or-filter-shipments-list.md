@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-09-24"
+lastupdated: "2024-09-25"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: DataTransferService
 # Sorting or filtering the shipments list
 {: #sort-or-filter-shipments-list}
 
-The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new instances, and access to free instances will be removed. Existing instances are supported until 03 October 2025. Any instances that still exist on that date will be deleted.
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Existing instances are supported until 03 October 2025. Any instances that still exist on that date will be deleted.
 {: deprecated}
 
 The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/login){: external} displays the shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types.
