@@ -17,9 +17,9 @@ toc:
     - navgroup:
         id: learn
         topics:
+        - deprecation.md
         - getting-started.md
         - about.md
-        - deprecation.md
     - navgroup:
         id: howto
         topics:
