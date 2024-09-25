@@ -54,7 +54,7 @@ As the Client, you are responsible for:
 {: #make-request}
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
-2. Select **Classic Infrastructure** > **Storage** > **Data Migration** > **Data Transfer** to access the Data Transfer Service screen.
+2. Select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**   > **Data Migration** > **Data Transfer** to access the Data Transfer Service screen.
 
     The Data Transfer screen is available only to the primary user of the account. To access this screen, contact the account owner.
     {: note}
@@ -77,7 +77,7 @@ This request creates a support case to alert the {{site.data.keyword.cloud_notm}
 
 If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you anytime during the two-week transfer period. You can submit the request in the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
-1. Select **Storage** > **Data Migration** > **Data Transfer**.
+1. Select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**  > **Data Migration** > **Data Transfer**.
 2. From the **Action** menu of your device, select **request return**.
 
 This update alerts the {{site.data.keyword.cloud_notm}} technicians that you want the device to be disconnected and sent back to you.
@@ -87,7 +87,7 @@ This update alerts the {{site.data.keyword.cloud_notm}} technicians that you wan
 
 After your two-week no-cost period, if you still require use of your device you must request an extension in the [{{site.data.keyword.cloud_notm}} console](/login){: external}. This update alerts the technician that you want to extend the time that the device is connected.
 
-1. Select **Storage** > **Data Migration** > **Data Transfer**.
+1. Select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**  > **Data Migration** > **Data Transfer**.
 2. In the **Action** menu for the device, select **request extension**.
 
 Each added week incurs a service fee of $25 that must be paid. Your extension request might be denied depending on the available space in the data center. When the request is granted, the ticket is updated.

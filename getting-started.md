@@ -26,7 +26,7 @@ You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 
 You can manage data transfer requests by using the {{site.data.keyword.cloud_notm}} console.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
-2. Select **Storage** > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
+2. Select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**  > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
 
     The Data Transfer screen is available only to the principal user of the account. To access this screen, contact the account owner.
     {: note}
