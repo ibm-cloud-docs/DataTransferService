@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-09-25"
+lastupdated: "2024-10-01"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: DataTransferService
 # Getting started with Data Transfer Service
 {: #gettingstarted}
 
-The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Existing instances are supported until 03 October 2025. Any instances that still exist on that date will be deleted.
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.
 {: deprecated}
 
 You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to an {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer data of considerable size without using {{site.data.keyword.cloud_notm}} Private network. It's a service that is offered at no charge to all {{site.data.keyword.cloud_notm}} customers. If you’re an existing Data Transfer Serviceuser, you can continue to use the service until it is no longer supported on _DD month YYYY_.

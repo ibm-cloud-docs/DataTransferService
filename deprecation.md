@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-09-25"
+lastupdated: "2024-10-01"
 
 keywords:
 
@@ -24,9 +24,8 @@ IBM Cloud continues to evaluate its service offerings periodically keeping in pe
 
 | Stage | Date | Description |
 | ---------------- | ----------------- | ------------------------------------------------------------ |
-| Deprecation announcement | 03 October 2024 | Announcement of the Data Transfer Service deprecation. Existing instances will continue to run. |
-| End of marketing | 04 November 2024 | No new instances of Data Transfer Service can be created or purchased. Existing instances will continue to run. |
-| End of support   | 03 October 2025 | You must complete all data transfer processes, and support is no longer available.  |
+| Deprecation announcement | 03 October 2024 | Announcement of the Data Transfer Service deprecation. Existing requests are serviced as per terms of offering. |
+| End of marketing | 04 November 2024 | No new requests for Data Transfer Service can be created or submitted. Existing requests are serviced as per terms of offering. |
 {: caption="Table 1. Deprecation timeline" caption-side="bottom"}
 
 ## Deprecation details
@@ -40,7 +39,7 @@ IBM Cloud continues to evaluate its service offerings periodically keeping in pe
 ## Next steps for current users
 {: #deprecation-next-steps}
 
-Current users can continue using existing instances of Data Transfer Service as planned. Please complete your in-progress activities promptly and ensure your device is returned back to you by opening a service request with IBM Cloud Support.
+Please complete your in-progress activities promptly and ensure your device is returned back to you by opening a service request with IBM Cloud Support.
 
 If you have any further questions about this deprecation, you can contact {{site.data.keyword.cloud_notm}} Support.
 {: note}

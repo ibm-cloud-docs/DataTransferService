@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-09-25"
+lastupdated: "2024-10-01"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: DataTransferService
 # About Data Transfer Service
 {: #about}
 
-The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Existing instances are supported until 03 October 2025. Any instances that still exist on that date will be deleted.
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.
 {: deprecated}
 
 With {{site.data.keyword.cloud}} Data Transfer Service, you can send a USB 2.0 or 3.0 compatible device to an {{site.data.keyword.cloud_notm}} data center to be connected directly to your network. The device is housed in a dedicated rack and is mounted as an iSCSI target. Advanced Format drives are now supported as well.
