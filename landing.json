@@ -1,0 +1,33 @@
+{
+    "version": 2,
+    "title": "Data Transfer Service",
+    "introduction": "The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.",
+    "product_page": "https://cloud.ibm.com/docs/DataTransferService?topic=DataTransferService-about",
+    "console_page": "/classic-gen1",
+    "section_topics": {
+      "links": [
+        {
+          "title": "Deprecation of IBM Cloud Data Transfer Service",
+          "href": "/docs/DataTransferService?topic=DataTransferService-deprecation"
+        },
+        {
+          "title": "Getting started with IBM Cloud Data Transfer Service",
+          "href": "/docs/DataTransferService?topic=DataTransferService-gettingstarted"
+        },
+        {
+          "title": "Getting help and support",
+          "href": "/docs/DataTransferService?topic=DataTransferService-help-and-support"
+        }
+      ]
+    },
+    "section_updates": {
+      "view_more": "/docs/DataTransferService?topic=DataTransferService-gettingstarted",
+      "tiles": [
+        {
+          "date": "03 October 2024",
+          "title": "Deprecation Notice",
+          "description": "As of 03 October 2024, the Data Transfer Service is deprecated. For more information, see the Deprecation topic." 
+        }
+      ]
+    }
+  }

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-08-19"
+lastupdated: "2024-10-01"
 
 keywords:
 
@@ -15,7 +15,10 @@ subcollection: DataTransferService
 # Getting started with Data Transfer Service
 {: #gettingstarted}
 
-You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to an {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer data of considerable size without using {{site.data.keyword.cloud_notm}} Private network. It's a service that is offered at no charge to all {{site.data.keyword.cloud_notm}} customers.
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.
+{: deprecated}
+
+You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 or USB 3.0 compatible device to an {{site.data.keyword.cloud_notm}} data center. The device is connected directly to your network so you can remotely control the data transfer. The device is housed in a dedicated rack that is located in your data center and mounted as an iSCSI target. The data transfer service is ideal when you need to transfer data of considerable size without using {{site.data.keyword.cloud_notm}} Private network. It's a service that is offered at no charge to all {{site.data.keyword.cloud_notm}} customers. If you’re an existing Data Transfer Serviceuser, you can continue to use the service until it is no longer supported on _DD month YYYY_.
 
 ## Accessing the Data Transfer Service screen
 {: #access-dts-screen}
@@ -23,7 +26,7 @@ You can use {{site.data.keyword.cloud}} Data Transfer Service to send a USB 2.0 
 You can manage data transfer requests by using the {{site.data.keyword.cloud_notm}} console.
 
 1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
-2. Select **Storage** > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
+2. Select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**  > **Data Migration** > **Data Transfer** from the navigation bar to access the Data Transfer Service screen.
 
     The Data Transfer screen is available only to the principal user of the account. To access this screen, contact the account owner.
     {: note}
