@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-10-01"
+lastupdated: "2024-10-03"
 
 keywords:
 
@@ -49,4 +49,4 @@ If you have any further questions about this deprecation, you can contact {{site
 
 Customers can utilize [Seagate Lyve Mobile Solution](https://www.seagate.com/manuals/lyve-mobile-cloud-service/import-to-ibm-cloud/){: external} for data transfer. This recommended option provides more flexibility to customers in sending large data sets to be uploaded to cloud.
 
-For more information, see the documentation of Seagate® Lyve Mobile for data transfers to IBM Cloud: [https://www.seagate.com/solutions/partners/ibm/)](https://www.seagate.com/solutions/partners/ibm/){: external}.
+For more information, see the documentation of Seagate® Lyve Mobile for data transfers to IBM Cloud: [https://www.seagate.com/solutions/partners/ibm/](https://www.seagate.com/solutions/partners/ibm/){: external}.
