@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-10-03"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -26,7 +26,7 @@ IBM Cloud continues to evaluate its service offerings periodically keeping in pe
 | ---------------- | ----------------- | ------------------------------------------------------------ |
 | Deprecation announcement | 03 October 2024 | Announcement of the Data Transfer Service deprecation. Existing requests are serviced as per terms of offering. |
 | End of marketing | 04 November 2024 | No new requests for Data Transfer Service can be created or submitted. Existing requests are serviced as per terms of offering. |
-{: caption="Table 1. Deprecation timeline" caption-side="bottom"}
+{: caption="Deprecation timeline" caption-side="bottom"}
 
 ## Deprecation details
 {: #deprecation-details}

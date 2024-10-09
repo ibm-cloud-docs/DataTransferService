@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-10-01"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -44,7 +44,7 @@ The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/logi
 |Shipped To|Select the location to which the shipment was sent.|
 |Tracking number|Enter the tacking number that was provided by the courier.|
 |Item Description|Enter the description of the item that is shipped.|
-{: caption="Table 1. Filter options." caption-side="top"}
+{: caption="Filter options." caption-side="top"}
 {: summary="Table 1 shows the filter options available in the Shipment screen. The first column lists the available options and the second column provides their descriptions."}
 
 After you filtered the Shipments List, all shipments that correspond with the parameters that are set by the filter are displayed in the Shipment List. Click **Modify**, and update the filter options if you want to change the list. To clear all parameters that are set by the filter, click **Clear All**.
