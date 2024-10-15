@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-10-01"
+lastupdated: "2024-10-09"
 
 keywords: faqs, frequently asked questions, DTS, data transfer,
 
@@ -78,7 +78,7 @@ Each status on the data transfer case indicates the phase of the transfer proces
 |`Disconnected` |	The target is safely detached.|
 |`Destroyed` | The device was destroyed on site by following the {{site.data.keyword.cloud}} HDD destruction procedure.|
 |`Return by SoftLayer` |	The hardware was packaged and shipped to the return address provided in the original request.|
-{: caption="Table 1. Status definitions." caption-side="bottom"}
+{: caption="Status definitions." caption-side="bottom"}
 
 ## Can I mount DTS on VMware&reg; ESXi servers?
 {: faq}
