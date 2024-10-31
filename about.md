@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-10-01"
+lastupdated: "2024-10-31"
 
 keywords:
 
@@ -50,34 +50,12 @@ As the Client, you are responsible for:
 - Complying with all applicable laws that are associated with delivery and return of the Device, and the transfer of Content to the {{site.data.keyword.IBM}} data center. This requirement includes privacy, import, and export laws.
 - Having proper agreements in place with and obtaining all required permissions from the Client’s user for any user data that the Client wants to transfer to the Hardware.
 
-## Making a request
-{: #make-request}
-
-1. Log in to the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
-2. Select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**   > **Data Migration** > **Data Transfer** to access the Data Transfer Service screen.
-
-    The Data Transfer screen is available only to the primary user of the account. To access this screen, contact the account owner.
-    {: note}
-
-    ![Making a Data Transfer Request.](/images/DTS.svg){: caption="Figure 1 shows the page where Data Transfer requests can be made." caption-side="bottom"}
-
-Complete the form with the device's information:
-1. Serial number.
-2. Type.
-3. A short description of the device.
-4. The data center that you want the device to go to.
-5. A tracking number that is used to track the shipment.
-6. Carrier service that is used.
-7. Return address of where you want the device to be sent to after data transfer is finished.
-
-This request creates a support case to alert the {{site.data.keyword.cloud_notm}} technicians that the device is being shipped and allows them to track the delivery. When {{site.data.keyword.cloud_notm}} receives the device, the technicians connect it to the dedicated rack. When the device is connected, the ticket is updated to provide you with a link to your logon credentials for the iSCSI target.
-
 ## Requesting a return
 {: #request-return}
 
 If you provided a return address and included the pre-paid shipping label in the packaging, you can request that the device is sent back to you anytime during the two-week transfer period. You can submit the request in the [{{site.data.keyword.cloud_notm}} console](/login){: external}.
 
-1. Select **Infrastructure**  ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**  > **Data Migration** > **Data Transfer**.
+1. Select **Infrastructure** ![VPC icon](../icons/vpc.svg) > **Classic Infrastructure** > **Storage**  > **Data Migration** > **Data Transfer**.
 2. From the **Action** menu of your device, select **request return**.
 
 This update alerts the {{site.data.keyword.cloud_notm}} technicians that you want the device to be disconnected and sent back to you.
