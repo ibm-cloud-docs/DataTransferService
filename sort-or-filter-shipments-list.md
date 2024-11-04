@@ -2,7 +2,7 @@
 
 copyright:
   years: 2017, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-10-31"
 
 keywords:
 
@@ -18,7 +18,19 @@ subcollection: DataTransferService
 The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.
 {: deprecated}
 
-The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/login){: external} displays the shipments that are associated with Data Transfer Service requests. All shipping requests from the last 30 days are displayed. Shipments can be sorted and filtered to view older shipments or specific shipment types.
+## Accessing the Shipments screen
+{: #access-shipments-screen}
+
+The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/login){: external} displays all shipments that are associated with data transfer service requests. From this screen, you can view shipments and you can confirm return shipments upon receipt.
+
+To access the Shipments screen:
+
+1. Access the [{{site.data.keyword.cloud_notm}} console](/login){: external} with your unique credentials.
+2. Select **Account** > **Manage** > **Shipments** from the Navigation Bar.
+
+On the Shipments screen, all shipping requests within the last 30 days are displayed with their details. Shipments can be sorted or filtered by status, age, or specific shipment details. Additionally, you can confirm the receipt of return shipments on this screen.
+
+![Shipments Screen](/images/DTSShipmentScreen1.svg){: caption="Figure 1 shows the shipments screen." caption-side="bottom"}
 
 ## Sorting and filtering
 {: #sorting}
@@ -32,8 +44,7 @@ The Shipments screen within the [{{site.data.keyword.cloud_notm}} console](/logi
      - All Shipping Requests
    - If you want to filter for specific details, select one or more of the **filter options** available and click **Filter**.
 
-
-![DTS Shipment Screen](/images/DTSShipmentScreen.svg){: caption="Figure 1 shows the shipment screen." caption-side="bottom"}
+![DTS Shipment Screen](/images/DTSShipmentScreen.svg){: caption="The shipment screen." caption-side="bottom"}
 
 |Filter option|Entry information|
 |-------------|-----------------|

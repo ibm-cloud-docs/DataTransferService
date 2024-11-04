@@ -11,8 +11,8 @@
           "href": "/docs/DataTransferService?topic=DataTransferService-deprecation"
         },
         {
-          "title": "Getting started with IBM Cloud Data Transfer Service",
-          "href": "/docs/DataTransferService?topic=DataTransferService-gettingstarted"
+          "title": "About Data Transfer Service",
+          "href": "/docs/DataTransferService?topic=DataTransferService-about"
         },
         {
           "title": "Getting help and support",
@@ -21,7 +21,7 @@
       ]
     },
     "section_updates": {
-      "view_more": "/docs/DataTransferService?topic=DataTransferService-gettingstarted",
+      "view_more": "/docs/DataTransferService?topic=DataTransferService-about",
       "tiles": [
         {
           "date": "03 October 2024",
