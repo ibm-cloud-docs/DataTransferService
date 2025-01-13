@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-31"
+  years: 2017, 2025
+lastupdated: "2025-01-13"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: DataTransferService
 # Sorting or filtering the shipments list
 {: #sort-or-filter-shipments-list}
 
-The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests are serviced according to the terms of the offering.
 {: deprecated}
 
 ## Accessing the Shipments screen
