@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-29"
+  years: 2017, 2025
+lastupdated: "2025-01-13"
 
 keywords: issues, get support, how to request help, open a case, open a ticket
 
@@ -14,7 +14,7 @@ subcollection: DataTransferService
 # Getting help and support for Data Transfer Service
 {: #help-and-support}
 
-The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests are serviced according to the terms of the offering.
 {: deprecated}
 
 If you experience an issue or have questions when you use Data Transfer Service, you can use the following resources before you open a support case.
