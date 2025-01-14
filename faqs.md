@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2017, 2024
-lastupdated: "2024-10-09"
+  years: 2017, 2025
+lastupdated: "2025-01-13"
 
 keywords: faqs, frequently asked questions, DTS, data transfer,
 
@@ -15,7 +15,7 @@ subcollection: DataTransferService
 # FAQs
 {: #faqs}
 
-The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests will be serviced as per the terms of offering.
+The Data Transfer Service is deprecated. As of 04 November 2024, you can't create new requests for this service. Any existing requests are serviced according to the terms of the offering.
 {: deprecated}
 
 Frequently asked questions about {{site.data.keyword.cloud}} Data Transfer Service.
